@@ -8,22 +8,20 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-import net.freeutils.charset.UTF7Charset;
+import com.beetstra.jutf7.CharsetProvider;
 
-/**
- * Created by Ethan on 7/21/2019.
- * Don't steal.
- */
 public final class Encodings {
-	public static final Charset UTF_7 = new UTF7Charset();
+	private static final CharsetProvider UTF7CharsetProvider = new CharsetProvider();
+
+	static final Charset UTF_7 = UTF7CharsetProvider.charsetForName("UTF-7");
 
 	private static final Charset[] COMMON = new Charset[] {
+			UTF_7,
 			StandardCharsets.UTF_8,
 			StandardCharsets.UTF_16BE,
 			StandardCharsets.UTF_16LE,
 			Charset.forName("UTF_32LE"),
 			Charset.forName("UTF_32BE"),
-			UTF_7
 	};
 
 	private static final Charset[] ARABIC = new Charset[] {
@@ -35,8 +33,7 @@ public final class Encodings {
 	};
 
 	private static final Charset[] CHINESE = new Charset[] {
-			Charset.forName("ISO-2022-CN"), Charset.forName("Big5"), Charset.forName("EUC-TW"),
-			Charset.forName("GB18030"), Charset.forName("GB2312")
+			Charset.forName("Big5"), Charset.forName("EUC-TW"), Charset.forName("GB18030"), Charset.forName("GB2312")
 	};
 
 	private static final Charset[] DANISH = new Charset[] {
@@ -146,5 +143,5 @@ public final class Encodings {
 
 	public static Set<String> getLangs() {
 		return langToEncodingsMap.keySet();
-	}
+	} //todo add test class
 }

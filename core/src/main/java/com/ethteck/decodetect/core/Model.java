@@ -10,20 +10,15 @@ import java.util.Map;
 import java.util.Objects;
 
 public class Model implements Serializable {
-    private String lang;
     private String encoding;
+    private String lang;
     private HashMap<Integer, Double> counter;
 
     private double dot;
 
-    public Model(String langAndEncoding, HashMap<Integer, Double> counter) {
-        String[] langEncodingSplit = langAndEncoding.split(",");
-        encoding = langEncodingSplit[0];
-        if (langEncodingSplit.length == 1) {
-            this.lang = "";
-        } else {
-            this.lang = langEncodingSplit[1];
-        }
+    public Model(String encoding, String lang, HashMap<Integer, Double> counter) {
+        this.encoding = encoding;
+        this.lang = lang;
         this.counter = counter;
 
         normalizeWeights();
@@ -59,15 +54,26 @@ public class Model implements Serializable {
 
     @Override
     public String toString() {
-        return (encoding == null ? "null" : encoding) +
-                (lang == null ? "null" : lang);
+        return (encoding == null ? "" : encoding) + " " + (lang == null ? "" : lang);
     }
 
+    /**
+     * Returns the encoding this model represents
+     * @return a {@link Charset} that this model represents
+     */
     public Charset getEncoding() {
         if (encoding.equalsIgnoreCase("utf-7")) {
             return Encodings.UTF_7;
         }
         return Charset.forName(encoding);
+    }
+
+    /**
+     * Returns the language code that this model represents
+     * @return the language code
+     */
+    public String getLang() {
+        return lang;
     }
 
     private void readObject(ObjectInputStream aInputStream) throws ClassNotFoundException, IOException {

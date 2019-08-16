@@ -75,7 +75,7 @@ class WikiDownload {
         try {
             Files.createDirectories(Paths.get(langDir));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException(e); //todo convert
         }
 
         for (Map.Entry<String, String> article : articles.entrySet()) {
@@ -85,7 +85,7 @@ class WikiDownload {
             try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
                 out.write(article.getValue());
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                throw new RuntimeException(e); //todo convert
             }
         }
     }
@@ -135,7 +135,7 @@ class WikiDownload {
             JsonParser jp = new JsonParser();
             root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException(e); //todo convert
         }
         return root.getAsJsonObject();
     }

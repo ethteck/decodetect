@@ -1,7 +1,4 @@
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,15 +11,15 @@ import com.ethteck.decodetect.core.Model;
 import com.ethteck.decodetect.core.Models;
 import com.ethteck.decodetect.core.Util;
 
-class ModelTrainer {
-    private ModelTrainer() {
+public class ModelTrainer {
+    private ModelTrainer() throws IOException {
         long start = System.currentTimeMillis();
         ArrayList<DataFile> trainingFiles = Util.loadData("src/main/resources/data/seed");
         long dataLoad = System.currentTimeMillis();
         Models models = trainModels(trainingFiles);
         long trained = System.currentTimeMillis();
         try {
-            writeModels(models);
+            models.writeToFile("model.mdl");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -33,17 +30,7 @@ class ModelTrainer {
         System.out.println("written: " + (saved - trained));
     }
 
-    private void writeModels(Models models) throws IOException {
-        FileOutputStream fos = new FileOutputStream(new File("src/main/resources/model.mdl"));
-        ObjectOutputStream out = new ObjectOutputStream(fos);
-
-        out.writeObject(models);
-
-        out.close();
-        fos.close();
-    }
-
-    private static Models trainModels(ArrayList<DataFile> dataFiles) {
+    private static Models trainModels(ArrayList<DataFile> dataFiles) throws IOException {
         HashMap<String, HashMap<Integer, Double>> counters = new HashMap<>();
         for (DataFile dataFile : dataFiles) {
             List<Charset> applicableEncodings = Encodings.getCharsetsForLang(dataFile.getLang());
@@ -76,13 +63,20 @@ class ModelTrainer {
         ArrayList<Model> models = new ArrayList<>();
 
         for (Map.Entry<String, HashMap<Integer, Double>> entry : counters.entrySet()) {
-            models.add(new Model(entry.getKey(), entry.getValue()));
+            String[] keySplit = entry.getKey().split(",");
+            String encoding = keySplit[0];
+            String lang = keySplit.length == 2 ? keySplit[1] : "";
+            models.add(new Model(encoding, lang, entry.getValue()));
         }
 
         return new Models(models);
     }
 
     public static void main(String[] args) {
-        ModelTrainer modelTrainer = new ModelTrainer();
+        try {
+            ModelTrainer modelTrainer = new ModelTrainer();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
