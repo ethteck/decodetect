@@ -5,14 +5,36 @@ Models encode byte bigram frequency counts. At runtime, input data is converted 
 
 The training data that creates the distributed model is gathered through Wikipedia (see module `train`). However, it is possible to supply one's own training data and train a more specialized model as well.
 
+## Usage
+Decodetect can be found at [Maven Central](https://mvnrepository.com/artifact/com.ethteck.decodetect/decodetect-core/0.1).
+
+Using Decodetect involves simply creating an instance of `Decodetect` and then passing a `byte[]` to `getResults()`:
+
+```java
+byte[] rawBytes = Files.readAllBytes(somePath);
+
+Decodetect decodetect = new Decodetect();
+DecodetectResult topResult = decodetect.getResults(rawBytes).get(0);
+Charset detectedCharset = topResult.getEncoding();
+
+String decoded = new String(rawBytes, detectedCharset);
+```
+
+The confidence metric is a measure of how similar the input bytes represent the model trained on the encoding. For most use cases, the top result returned can simply be used, but 
+
+
 ## Supported Encodings
-##### All languages:
+Decodetect supports a myriad of encodings for many languages. The bundled model has specific encodings for each language, but all languages support the following encodings as well:
+
 * UTF-7
 * UTF-8
 * UTF-16 BE
 * UTF-16 LE
 * UTF-32 BE
 * UTF-32 LE
+
+For more information on the encodings and languages supported by Decodetect, see `Encodings.java`.
+
 
 ## Project Structure
 Decodetect can be built simply with maven. The modules are as follows:

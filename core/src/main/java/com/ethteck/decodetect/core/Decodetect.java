@@ -6,9 +6,11 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Decodetect {
     private static final String BUNDLED_MODEL_LOCATION = "/data/model.mdl";
+    private static final double MIN_SCORE_THRESHOLD = 0.001;
 
     private final Models models;
 
@@ -36,8 +38,10 @@ public class Decodetect {
             results.add(new DecodetectResult(trainedModel.getEncoding(), trainedModel.getLang(), score));
         }
 
-        results.sort(Collections.reverseOrder());
-        return results;
+        return results.stream()
+                .filter(result -> result.getConfidence() > MIN_SCORE_THRESHOLD)
+                .sorted(Collections.reverseOrder())
+                .collect(Collectors.toList());
     }
 
 

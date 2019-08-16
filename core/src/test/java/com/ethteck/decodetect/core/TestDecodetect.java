@@ -54,4 +54,10 @@ class TestDecodetect {
         Decodetect custom = new Decodetect(tempDir + "/model.mdl");
         custom.getResults(new byte[]{1, 2, 3});
     }
+
+    @Test
+    void testEmptyBytes() {
+        List<DecodetectResult> results = DECODETECT.getResults(new byte[]{});
+        assertTrue(results.isEmpty());
+    }
 }
