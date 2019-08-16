@@ -24,7 +24,7 @@ Decodetect can be built simply with maven. The modules are as follows:
 ## Dependencies
 Runtime:
 
-* [jutf7](http://jutf7.sourceforge.net/) for UTF-7 Charset support ([MIT] (https://opensource.org/licenses/MIT))
+* [jutf7](http://jutf7.sourceforge.net/) for UTF-7 Charset support ([MIT](https://opensource.org/licenses/MIT))
 
 Training:
 
