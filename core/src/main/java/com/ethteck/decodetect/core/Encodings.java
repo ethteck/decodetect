@@ -143,5 +143,5 @@ public final class Encodings {
 
 	public static Set<String> getLangs() {
 		return langToEncodingsMap.keySet();
-	} //todo add test class
+	}
 }
