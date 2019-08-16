@@ -6,7 +6,7 @@ Models encode byte bigram frequency counts. At runtime, input data is converted 
 The training data that creates the distributed model is gathered through Wikipedia (see module `train`). However, it is possible to supply one's own training data and train a more specialized model as well.
 
 ## Usage
-Decodetect can be found at [Maven Central](https://mvnrepository.com/artifact/com.ethteck.decodetect/decodetect-core/0.1).
+Decodetect can be found at [Maven Central](https://mvnrepository.com/artifact/com.ethteck.decodetect/decodetect-core/).
 
 Using Decodetect involves simply creating an instance of `Decodetect` and then passing a `byte[]` to `getResults()`:
 

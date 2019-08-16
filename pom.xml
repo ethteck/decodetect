@@ -7,7 +7,7 @@
     <groupId>com.ethteck.decodetect</groupId>
     <artifactId>decodetect</artifactId>
     <packaging>pom</packaging>
-    <version>0.1</version>
+    <version>0.2</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Encoding detection library in pure Java</description>
