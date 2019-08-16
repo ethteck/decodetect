@@ -34,7 +34,5 @@ Testing:
 
 * [JUnit 5](https://junit.org/junit5/) ([Eclipse 2.0](https://www.eclipse.org/legal/epl-2.0/))
 
-## License
-Decodetect uses the MIT license.
-
-If this library helps you and you feel compelled to give credit, please feel free to do so. :)
+## About
+Decodetect was written by Ethan Roseman and uses the MIT license. See the `LICENSE` file for more information.
