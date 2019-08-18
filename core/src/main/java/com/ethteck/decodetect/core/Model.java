@@ -5,51 +5,41 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.nio.charset.Charset;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
 public class Model implements Serializable {
     private String encoding;
     private String lang;
-    private HashMap<Integer, Double> counter;
+    private NGramCounter counter;
 
-    private double dot;
-
-    public Model(String encoding, String lang, HashMap<Integer, Double> counter) {
+    public Model(String encoding, String lang, NGramCounter counter) {
         this.encoding = encoding;
         this.lang = lang;
         this.counter = counter;
-
-        normalizeWeights();
-        calculateDot();
     }
 
-    double getDot() {
-        return dot;
-    }
+    double getSimilarity(NGramCounter otherCounter) {
+        double thisDot = counter.getDot();
+        double otherDot = otherCounter.getDot();
 
-    private void normalizeWeights() {
-        double sum = 0;
-        for (Map.Entry<Integer, Double> entry : counter.entrySet()) {
-            sum += entry.getValue();
+        if (thisDot == 0 || otherDot == 0) {
+            return 0;
         }
 
-        for (Integer key : counter.keySet()) {
-            counter.put(key, counter.get(key) / sum);
-        }
-    }
+        double totalScore = 0;
 
-    private void calculateDot() {
-        double sumSquares = 0;
-        for (Integer key : counter.keySet()) {
-            sumSquares += Math.pow(counter.get(key), 2);
-        }
-        this.dot = Math.sqrt(sumSquares);
-    }
+        NGramCounter smallerModel = otherCounter.getSize() > counter.getSize() ? counter : otherCounter;
 
-    HashMap<Integer, Double> getCounter() {
-        return counter;
+        for (Map.Entry<Integer, Double> entry : smallerModel.entrySet()) {
+            double thisVal = counter.getValAt(entry.getKey());
+            double otherVal = counter.getValAt(entry.getKey());
+
+            double score = thisVal * otherVal / (thisDot * otherDot);
+            totalScore += score;
+        }
+
+        return totalScore;
     }
 
     @Override
@@ -79,15 +69,13 @@ public class Model implements Serializable {
     private void readObject(ObjectInputStream aInputStream) throws ClassNotFoundException, IOException {
         lang = aInputStream.readUTF();
         encoding = aInputStream.readUTF();
-        counter = (HashMap<Integer, Double>) aInputStream.readObject();
-        dot = aInputStream.readDouble();
+        counter = (NGramCounter) aInputStream.readObject();
     }
 
     private void writeObject(ObjectOutputStream aOutputStream) throws IOException {
         aOutputStream.writeUTF(lang);
         aOutputStream.writeUTF(encoding);
         aOutputStream.writeObject(counter);
-        aOutputStream.writeDouble(dot);
     }
 
     @Override
@@ -95,14 +83,13 @@ public class Model implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Model model = (Model) o;
-        return Double.compare(model.dot, dot) == 0 &&
+        return Objects.equals(encoding, model.encoding) &&
                 Objects.equals(lang, model.lang) &&
-                Objects.equals(encoding, model.encoding) &&
-                counter.equals(model.counter);
+                Objects.equals(counter, model.counter);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(lang, encoding, counter, dot);
+        return Objects.hash(encoding, lang, counter);
     }
 }

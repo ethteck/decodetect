@@ -25,11 +25,23 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>3.0.0-M1</version>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
-                    <skip>true</skip>
+                    <mainClass>com.ethteck.decodetect.train.ModelTrainer</mainClass>
+                    <arguments>
+                        <argument>${project.basedir}/src/main/resources/data/seed</argument>
+                        <argument>${project.build.directory}/model.mdl</argument>
+                    </arguments>
                 </configuration>
             </plugin>
         </plugins>

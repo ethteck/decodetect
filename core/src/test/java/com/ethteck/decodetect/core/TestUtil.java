@@ -1,6 +1,5 @@
 package com.ethteck.decodetect.core;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -9,7 +8,6 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 import org.junit.jupiter.api.Test;
 
@@ -41,13 +39,5 @@ class TestUtil {
     @Test
     void testLoadDataFailure() {
         assertThrows(IOException.class, () -> Util.loadData("bogus"));
-    }
-
-    @Test
-    void testAddDataToCounter() {
-        HashMap<Integer, Double> counter = new HashMap<>();
-        byte[] bytesToAdd = {0, 25, 13, 0};
-        Util.addDataToCounter(counter, bytesToAdd);
-        assertEquals(bytesToAdd.length - 1, counter.size());
     }
 }

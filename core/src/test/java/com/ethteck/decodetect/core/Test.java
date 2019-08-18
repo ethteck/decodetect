@@ -7,14 +7,13 @@ import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 class Test {
     private Test() throws IOException, Decodetect.DecodetectInitializationException {
         long start = System.currentTimeMillis();
         long modelLoad = System.currentTimeMillis();
-        ArrayList<DataFile> testFiles = Util.loadData("src/test/resources/data/test");
+        ArrayList<DataFile> testFiles = Util.loadData("core/src/test/resources/data/test");
         long dataLoad = System.currentTimeMillis();
         runTests(testFiles);
         long tests = System.currentTimeMillis();
@@ -28,9 +27,7 @@ class Test {
 
     private void runTests(ArrayList<DataFile> testFiles) throws IOException, Decodetect.DecodetectInitializationException {
         for (DataFile testFile : testFiles) {
-            HashMap<Integer, Double> testCounter = new HashMap<>();
             byte[] fileBytes = Util.getBytesFromFile(testFile.getPath());
-            Util.addDataToCounter(testCounter, fileBytes);
 
             runTest(testFile, fileBytes);
         }

@@ -5,9 +5,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Util {
+    private static int NGRAM_N = 2;
+    //todo make this a member of Decodetect, not static
+    static int MODEL_SIZE = (int) Math.pow(256, NGRAM_N);
+
     public static byte[] getBytesFromFile(Path filePath) throws IOException {
         byte[] fileBytes;
         try {
@@ -30,18 +33,5 @@ public class Util {
         }
 
         return ret;
-    }
-
-     private static void addDataToCounter(HashMap<Integer, Double> counter, byte[] bytes, int len) {
-        for (int i = 0; i < len - 1; i++) {
-            int b1 = Byte.toUnsignedInt(bytes[i]);
-            int b2 = Byte.toUnsignedInt(bytes[i + 1]);
-            int ord = 256 * b1 + b2;
-            counter.put(ord, counter.getOrDefault(ord, 0d) + 1);
-        }
-    }
-
-    public static void addDataToCounter(HashMap<Integer, Double> counter, byte[] bytes) {
-        addDataToCounter(counter, bytes, bytes.length);
     }
 }

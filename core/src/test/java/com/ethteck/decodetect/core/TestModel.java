@@ -1,8 +1,6 @@
 package com.ethteck.decodetect.core;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,8 +9,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.Map;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
@@ -27,29 +23,15 @@ class TestModel {
     }
 
     private Model getTestModel(byte[] bytes) {
-        HashMap<Integer, Double> counter = new HashMap<>();
-        Util.addDataToCounter(counter, bytes);
-        return new Model("UTF-8", "en", counter);
+        NGramCounter nGramCounter = new NGramCounter.Builder().addData(bytes).build();
+        return new Model("UTF-8", "en", nGramCounter);
     }
 
     @Test
     void testModelMembers() {
         Model model = getTestModel();
-        assertFalse(model.getCounter().isEmpty());
-        assertNotEquals(0, model.getDot());
         assertEquals(StandardCharsets.UTF_8, model.getEncoding());
         assertEquals("en", model.getLang());
-    }
-
-    @Test
-    void testWeightsAndDot() {
-        // Two bigrams with even distribution (1 occurrence for each)
-        byte[] testBytes = {1, 2, 3};
-        Model model = getTestModel(testBytes);
-        for (Map.Entry<Integer, Double> entry : model.getCounter().entrySet()) {
-            assertEquals(0.5, entry.getValue());
-        }
-        assertEquals(Math.sqrt(0.5), model.getDot());
     }
 
     @Test

@@ -9,7 +9,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
@@ -20,12 +19,10 @@ class TestModels {
     File tempDir;
 
     static Models getTestModels() {
-        HashMap<Integer, Double> c1 = new HashMap<>();
-        HashMap<Integer, Double> c2 = new HashMap<>();
         byte[] b1 = {0, 1, 2};
         byte[] b2 = {2, 3, 4};
-        Util.addDataToCounter(c1, b1);
-        Util.addDataToCounter(c2, b2);
+        NGramCounter c1 = new NGramCounter.Builder().addData(b1).build();
+        NGramCounter c2 = new NGramCounter.Builder().addData(b2).build();
 
         Model m1 = new Model("UTF-8", "en", c1);
         Model m2 = new Model("Shift-JIS", "ja", c2);
@@ -56,7 +53,7 @@ class TestModels {
 
     @Test
     void testToString() {
-        Model m1 = new Model("Shift-JIS", "ja", new HashMap<>());
+        Model m1 = new Model("Shift-JIS", "ja", new NGramCounter.Builder().build());
         assertEquals("Shift-JIS ja", m1.toString());
     }
 

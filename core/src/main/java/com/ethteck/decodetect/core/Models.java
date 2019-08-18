@@ -36,12 +36,14 @@ public class Models implements Serializable {
         return modelsRead;
     }
 
-    private void readObject(ObjectInputStream aInputStream) throws IOException, ClassNotFoundException {
-        models = (ArrayList<Model>) aInputStream.readObject();
-    }
+    public void writeToFile(String path) throws IOException {
+        FileOutputStream fos = new FileOutputStream(new File(path));
+        ObjectOutputStream out = new ObjectOutputStream(fos);
 
-    private void writeObject(ObjectOutputStream aOutputStream) throws IOException {
-        aOutputStream.writeObject(models);
+        out.writeObject(this);
+
+        out.close();
+        fos.close();
     }
 
     @Override
@@ -55,15 +57,5 @@ public class Models implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(models);
-    }
-
-    public void writeToFile(String path) throws IOException {
-        FileOutputStream fos = new FileOutputStream(new File(path));
-        ObjectOutputStream out = new ObjectOutputStream(fos);
-
-        out.writeObject(this);
-
-        out.close();
-        fos.close();
     }
 }

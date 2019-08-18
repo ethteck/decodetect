@@ -39,8 +39,9 @@ class TestDecodetect {
             "有部份國家不承認中華人民共和國的存在而承認中華民國為「中國」，也造成了所謂的「台灣問題」。";
         for (Charset charset : Encodings.getCharsetsForLang("zh")) {
             byte[] testBytes = china.getBytes(charset);
-            DecodetectResult testResult = DECODETECT.getResults(testBytes).get(0);
-            assertEquals(charset, testResult.getEncoding());
+            List<DecodetectResult> results = DECODETECT.getResults(testBytes);
+            DecodetectResult topResult = results.get(0);
+            assertEquals(charset, topResult.getEncoding());
         }
     }
 
