@@ -10,20 +10,29 @@ import java.util.stream.Collectors;
 
 public class Decodetect {
     private static final String BUNDLED_MODEL_LOCATION = "/data/model.mdl";
+
     private static final double MIN_SCORE_THRESHOLD = 0.001;
 
     private final Models models;
 
-    public Decodetect() throws IOException, ClassNotFoundException{
-        models = Models.readFromFile(BUNDLED_MODEL_LOCATION, true);
+    public Decodetect() throws DecodetectInitializationException {
+        try {
+            models = Models.readFromFile(BUNDLED_MODEL_LOCATION, true);
+        } catch (IOException | ClassNotFoundException e) {
+            throw new DecodetectInitializationException("The bundled model file could not be loaded", e);
+        }
     }
 
-    public Decodetect(String modelPath) throws IOException, ClassNotFoundException {
-        models = Models.readFromFile(modelPath, false);
+    public Decodetect(String modelPath) throws DecodetectInitializationException {
+        try {
+            models = Models.readFromFile(modelPath, false);
+        } catch (IOException | ClassNotFoundException e) {
+            throw new DecodetectInitializationException("The model file at " + modelPath + " could not be loaded", e);
+        }
     }
 
     /**
-     * Returns todo
+     * Returns a list of {@link DecodetectResult} representing the most likely encodings for the given bytes
      * @param bytes bytes for which the Charset will be detected
      * @return a Charset representing the most likely encoding for the given bytes
      */
@@ -49,6 +58,10 @@ public class Decodetect {
         double testDot = testData.getDot();
         double trainDot = trainedModel.getDot();
 
+        if (testDot == 0 || trainDot == 0) {
+            return 0;
+        }
+
         double score = 0;
 
         Model smallerModel = testData.getCounter().size() > trainedModel.getCounter().size() ? trainedModel : testData;
@@ -58,11 +71,16 @@ public class Decodetect {
             double testRaw = testData.getCounter().getOrDefault(key, 0d);
             double trainRaw = trainedModel.getCounter().getOrDefault(key, 0d);
 
-            // todo watch out for div/0
             double byteScore = testRaw * trainRaw / (testDot * trainDot);
             score += byteScore;
         }
 
         return score;
+    }
+
+    static class DecodetectInitializationException extends Exception {
+        DecodetectInitializationException(String m, Exception e) {
+            super(m, e);
+        }
     }
 }

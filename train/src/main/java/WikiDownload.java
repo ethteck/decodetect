@@ -22,7 +22,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 class WikiDownload {
-    private static String SEED_DIR = "src/main/resources/data/seed/";
+    private static final String SEED_DIR = "src/main/resources/data/seed/";
 
     private WikiDownload() {
     }

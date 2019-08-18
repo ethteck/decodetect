@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 
 class Test {
-    private Test() throws IOException, ClassNotFoundException {
+    private Test() throws IOException, Decodetect.DecodetectInitializationException {
         long start = System.currentTimeMillis();
         long modelLoad = System.currentTimeMillis();
         ArrayList<DataFile> testFiles = Util.loadData("src/test/resources/data/test");
@@ -26,7 +26,7 @@ class Test {
         System.out.println(testTime / (float) testFiles.size() + " ms/test");
     }
 
-    private void runTests(ArrayList<DataFile> testFiles) throws IOException, ClassNotFoundException {
+    private void runTests(ArrayList<DataFile> testFiles) throws IOException, Decodetect.DecodetectInitializationException {
         for (DataFile testFile : testFiles) {
             HashMap<Integer, Double> testCounter = new HashMap<>();
             byte[] fileBytes = Util.getBytesFromFile(testFile.getPath());
@@ -36,7 +36,7 @@ class Test {
         }
     }
 
-    private void runTest(DataFile file, byte[] fileBytes) throws IOException, ClassNotFoundException {
+    private void runTest(DataFile file, byte[] fileBytes) throws Decodetect.DecodetectInitializationException {
         Decodetect decodetect = new Decodetect();
 
         List<DecodetectResult> modelResults = decodetect.getResults(fileBytes);
@@ -72,7 +72,7 @@ class Test {
     public static void main(String[] args) {
         try {
             Test test = new Test();
-        } catch (IOException | ClassNotFoundException e) {
+        } catch (IOException | Decodetect.DecodetectInitializationException e) {
             e.printStackTrace();
         }
     }

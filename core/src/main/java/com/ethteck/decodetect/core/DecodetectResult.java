@@ -3,9 +3,9 @@ package com.ethteck.decodetect.core;
 import java.nio.charset.Charset;
 
 public class DecodetectResult implements Comparable<DecodetectResult> {
-    private Charset encoding;
-    private String lang;
-    private double confidence;
+    private final Charset encoding;
+    private final String lang;
+    private final double confidence;
 
     DecodetectResult(Charset encoding, String lang, double confidence) {
         this.encoding = encoding;

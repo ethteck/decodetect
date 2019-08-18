@@ -20,8 +20,7 @@ Charset detectedCharset = topResult.getEncoding();
 String decoded = new String(rawBytes, detectedCharset);
 ```
 
-The confidence metric is a measure of how similar the input bytes represent the model trained on the encoding. For most use cases, the top result returned can simply be used, but 
-
+Each `DecodetectResult` contains a confidence number in addition to the `Charset` itself. This is a measure of how similar the input bytes represent the model trained on the encoding. For most use cases, one can just use the first item in the result list.
 
 ## Supported Encodings
 Decodetect supports a myriad of encodings for many languages. The bundled model has specific encodings for each language, but all languages support the following encodings as well:
@@ -33,15 +32,15 @@ Decodetect supports a myriad of encodings for many languages. The bundled model 
 * UTF-32 BE
 * UTF-32 LE
 
-For more information on the encodings and languages supported by Decodetect, see `Encodings.java`.
+For more information on the encodings and languages supported by Decodetect, see [Encodings.java](core/src/main/java/com/ethteck/decodetect/core/Encodings.java).
 
 
 ## Project Structure
 Decodetect can be built simply with maven. The modules are as follows:
 
-* `core` Used at runtime, contains the main `Decodetect` class for encoding detection.
+* `core` Contains runtime dependencies
 
-* `train` Used for downloading training data from Wikipedia and training new models.
+* `train` For downloading training data and training models
 
 ## Dependencies
 Runtime:
@@ -57,4 +56,4 @@ Testing:
 * [JUnit 5](https://junit.org/junit5/) ([Eclipse 2.0](https://www.eclipse.org/legal/epl-2.0/))
 
 ## About
-Decodetect was written by Ethan Roseman and uses the MIT license. See the `LICENSE` file for more information.
+Decodetect was written by Ethan Roseman and uses the MIT license. See the [license](LICENSE.md) for more information.

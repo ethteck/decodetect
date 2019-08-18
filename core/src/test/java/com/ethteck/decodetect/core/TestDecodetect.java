@@ -1,9 +1,5 @@
 package com.ethteck.decodetect.core;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -12,6 +8,8 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class TestDecodetect {
     private static Decodetect DECODETECT;
@@ -47,12 +45,17 @@ class TestDecodetect {
     }
 
     @Test
-    void testCustomModel(@TempDir File tempDir) throws IOException, ClassNotFoundException {
+    void testCustomModel(@TempDir File tempDir) throws IOException, Decodetect.DecodetectInitializationException {
         Models models = TestModels.getTestModels();
         models.writeToFile(tempDir + "/model.mdl");
 
         Decodetect custom = new Decodetect(tempDir + "/model.mdl");
         custom.getResults(new byte[]{1, 2, 3});
+    }
+
+    @Test
+    void testCustomModelInvalid() {
+        assertThrows(Decodetect.DecodetectInitializationException.class, () -> new Decodetect("bogus"));
     }
 
     @Test
