@@ -1,0 +1,29 @@
+İvmeli referans çerçevesi, ivmesi olan bir referans çerçevesidir. Genel olarak sıfırdan farklı bir ivme algılar. Kavisli uzay-zamanda tüm çerçevelerin eylemsiz olmayan durumu vardır.
+Eylemsiz olmayan çerçevelerdeki hareket kanunları eylemsizlik çerçevelerindeki basit formu almaz ve yasalar ivmeye bağlı olarak çerçeveden çerçeveye değişmektedir. Tamamen bakış açısı içinde cisimlerin hareketini açıklamak için, türetilmiş olmayan eylemsiz referans çerçeveleri, hayali güçleri (ayrıca atalet kuvvetleri, sözde kuvvetler ve d'Alembert kuvvetleri), örneğin Coriolis kuvvet veya merkezkaç kuvveti olarak gözlenen hareket, eylemsiz olmayanın hızlandırılmasıdır.
+
+
+Hesaplamalarda Hayali Güçlerden Kaçınmak
+Düz uzay-zamanda, eğer istenilirse eylemsiz olmayan çerçevelerin kullanılmasından kaçınılabilir. Eylemsiz olmayan referans çerçeveleri ile ilgili ölçümler her zaman eylemsiz görüldüğü gibi bu hızlanma eylemsiz olmayan doğrudan ivme içeren bir eylemsiz duruma dönüştürülebilir. Bu yaklaşım hayali güçlerin kullanılmasını (çerçevelerin durumu için Ryder ın işaret ettiği gibi tanımı gereği, hayali güçlerin bulunmadığına dayanmaktadır) ama sezgisel, gözlemsel ve hatta kullanılan hesaplama bakış açısından meteorolojide kullanıldığı gibi daha az uygun olabilir.
+“Bu sorunun üstesinden gelmek için basit bir yol, tüm koordinatları eylemsiz sistemdeki koordinatlara dönüştürmektir. Ancak bu zahmetli bir iştir. Örneğin varsayalımvki, basınç gradyanı nedeniyle dünya atmosferindeki hava kütlelerinin hareketini hesaplamak istiyoruz. Biz dönen çerçeveye, yeryüzündeki sonuçları göreli olarak, mümkünse bu koordinat sistemi içinde kalmak daha iyidir. Bu aynı zamanda Newton'un Hareket Kanunları uygulamak için bize hayali güçleri tanıtan durum sağlayabilir.” .|Peter Ryder|Klasik Mekanik, sf. 78-79}}
+
+
+Eylemsiz Olmayan Algılama: Hayali Güçlerin İhtiyacı
+“Hayali kuvvet" farklı bir kullanımı genellikle eğrisel koordinatlar, özellikle kutupsal koordinatlarda kullanılır. Karışıklığı önlemek için, terminolojide bu rahatsız edici belirsizlik burada işaret edilmektedir. 
+Bu sözde "güçler" eylemsiz olmayan veya eylemsiz referans, tüm çerçeveler içinde ve (bütün Newton güçler, gibi, hayali veya başka türlü) koordinat rotasyon ve çevirileri altında vektörler olarak dönüşümü yoktur.
+"Hayali güç" bu uyumsuz kullanımı olmayan eylemsizlikle ilgisi yoktur. Bu sözde "güçler" koordinat sisteminin eğrisel içinde bir parçacığın ivme belirlenmesi ve ardından kalan terimlerden koordinatları basit bir çift zamanlı türevleri ayırarak tanımlanır. 
+Bunlar geriye kalan terimler ardından "hayali güçler" olarak adlandırılır. Lagrange mekaniği genelleştirilmiş koordinatların kendi bağlantısını göstermek için bu terimleri "genelleştirilmiş hayali güçler" olarak belirtir. Kutupsal koordinatlara Lagrange yöntemlerinin uygulanmasına buradan ulaşabilirsiniz.
+
+
+Göreli Bakış Açısı
+
+
+Çerçeveler ve Düz Uzay
+Uzay-zamanın bir bölgesi Öklid olarak belirtilmişse ve yerçekimi alanlarından etkin bir serbest aynı bölgede üzerinde koordinat sistemi, düzgün bir hayali alan hızlandırılmış çerçevede mevcut olduğu söylenebilir.
+Çerçeve tabanlı açıklamalarında, bu sözde alan görünür ya da "ivmelendirilmiş" ve "eylemsiz" koordinat sistemleri arasında geçiş yaparak yapılabilir.
+
+
+Daha Gelişmiş Düzeydeki Tanımlar
+Durum genel görelilik ilkesini kullanarak, ince ayrıntılarıyla modellendiğinden, bağımlı yerçekimi alanının kavramı daha az gerçekçi olur. Bu Machian modellerinde, hızlandırılmış belirgin çekim alanı arka planı, maddenin hareketi ile ilişkili olduğunu kabul edebilir, ama aynı zamanda sanki malzeme hareketi şeklinde bir çekim alanı vardır.
+Bu karşılıklı etki ve koordinat sistemleri huzmesi geometri ve tabanlı çözgü için hızlandırılmış bir kütlenin yeteneği, çerçeve sürüklenmesi olarak adlandırılır.
+Çerçeve-sürükleme ivmeli çerçeveleri (yerçekimi etkisini göstermekte olan) ve (geometri yerçekimi alanlardan serbest) eylemsiz çerçeveler arasında ayrımı ortadan kaldırır. 
+Zorla ivmelendirilmiş bir nesne fiziksel bir koordinat sistemini "sürükler", problem tüm gözlemciler için çarpık uzayda bir egzersiz haline gelir.

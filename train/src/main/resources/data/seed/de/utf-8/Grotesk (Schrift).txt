@@ -1,0 +1,47 @@
+Die Grotesk, auch Sans Serif (französisch für „ohne Serife“, „serifenlos“), ist eine aus der Antiqua abgeleitete Schriftartenfamilie, bei der die Strichstärke der Buchstaben (nahezu) gleichmäßig ist und die keine Serifen besitzt.
+Im englischen Sprachraum ist die Bezeichnung Lineale geläufig, in Frankreich Linéales, in den Niederlanden Linearen und in Italien Lineari.
+
+
+Zur Bezeichnung
+Die Bezeichnung Grotesk ist in der Fachwelt sehr geläufig.
+Sie bezieht sich darauf, dass die ersten Schriften dieses Typs als Groteske, also eine sonderbare, aber durchaus reizvolle Entstellung angesehen wurden, weil die Nichtvariation der Strichstärke und das Weglassen der Serifen allen Lesegewohnheiten widersprach. Grotesk-Schriften weisen einfach geformte, auf Bildschirmen gut darstellbare Glyphen auf und sind daher heute die Standardschriftart auf Computersystemen; die Bezeichnung Grotesk wirkt daher befremdlich, weswegen die Bezeichnungen Serifenlose oder Sans Serif in der Desktop-Publishing-Branche üblich sind.
+
+
+Geschichte
+
+Die Grotesk entstand wie die Egyptienne Anfang des 19. Jahrhunderts in England als Antwort auf den gestiegenen Bedarf an auffälligen Werbeschriften.
+1803 zeigte Robert Thorne zum ersten Mal eine Sans Serif. Die erste Grotesk wurde 1816 von William Caslon IV., dem Urenkel des Schriftgießers William Caslon, veröffentlicht.
+Groteskschriften wurden ab 1832 als plakative Anzeigenschriften in England sehr beliebt. Zunächst waren die Formen dieser Schrift sehr kräftig.
+Inzwischen aber werden viele Varianten angeboten, von den superleichten und „mageren“ über kräftige und halbfette Formen zu den extrafetten.
+Als Beispiel wäre die Helvetica-Schrift zu nennen, von der es heutzutage über 40 Varianten gibt. Eine der ältesten Serifenlosen ist die Akzidenz-Grotesk, die ihren Anfang 1898 nahm und die erste erfolgreiche Brotschrift war, nachdem die serifenlose Antiqua zuvor nur als Auszeichnungsschrift Bedeutung hatte.
+Anfang des 20. Jahrhunderts entwickelte sich die ursprüngliche Grotesk-Form in zwei Richtungen weiter. Im Zuge der Renaissance der Handschrift und der Privatpressen-Bewegung entstanden in England serifenlose Schriften, die deutlicher den klassischen Proportionen und dem Schreiben folgten, wie Edward Johnstons Schrift für die London Underground von 1916 oder Eric Gills Gill Sans von 1929. Diese Variante wird auch als Serifenlose Linear-Antiqua bezeichnet.
+Um 1920 entstanden in Deutschland auf der Suche nach „der Schrift unserer Zeit“ (Zitat Jan Tschichold in Die neue Typographie) dagegen geometrische Serifenlose wie 1927 die Futura.
+Groteskschriften fanden zuerst vor allem Anwendung in Gelegenheitsdrucksachen (Akzidenzen), der Werbung und für Beschilderungssysteme. Bis heute sind Serifentypen die Grundform im Druckwesen; die Grotesk ist jedoch in allen Bereichen der Gestaltung anzutreffen, vor allem auch in der Typografie für den Bildschirm, wo die Serifen die Lesbarkeit kaum erhöhen und sogar, insbesondere bei kleinen Schriftgrößen, verringern. Ein Beispiel dafür ist die freie Schriftart Lato.
+Heutzutage ist das vielfältige Angebot an Groteskschriften unübersehbar, was auf die gestiegene Bedeutung dieser Schriften hinweist.
+
+
+Merkmale
+
+Auf den ersten Blick haben die Schriften der Serifenlosen Antiqua eine einheitliche Strichstärke. Das scheint aber nur so, denn eigentlich unterscheiden sich die Strichstärken, um ein optisch gleichmäßiges Bild herzustellen. Dieses wird bei den Überläufen (z. B. a und n) an den Rundungen und bei den neueren Schnitten deutlich.
+Bei der Schrift Gill Sans (entwickelt von Eric Gill) ist die Form des a und g charakteristisch. Im deutschen Sprachraum wurden diese beiden Buchstaben nicht angenommen, weswegen eine üblichere Form geschaffen wurde, um diese Schrift besser zu vertreiben.
+
+
+Klassifikation
+
+
+Siehe auch
+Dynamische Grotesk
+Gebrochene Grotesk
+
+
+Literatur
+Manuel Kreuzer: 20+1. Ein Vergleich von ausgewählten serifenlosen Schriften der letzten zwanzig Jahre. August Dreesbach Verlag, München 2012. ISBN 978-3-940061-68-3
+Indra Kupferschmid: Buchstaben kommen selten allein. Niggli Verlag, Sulgen 2004, ISBN 3-7212-0501-4
+Karl Vöhringer: Druckschriften kennenlernen unterscheiden anwenden. Verlag Forum und Technik, Stuttgart 1989, (Fachtechnische Schriftenreihe der Industriegewerkschaft Medien 1, ZDB-ID 1064778-8)
+Hans Peter Willberg: Wegweiser Schrift. Verlag Hermann Schmidt, Mainz 2001, ISBN 3-87439-569-3
+
+
+Weblinks
+
+Wolfgang Beinert: Das Lexikon der westeuropäischen Typographie: die Grotesk
+www.typosuche.de – Florian Stürmer, Michael Amarotico – ein Vorschlag, Schriften des lateinischen Alphabets sowie Bildzeichen nicht nur zu ordnen, sondern anhand stilistischer Merkmale in eine Suchmaschine einzuarbeiten

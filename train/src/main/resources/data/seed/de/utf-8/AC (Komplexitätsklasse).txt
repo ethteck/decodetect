@@ -1,0 +1,180 @@
+In der Komplexitätstheorie, speziell der Schaltkreiskomplexität, ist AC eine Komplexitätsklasse und ACi eine Hierarchie von Komplexitätsklassen. Für jedes 
+  
+    
+      
+        i
+        ∈
+        
+          N
+        
+      
+    
+    {\displaystyle i\in \mathbb {N} }
+   enthält ACi die formalen Sprachen, die von Schaltkreisfamilien mit Tiefe 
+  
+    
+      
+        O
+        (
+        
+          log
+          
+            i
+          
+        
+        ⁡
+        n
+        )
+      
+    
+    {\displaystyle O(\log ^{i}n)}
+  , polynomieller Größe, und Und- und Oder- mit unbeschränktem Fan-In und eventuell Nicht-Gattern an den Eingängen erkannt werden. Die Klasse AC ist dann definiert als
+
+  
+    
+      
+        
+          
+            AC
+          
+        
+        =
+        
+          ⋃
+          
+            i
+            ≥
+            0
+          
+        
+        
+          
+            
+              AC
+            
+          
+          
+            i
+          
+        
+        .
+      
+    
+    {\displaystyle {\mbox{AC}}=\bigcup _{i\geq 0}{\mbox{AC}}^{i}.}
+  Der Name AC wurde in Analogie zu NC gewählt, wobei A für „alternierend“ steht, was sich sowohl auf die Alternation zwischen Und- und Oder-Gattern in AC-Schaltkreisen als auch auf alternierende Turingmaschinen bezieht.
+Die kleinste AC-Klasse ist AC0, in der Sprachen liegen, die von Schaltkreisen konstanter Tiefe erkannt werden. Es gilt 
+  
+    
+      
+        A
+        
+          C
+          
+            0
+          
+        
+        ⊊
+        A
+        
+          C
+          
+            1
+          
+        
+      
+    
+    {\displaystyle AC^{0}\subsetneq AC^{1}}
+  ; ansonsten ist unbekannt, ob die Hierarchie echt ist.
+Für jede natürliche Zahl p bezeichnet ACi[p] oder ACCi[p] die Klasse der Probleme, die von ACi-Schaltkreisen plus Modulo p-Gattern erkannt werden. Ein Modulo p-Gatter gibt dabei genau dann 1 aus, wenn die Zahl der Eingaben mit Wert 1 nicht durch p teilbar ist. Die Klassen ACCi sind ähnlich definiert und erlauben beliebige Modulo-Gatter.
+
+
+Bezug zu anderen Klassen
+Die NC-Klassen sind ähnlich definiert, erlauben aber nur Schaltkreisfamilien, deren Gatter konstanten Fan-In haben. Die TC-Klassen erweitern die Definition von AC durch Majority-Gatter. Für jedes i gilt:
+
+  
+    
+      
+        
+          
+            
+              NC
+            
+          
+          
+            i
+          
+        
+        ⊆
+        
+          
+            
+              AC
+            
+          
+          
+            i
+          
+        
+        ⊆
+        
+          
+            
+              AC
+            
+          
+          
+            i
+          
+        
+        [
+        p
+        ]
+        ⊆
+        
+          
+            
+              ACC
+            
+          
+          
+            i
+          
+        
+        ⊆
+        
+          
+            
+              TC
+            
+          
+          
+            i
+          
+        
+        ⊆
+        
+          
+            
+              NC
+            
+          
+          
+            i
+            +
+            1
+          
+        
+        .
+      
+    
+    {\displaystyle {\mbox{NC}}^{i}\subseteq {\mbox{AC}}^{i}\subseteq {\mbox{AC}}^{i}[p]\subseteq {\mbox{ACC}}^{i}\subseteq {\mbox{TC}}^{i}\subseteq {\mbox{NC}}^{i+1}.}
+  Daraus folgt NC = AC = TC = ACC.
+
+
+Literatur
+Stasys Jukna: Boolean function complexity. Advances and frontiers. Springer, 2012, ISBN 978-3-642-24507-7. 
+Heribert Vollmer: Introduction to Circuit Complexity: a Uniform Approach. Springer Verlag, 1999, ISBN 3-540-64310-9. 
+
+
+Weblinks
+AC. In: Complexity Zoo. (englisch)

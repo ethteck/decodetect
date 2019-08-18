@@ -1,0 +1,28 @@
+En telefonlinje er forbindelsen mellem telefonapparatet hos en telefonabonnent og centralen, samt mellem centralerne hvor forbindelsen ikke er etableret i lyslederkabel.
+Linjen er en to-tråds kobberforbindelse, og kun i specielle tilfælde benytter man stadig jordforbindelsen som en tredje leder. Af de 3 ben i de danske telefonstik benytter man således normalt kun de 2 parallelle stikben, og lader det tredje ben (på tværs) ubenyttet. De 2 ledere benævnes normalt a- og b-tråden, men kan også ses benævnt L1 og L2.
+
+
+Abonnentlinjer
+På en normal telefonlinje i ro kan måles en DC-spænding på ca. 48 volt. Den kan godt variere (med afstanden til centralen), og formålet er at give spænding til telefonapparatets ekstrafunktioner, hvis sådanne findes. Ellers er telefonapparatet højimpedanset og trækker ikke DC-strøm. 
+Parallelt over apparatets DC-kredsløb sidder klokkekredsløbet, der er koblet til gennem en kondensator og dermed kun reagerer på ringespændingen, der er en vekselspænding som typisk ligger omkring 60 volt.
+Løftes røret, kobles telefonapparatets DC-kredsløb ind, og en DC-strøm trækkes fra telefonlinjen. Dette registreres på centralen, der sænker linjens spænding til ca. 6-8 volt. Samtidig overlejres denne DC-spænding med en klartone (425-440 Hz), også kaldet summetone. Niveauet for denne tone ligger mellem -10 og 0 dBm (ca 0,3 – 0,7 volt RMS).
+Når nummeret tastes, udsender telefonapparatets tastaturkredsløb en DTMF-kode, som centralen opfanger. I de ældre dages nummerskivetelefoner gav nummerskiven (drejeskiven) nummerimpulser. Ved skivens tilbageløb blev apparatets DC-kredsløb kortvarigt afbrudt hver gang et tal passeredes (så '1' gav 1 afbrydelse, og '0' gav 10). Hvad enten nummertagningen sker med tastatur eller nummerskive, opfatter centralen de sendte cifre og opbygger på grundlag heraf den ønskede forbindelse.
+Samtalen på linjen ligger balanceret over de 2 tråde og løber i begge retninger samtidig. Dette gør at man over lange afstande må skille signalerne ad i en såkaldt gaffelkobling for at kunne forstærke dem.
+Så for at opsummere, så overfører en telefonlinje både kraftige og svage vekselspændinger og forskellige DC-niveauer. Linjen i sig selv har normalt en impedans på 600 ohm. Trådene er parsnoede for bl.a. at hindre 2 linjer, der ligger ved siden af hinanden, i at overføre signaler til hinanden (overhøring også kaldet krydstale). Selve balanceringen virker støjundertrykkende overfor common-mode støj, mens parsnoningen gør linjerne næsten immune overfor indstråling af different mode støj.
+Specifikationerne af linje og apparat var tidligere fastsat af Statens Teleråd i cirkulære nr. 27A. Sidenhen galdt den internationale standard ETSI ES 202 971.
+
+
+Anlæg af abonnentlinjer
+Da telefonen begyndte at blive udbredt, blev de fleste abonnentlinjer udført som luftlinjer. Materialet var først jern men på grund af rustproblemer gik man hurtigt over til bronze og senere også til kobberlegeringer som gav en mere holdbar tråd. Nedgravede kabler begyndte at blive anvendt allerede sidst i 1800-tallet, men i mange år var isoleringen ikke så holdbar så luftledningerne blev installeret på de lange linjestrækninger helt op i 1950'erne. I byerne kom der snart så mange abonnenter at luftledningerne krævede store bærestativer på hustagene, så her hjalp jordkablernes indførelse også til at aflaste tagkonstruktionerne.
+Moderne telefonkabler nedgraves i jorden eller indhales i beton- eller plasticrør. Kablerne kan indeholde 10-20-50-100-200-500-1000-1800 par. Hvor isoleringen i ældre tid blot var papir med en vandtæt blykappe om hele kablet (kabelsjælen), benyttes nu kun plastisolerede kabler, som regel vaselinfyldte for ekstra beskyttelse mod vandindtrængen fra beskadigelser og evt. utætte muffer.
+
+
+Centrallinjer
+Linjerne mellem to centraler overfører samtaler til andre områder. Oprindelig var det telefontråde eller kabler som abonnentlinjerne, men da centrallinjerne normalt er trukket over større afstande måtte man bruge kraftigere tråddiameter for ikke at signalerne blev dæmpet for meget. Man afhjalp dæmpningen ved at indføre "pupinisering" som går ud på at indskyde spoler med jernkerner i kablerne for ca. hver 2 km. Selv om det kan lyde pudsigt at indsætte spoler for at modvirke dæmpning, så er effekten at det "udligner" den kapacitet der er mellem kabeltrådene.
+Da man for alvor begynde at indføre multipleksning med bærefrekvensudstyr efter 2. verdenskrig kunne man ikke alene føre flere samtidige samtaler på et enkelt trådpar, man kunne også indføre tyndere tråde og undvære de dyre pupinspoler. I 1980'erne blev telenettet digitaliseret og moderne centrallinjer består nu oftest af lysledere.
+
+
+Se også
+Telefon
+en:Two-wire circuit
+Cirkulære 27A

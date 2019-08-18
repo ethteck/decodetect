@@ -1,0 +1,50 @@
+La artritis reactiva es considerada una enfermedad reumática, del grupo de las espondiloartropatías seronegativas.
+Se cree que es el resultado de la interacción de diversos factores genéticos[2]​ (como el antígeno HLA-B27[3]​) y ambientales, que causan una reactividad inmunitaria anormal ante ciertos patógenos bacterianos, por lo que también es llamada artritis reactiva o postinfecciosa.[4]​
+Aun cuando los términos "síndrome de Reiter" y "artritis reactiva" suelen usarse indistintamente, originalmente la descripción de Hans Reiter fue la de un cuadro secundario a una infección venérea (dolor en hipocondrio por perihepatitis, también llamado síndrome de Fitz-Hugh-Curtis, típico de la infección por gonococos o chlamydia trachomatis). Al existir artritis reactivas a otros patógenos (como es el caso de la fiebre reumática y la enfermedad de Lyme), la mayoría de los expertos concuerdan en describir como artritis reactivas sólo aquellas artropatías inflamatorias secundarias a procesos infecciosos cuyas características clínicas se asemejan al grupo de las espondiloartropatias.
+Estas son un grupo de enfermedades que comparten características clínicas, patogenéticas y epidemiológicas entre sí. Se caracterizan principalmente por la afección axial (columna vertebral y articulación sacroiliaca), entesopatía (inflamación en las inserciones fibrocartilaginosas de ligamentos al hueso) y el hecho de ser, a diferencia de la artritis reumatoide, seronegativas al factor reumatoide. La enfermedad prototipo de este grupo es la espondilitis anquilosante.
+
+
+Síntomas
+Frecuentemente comienza con una infección genitourinaria o gastrointestinal.
+Algunos de los patógenos reconocidos son: Chlamydiae, Salmonella, Shigella, Yersinia, Campylobacter y otros.
+Su manifestación inicial es la uretritis no gonocócica, que prepara el escenario para el síndrome de Reiter; el resto de las características se desarrollan de 1 a 5 semanas después del comienzo de la uretritis. Del mismo modo, puede ocurrir luego de un cuadro de gastroenteritis infecciosa (forma postdisentérica).
+La tríada clásica de sus manifestaciones clínicas son inflamación de la uretra, conjuntivitis y artritis, pero también puede presentar entesitis, sacroileitis, uveítis, y diversas lesiones mucocutáneas (como la queratodermia blenorrágica y la balanitis circinada, entre otras).
+Asimismo, existen afectaciones dermatológicas en forma de pápulas serosas con centro amarillo en plantas, palmas y en menor frecuencia en uñas, escroto, cuero cabelludo y tronco.
+
+
+Pruebas hematológicas y radiológicas asociadas[5]​
+Positividad para antígeno HLA-B27: no tiene valor diagnóstico, pero sí valor pronóstico.[6]​
+Velocidad de sedimentación globular elevada en fase aguda, sobre todo si hay artritis reactiva.
+Proteína C reactiva elevada en fase aguda
+Factor reumatoide: si bien es un marcador independiente y puede tener un valor alto o bajo, será bajo si el paciente no tiene antecedentes de artritis reumatoide.
+Leucograma: leucocitosis y neutrofilia en fase aguda.
+Hemograma: posible anemia en la fase crónica.
+Radiografía, tomografía axial computarizada y resonancia magnética nuclear: en cuadros agudos, aumento de partes blandas y osteopenia yuxtaarticular
+Asociado a infección presente: cultivo bacteriológico, ultrasonografía, sedimento urinario con posible hematuria y leucocituria.
+
+
+Complicaciones
+Pulmonares: neumonía, derrame pleural.
+Sistema nervioso: neuropatía, cambios en el comportamiento.
+Cardíacos: insuficiencia aórtica, pericarditis, arritmias, enfermedad valvular mitral y necrosis aórtica, esta última secundaria al tratamiento.
+Riñón: dentro de la amiloidosis renal, la glomerulonefritis (segmentaria).[7]​
+Oftalmología: uveítis, iritis,[8]​ conjuntivitis, cataratas.
+Articulares: artritis recurrentes, artritis crónica, sacroileítis, espondilitis anquilosante o anquilopoyética. Si el factor reumatoide es bajo se consideran artritis seronegativas.
+
+
+Historia
+Ya en el siglo XVI se describía la asociación de uretritis con artritis.
+En 1776, Stoll describió por primera vez esta asociación.
+En 1818, el primero en describir la tríada completa (uretritis, artritis y conjuntivitis) fue el cirujano inglés sir Benjamin Collins Brodie (1783-1862). Incluyó 5 casos en su libro de texto Pathological and surgical observations on diseases of the joints (Londres, 1818).
+En 1916 ―durante la Primera Guerra Mundial― se publicaron dos informes por separado:
+
+en Francia, Fiessinger y Leroy detallaron los resultados en cuatro pacientes con esta tríada de síntomas;
+en Alemania, Hans Reiter documentó el caso de un paciente con estos mismos síntomas. Describió el caso en la revista Deutsche Medizinische Wochenschrift (‘semanario médico alemán’).Informó que un joven teniente había sido admitido en el ejército el 14 de octubre de 1916. El paciente estaba gravemente enfermo con fiebre alta y diarrea sanguinolenta, y desarrolló uretritis, artritis y conjuntivitis. Después de que se demostró la presencia de espiroquetas, Reiter describió el caso como «Una espiroqueta previamente desconocida (Spirochaetosis artrítica)».
+Reiter mismo no consideró que se tratara de un caso raro: «No hay razón para creer que no han ocurrido muchas enfermedades similares y que se han difundido por todo el país».
+En la literatura científica francesa se utilizó siempre el término «síndrome de Fiessinger y Leroy» (o incluso «síndrome de Fiessinger, Leroy y Reiter»).
+En 1942, un artículo de los médicos estadounidenses Bauer y Engelman describió el primer paciente conocido de Estados Unidos con artritis reactiva, a la que denominaron «síndrome de etiología desconocida, caracterizado por uretritis, conjuntivitis y artritis (mal llamado “enfermedad de Reiter”)».
+El trabajo de estos dos médicos solo contenía una referencia (el artículo de Hans Reiter), y declaraba erróneamente: «Descrito por primera vez por Reiter, ha sido comúnmente conocido como “enfermedad de Reiter”».
+Este epónimo se mantuvo en uso a pesar de no ser apropiado desde el punto de vista histórico y a pesar de los experimentos que Hans Reiter realizó en campos de concentración, que lo convirtieron en criminal de guerra.
+
+
+Referencias

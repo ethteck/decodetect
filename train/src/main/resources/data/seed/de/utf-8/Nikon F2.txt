@@ -1,0 +1,177 @@
+Die Nikon F2 ist eine Kleinbild-Spiegelreflexkamera, die als Nachfolgerin der Nikon F die Dominanz des Nikon-Konzerns im Bereich der Kleinbildspiegelreflexkameras weiter ausbaute. Sie gilt vielen als die beste mechanische Kamera und nimmt ihren Platz unter legendären Kameras wie der Nikon SP, der Nikon F, der Hasselblad 500 C/M oder der Leica M ein.
+Die Nikon F2 wurde 1971 vorgestellt und 1980 von der Nikon F3 abgelöst, die den Erfolg des japanischen Herstellers Nikon im professionellen Kleinbildsektor fortführen konnte, bis diese Spitzenposition in den 1990er-Jahren nach der Einführung der Nikon F4 an das Unternehmen Canon ging.
+Zwar war die Nikon F2 nur eine graduelle Fortentwicklung gegenüber der F, vereinfachte jedoch die Bedienung im Vergleich zu dieser, speziell bei Verwendung mit Motorantrieben, der Spiegelvorauslösung und dem Anbau von Rückwänden, und bot Belichtungszeiten bis 1/2000 s und bis 10 s (Nikon F: 1-1/1000 s). Verschiedene Teile sind zudem kompatibel zur Nikon F, so die Mattscheiben, der Sucheranschluss und der Blitzkontakt um die Filmrückspulkurbel.
+Der Motor spulte den belichteten Film automatisch zurück in die Filmkassette. Blitzschneller Filmwechsel ist möglich.
+Auch nach Jahrzehnten lässt sich die Nikon F2 problemlos einsetzen. Die Grundausstattung mit einfachem Prismensucher ohne Belichtungsmesser wirkt für heutige Verhältnisse einfach, aber sie funktioniert, und die meisten aktuellen Objektive mit dem F-Bajonett können weiter verwendet werden (Ausnahme: AF-G Objektive ohne Blendenring, DX-Objektive für Digitalkameras mit kleinerem Bildkreis und APS-Objektive). Eine Belichtungsmessung mit „Photomic-Suchern“ ist nur bei solchen Objektiven möglich, die über die Kupplungs-Gabel auf dem Blendering verfügen oder damit nachgerüstet werden können, bei den späteren „AI-Modellen“ der F2 (F2A und F2AS) ab 1977 ist stattdessen der AI-Nocken am Blendenring des Objektivs dafür notwendig.
+
+
+Vorgeschichte
+Im Stammbaum des eigenen Hauses baut sie technisch auf der Spiegelreflexkamera Nikon F auf, die heute als Sammlerobjekt gelten kann. Man kann sie vermutlich auch als Reaktion auf die im Frühling 1971 erschienene Canon F-1 ansehen, die im Vergleich zur Nikon F moderner war. Entwicklungsaufgabe war weniger ein großer technischer Fortschritt, als vielmehr eine Beseitigung der kleineren Probleme, die sich bei Verwendung der Nikon F gezeigt hatten.
+
+
+Modularer Aufbau
+Die wichtigen Teile der F2 sind auswechselbar – zur Verfügung standen Wechselobjektive, Wechselsucher, Wechselmattscheiben, austauschbare Kamerarückwand, ansetzbare Motorantriebe inkl. einer Auswahl an Batterieteilen, eine ansetzbare motorische Blendenzahlsteuerung, Blitzanschluss, Suchergewinde für Zubehör (wie Dioptrenausgleichslinsen, Illuminator, Sucherlupe) etc. Das einzige fehlende Merkmal, das sie von Mittelformatkameras und einigen Kleinbildkameras (Zeiss Ikon Contarex, Rolleiflex SL2000/3003) unterschied, war ein wechselbares Filmmagazin (es gab allerdings eine Polaroid-Rückwand von einem anderen Anbieter).
+
+
+Motor und Langfilmkassetten
+Zur Nikon F2 gab es insgesamt vier Motorantriebe, den etwas einfacher ausgeführten MD-3, den für gewerbliche Anwender bestimmten MD-1 und dessen Nachfolger MD-2. Der MD-3 schafft je nach verwendeten Batterieteil eine Bildfrequenz von maximal 2,5 oder 4 Bildern in der Sekunde. Die MD-1 und MD-2 erreichten 5 Bilder pro Sekunde und verfügten über eine Batteriekontrollanzeige sowie eine motorische Filmrückspulung.
+Der vierte Motorantrieb, der MD-100, konnte sinnvoll nur mit der Nikon F2H – der High-Speed Version der F2 – verwendet werden (siehe Bild unten). Mit ihm waren Aufnahmeserien mit 10 Bildern in der Sekunde möglich. Allerdings war für den Betrieb ein besonders großes Batterieteil, das MB-100, erforderlich. Darin fanden entweder 20 AA-Batterien oder vier Spezialakkus MN-1 Platz.
+Das Batterieteil MB-1 nahm 10 AA-Batterien auf, konnte aber auch mit den Akkus MN-1 bestückt werden, das MB-2 nahm 8 Batterien auf. Als weiteres Motorzubehör gab es ein Verbindungskabel „MC-7“ für eine getrennte Unterbringung des Batterieteils (beispielsweise bei großer Kälte), sowie Kabelauslöser.
+Im Gegensatz zur Nikon F gab es keinen speziellen Motor für die Langfilmmagazine MF-1 (250 Aufnahmen) und MF-2 (750 Aufnahmen), denn sie konnten mit einem normalen MD-1 bzw. MD-2 betrieben werden.
+
+
+Rückwand
+Im Gegensatz zur Nikon F hat der Motor keine eigene Kamerarückwand, sondern wird einfach unter die Kamera geschraubt (in die Aufnahme des Stativ-Gewindes). Die Nikon F2 verfügt über eine übliche, abnehmbare Rückwand, die gegen die oben genannten Langfilmmagazine austauschbar ist. Für die Verwendung von Datenrückwänden sind allerdings spezielle Versionen, die „Data“-Modelle, erforderlich. Ferner gibt es eine spezielle Rückwand zur Verwendung mit den Motorantrieben MD-2 und MD-1, die über einen Kontakt die motorische Filmrückspulung beendet, bevor der Film vollständig in die Filmpatrone hineingezogen worden ist.
+
+
+Wechselsucher und Blendensteuerung
+Charakteristisch und von der F Serie übernommen ist das System von Wechselsuchern. Für die F2 gab es neben Prismen-, Lichtschacht- (DW-1) und Photomicsucher auch Lupen- (DW-2) und Sportsucher (DA-1) für spezielle Anwenderkreise.
+Zum Wechseln der Sucher gibt es einen etwas schwer zu bedienenden kleinen Entriegelungsknopf an der Rückseite des Kameragehäuses, sowie bei den Photomic-Modellen einen weiteren Hebel am Sucher. Erst 1980 beim Nachfolgemodell F3 wurde die Arretierung deutlich besser gelöst.
+Die Grundversion hatte einen Prismensucher, der ein aufrechtes und seitenrichtiges Bild zeigt. Ein weiterer Sucher war der Lichtschacht, nützlich bei Makro- und Mikrofotografie. Der Lichtschacht ist mit einer wegklappbaren Lupe (5×) versehen.
+Die Photomicsucher ermöglichen eine Belichtungsmessung und einen Blenden/Zeitenabgleich. Sie enthalten eine Messzelle (CdS oder Silizium) und werden über einen Ring mit dem Verschlusszeitenknopf und über einen Schieber mit dem Blendenring des Objektivs gekoppelt. Ein Bewegen des Verschlusszeitenrings oder des Blendenrings verändert eine Anzeige im Sucher, die korrekte Belichtung bzw. Über- und Unterbelichtung anzeigt. Es gab insgesamt fünf Modelle. Zunächst den DP-1 (mit Messnadel) und den DP-2 (mit LED-Anzeige), später dessen Weiterentwicklung DP-3 mit Siliziumdioden. Die DP-11 und DP-12 waren die letzten Suchermodelle: Bei diesen wurde die bisherige, etwas umständliche Koppelung der Objektive mit dem Sucher durch einen mit dem Sucher koppelnder Nocken am Blendenring vereinfacht. Erst beim Nachfolgemodell F3 wanderte der Belichtungsmesser in das Gehäuse der Kamera selber.
+Für die Photomicsucher DP-2, DP-3 und DP-12 waren zudem Blendensteuerungen erhältlich. Diese werden vor die Kamera gesetzt (Aufschieben auf den Zubehörschuh an der Rückspulkurbel) und koppeln elektrisch mit dem Sucher und mechanisch mit dem Blendenring des Objektivs. Vom Sucher gesteuert, verstellt die Blendensteuerung die Blende motorisch, so dass sich die Kamera damit zu einem Blendenautomaten umrüsten lässt. Es gibt drei Modelle, DS-1, DS-2 (zusätzlich Blitzanschluss) und DS-12 (für den DP-12).
+Der Lupensucher ist von seinem Anwendungsbereich her ein „besserer Lichtschachtsucher“ für Makro- und Mikrofotografie. Er besteht aus einer aufwändig konstruierten sechsfach vergrößernden Lupe und ist damit besser als die einklappbare Lupe des einfachen Lichtschachtsuchers.
+Der Sport-Prismensucher ermöglicht dem Fotografen Sicht auf das gesamte Sucherbild, wenn er einen Helm oder eine (Schutz)brille trägt (z. B. beim Fallschirmspringen oder auf dem Motorrad). Bei speziellen Unterwassergehäusen ist der Sportsucher unverzichtbar. Sportsucher meint also nicht den „normalen“ Sportfotografen, sondern den sporttreibenden Fotografen.
+Die Wechselsucher und Einstellscheiben der Nikon F2 passen auch an das Modell F. Beim Ansetzen der F2-Sucher muss bei der „F“ nur das vordere Typenschild entfernt werden, was aber unkompliziert ist, die Schrauben sind sichtbar an der Außenseite. Die Photomicsucher der „F2“ funktionieren an der „F“ allerdings nicht, da sie eine Stromversorgung seitens der Kamera erwarten.
+
+
+Einstellscheiben
+ 
+Die Nikon F2 ermöglicht den schnellen Wechsel zu verschiedenen Einstellscheiben. Die mitgelieferte Einstellscheibe hatte ein Schnittbildzentrum mit Messkreis und Fresnellinse. Sie ist universell verwendbar. 19 verschiedene Modelle erlauben bei jedem Gebrauch (Makro-, Architektur-, Luftbildfotografie) die optimale Scharfeinstellung. Auch andere Hersteller bieten Einstellscheiben an. Da das Licht vor der Belichtungsmessung durch die Scheibe geht und die Messung so beeinflusst wird, muss bei vielen Scheiben nach dem Wechsel die Zeit/Blendenkombinationen korrigiert werden.
+
+
+Mechanik
+Da die Nikon F2 eine rein mechanische Kamera ist, wird der Verschluss nach heutigen Maßstäben „ungenau“ gesteuert (kein Schwingquarz „zählt“ bei ihr die Dauer einer 1/2000 Sekunde).
+Als Verschluss dient bei der Nikon F2 ein äußerst langlebiges Titan-Rollo, das auch nach Jahrzehnten seinen Dienst tut. Die kürzeste Verschlusszeit ist 1/2000 Sekunde, die Blitzsynchronzeit beträgt 1/80 s, wofür eine eigene Rastung auf dem Zeitenwählrad vorgesehen ist.
+
+
+Auslöser
+Für den Drahtauslöseranschluss wird noch die heute nicht mehr übliche Leica-Glocke verwendet. Es gibt aber Adapter für „normale“ Drahtauslöser. Der Auslöseknopf hat einen Fingerschutzring, der auch zur Auslöserverriegelung und zur Einstellung von langen Belichtungszeiten („T“, s. u.) dient, die dann mittels des Selbstauslöserhebels vorgewählt werden.
+Ein Strich in einem Fenster in der Mitte des Zeitenwählrads dreht sich bei jeder Aufnahme, um den Filmtransport kontrollieren zu können.
+
+
+Spiegelvorauslösung / Spiegelarretierung
+
+Die Nikon F2 verfügt über eine Spiegelvorauslösung, ein weiteres Merkmal für die Profiklasse. Diese ist besser gelöst als bei der Nikon F und ermöglicht ein sofortiges Hochschwenken des Spiegels bei Drehen an einem Hebel.
+Die Möglichkeit, den Spiegel hochzuklappen war notwendig, um den Gebrauch der „Fisheye-Objektive“ (1:5.6/6 mm; 220°, 1:5.6/7,5 mm; 180°; 1:8/8 mm; 180°; und 1:5.6/10 mm; 180°) zu erlauben, deren Linsenbau tief in den Kamerakörper hineinragte. Erst später war es Nikon möglich, entsprechende Weitwinkelobjektive durch Retrofokus-Bauweise so zu realisieren, dass sie nicht mehr in den Kamerakörper ragten.
+Der Hersteller Cosina bietet neuerdings in bestimmten Märkten, beispielsweise Großbritannien, Adaptionen ihrer beiden Weitwinkelobjektive vom Typ „Heliar“ der Marke Voigtländer als 1:5.6/12 mm und 1:4.5/15 mm mit Nikon-Bajonett an, die aufgrund ihres Aufbaus ebenfalls nur mit hochgeklapptem Spiegel verwendbar sind. Dazu gibt es einen „Blindsucher“, der anstelle des normalen F2-Suchers aufgesetzt wird und der eine Aufnahme für die optischen Sucher der Objektive aufweist.
+Außerdem ist die Spiegelarretierung notwendig bei Motorbetrieb mit 5 Bildern in der Sekunde, da der Spiegel nicht schnell genug hin und her schwingen kann. Schließlich verringern sich Auslösegeräusch und Erschütterungen bei hochgeklapptem Spiegel.
+
+
+Selbstauslöser
+
+Wie oben erwähnt, verfügt die F2 über einen Selbstauslöser. Dieser wird nicht über den normalen Auslöser gestartet, sondern hat einen eigenen kleinen Auslöserknopf, der beim Drehen des Hebels freigelegt wird. Eine Zahlenskala an der Fassung erlaubte es, Vorlaufzeiten abzulesen und einzustellen. Der Hebel diente auch der Einstellung von Belichtungszeiten zwischen 2 und 10 s in Verbindung mit der Einstellung „T“ des Auslösers.
+
+
+Springblende
+Als moderne Kamera verfügt die Nikon F2 zusammen mit den für sie gebauten Objektiven über eine Springblenden-Funktion, die gleichzeitig mit dem Verschlussablauf wirksam wird.
+Darüber hinaus „kommunizieren“ die Objektive älterer Bauart mit dem Belichtungsmesser im Photomic-Sucher. Hierfür dient die Nikon-typische (und heute nicht mehr verbaute) „Gabel“ am Blendenring. Bei jedem Objektivwechsel musste zunächst der Blendenring auf den kleinsten Wert eingestellt werden, um den Photomic-Sucher zu justieren. Nach Einführung der Ai-Objektive 1977 und der F2A und F2AS wurde dieses Verfahren obsolet.
+
+
+Weitere Entwicklung in der Geschichte
+Alle diese Ausstattungsmerkmale gehören immer noch zum heutigen Standard für professionelle Spiegelreflexkameras. Verbesserungen in der weiteren Entwicklung der Kameraindustrie waren im Wesentlichen nur die Verschlusssteuerung durch Microcomputer (und damit die präzisere Einhaltung der Zeiten und Ermöglichung der Belichtungsautomatik), die Verkürzung der minimalen Verschlusszeit (auf derzeit 1/8000 sec), sowie die TTL-Blitzbelichtungsmessung. Andere neuere Techniken dienen in erster Linie der Bequemlichkeit des Fotografen oder zum Ausgleich für dessen Unvermögen.
+
+
+Modelle
+F2
+auch „F2 Eyelevel“, ist das Basismodell mit einem einfachen Prismensucher DE-1, erschienen 1971.F2 Photomic
+Modellvariante, die mit dem Photomicsucher DP-1 mit Belichtungsmessung und Nadelanzeige ausgestattet war und ebenfalls 1971 erschien.
+F2S Photomic
+Bei dieser Version wurde die F2 werksseitig mit einem Photomicsucher DP-2 ausgestattet, der über eine LED-Messanzeige sowie einen Anschluss zur Steuerung der Blendenautomatik DS-1 verfügte und einen gegenüber dem DP-1 erweiterten Messbereich hatte. Produziert ab 1973.
+F2SB
+Diese ab 1976 hergestellte Variante war mit einem Sucher DP-3 als Nachfolger des DP-2 ausgestattet. Dieser Sucher wies eine schnellere Siliziumdiode, eine veränderte Sucheranzeige, sowie einen Anschluss für die Blendensteuerungen DS-1 und DS-2 auf.F2A
+Die 1977 eingeführte F2A war mit dem Sucher DP-11 als Nachfolger des DP-1 ausgerüstet, der zur Verwendung mit den gleichzeitig eingeführten AI-Nikkoren vorgesehen war. Bei dieser neuen Art der Übertragung der am Objektiv eingestellten Blende ist ein Hin- und Herbewegen des Blendenrings nach Ansetzen eines neuen Objektivs nicht mehr nötig.F2AS
+Als Nachfolger der F2SB war die F2AS mit dem Sucher DP-12, einer Weiterentwicklung des DP-3, aber mit AI-Blendenkupplung, ausgerüstet. Einführung war ebenfalls 1977. Diese Suchervariante konnte mit der automatischen Blendensteuerung DS-12 ausgestattet werden. Die älteren Steuerungen DS-1 und DS-2 passen nicht an den DP-12 Sucher.
+F2 Titan
+Bei dieser 1979 erschienene Variante war erstmals das Gehäuse, und nicht nur der Sucher, modifiziert: Frontplatte, Rückwand, Boden, Sucherbrücke und Prismendach des mitgelieferten DE-1 waren aus Titanblech hergestellt, was der Kamera eine besondere Haltbarkeit verlieh. Auch gebraucht sind diese Modelle noch sehr teuer. Es gab eine Variante mit und eine ohne Schriftzug „Titan“.
+F2 Highspeed
+Bei dieser Variante der F2 im Titangehäuse, die bis zu 10 Aufnahmen pro Sekunde machen konnte, wurde ein teildurchlässiger, nicht beweglicher Spiegel anstelle des normalen Schwingspiegels eingebaut, und ein spezieller Motor MD-100 auf Basis eines MD-1, jedoch mit zwei Batterieteilen angebracht. Die Kamera war auch ohne Motor einsetzbar, da das Modularitätsprinzip auch hier beibehalten wurde. Häufig wird der MD-100 Motor fälschlich als Variante des MD-2 bezeichnet. Der MD-2 hat jedoch im Gegensatz zum MD-100 den Anschluss für die Filmstopprückwand MF-3 (Kontakte rechts auf der Rückseite). Dieser Anschluss fehlt den Motoren MD-1 und MD-100. – Sie wurde in mindestens zwei Varianten hergestellt: Eine mit B- und eine ohne B-Verschlusszeit. Es gibt einige weitere Besonderheiten, so fehlen die Belichtungszeit 2000stel und 2 bis 10 Sekunden und ein Vorlaufwerk für den Selbstauslöser und die Abblendtaste funktioniert andersherum: Der Druck auf die Taste öffnet hier das normalerweise auf Arbeitsblende abgeblendete Objektiv.
+F2 Data
+Sie wurde zur Einbelichtung von Zusatzinformationen in das Bild entwickelt. Diese war mit entsprechenden Datenrückwänden MF-10 (für 36 Aufnahmen) und MF-11 (für 250 Aufnahmen) versehen.Die Dateneinbelichtung erfolgte mit einem in die Rückwand eingebauten Blitzgerät, das eine Abbildung entweder einer kleinen Uhr, eines Zählwerks, oder auch von handschriftlichen Notizen auf den Film brachte.
+
+
+Spezifisches Zubehör
+
+
+Nikon (vgl. auch oben)
+MF-1 Großraummagazin 250 Aufnahmen
+MF-2 Großraummagazin 750 Aufnahmen
+MZ-1 Filmkassette 250 Aufnahmen
+MZ-2 Filmkassette 750 Aufnahmen
+SB-7E Blitzgerät
+BC-7 Blitzlampenblitzgerät
+SB-6 Stroboskop-Blitzgerät mit Netz/Batterieteil LD-1
+AH-1 Handriemen
+AR-2 Drahtauslöser mit Leica-Glocke
+MC-7 Verbindungskabel von Motor zu Batterieteil
+DF-1 Fischaugensucher zum Aufstecken auf Blitzschuh
+21 mm Sucher zum Aufstecken auf Blitzschuh
+DH-1 Blendensteuerungsladegerät
+DB-1 Kältetasche für Akkus der Blendensteuerung
+DB-2 Frostschutzpack für Kamerabatterie
+MH-1 Akku-Ladegerät für Akkus MN-1 für Motorantrieb
+AR-1 Softauslöser
+MR-2 Zusatzauslöser für Motorantrieb
+MC-1 Motorverlängerungskabel (zwischen MD-1/MD-2 und Auslöser SC1)
+AR-10 Doppeldrahtauslöser für Balgen und Kameramotor
+MW-1, MW-2, ML-2 Funkfernsteuerungen
+DL-1 Illuminator zur Beleuchtung der Sucheranzeigen
+
+
+Fremdzubehör (Auswahl)
+Polaroid-Rückwand „Pro Back II“, Fa. Forscher
+Polaroid-Rückwand „Speed Magny“ mit vollem Format durch Umlenkoptik
+Voigtländer Weitwinkelobjektive mit Sucheradapter zur F2 (wird an Stelle des Standardwechselsuchers eingesteckt)
+12 mm F5.6 Ultra Wide Heliar mit Sucher
+15 mm F4.5 Heliar mit Sucher
+Vivitar „Series 1“ Objektive mit eingebauter Autofokusfunktion
+28-70 mm; 1:4
+75-200 mm, 1:4
+200 mm, 1:3,5
+Hellere Mattscheiben diverser Anbieter („Intenscreen“)
+Carl Zeiss Manuellfokusobjektive Typ ZF:
+Planar T* 1.4/50 mm ZF
+Planar T* 1.4/85 mm ZF
+Distagon T* 2.0/35 mm ZF
+Distagon T* 2.8/25 mm ZF
+Makro-Planar T* 2/50 mm ZF
+Makro-Planar T* 2/100 mm ZF
+Distagon T* 2/28 mm ZF
+
+
+Sammelobjekt und heutiger Einsatz
+Da auch heute noch viele Fotografen eine manuelle Einstellung der Bildparameter Schärfe und Belichtung bevorzugen, kann man die Nikon F2 auch heute noch als eine zeitgemäße Kamera ansehen, die zudem mit Motorantrieb, Blendensteuerung und Autofokusobjektiven ebenfalls einen hohen Automationsgrad erreichen kann. Da zum Zeitpunkt des Erscheinens kernlose Mikromotoren noch nicht verfügbar waren, ist eine entsprechend aufgerüstete Nikon F2 allerdings eine schwere und unhandliche Kamera. Ohne die Anbauten allerdings leichter als einige Nachfolgerinnen und zudem durch manuellen Filmtransport dann auch recht leise. Die (immer mögliche) manuelle Filmrückspulung als Alternative zur motorischen Rückspulung gestattet auch in Problemfällen eine Filmentnahme. Aus diesem Grund findet sich eine solche manuelle Rückspulmöglichkeit bei den Nikon-Profikameras bis zur aktuellen Nikon F6.
+Dramatische Fortschritte hat es im Bereich der Blitzsteuerung gegeben, z. B. Blitzsynchronzeiten bis 1/250 s, Blitzen bis herunter zur kürzesten Verschlusszeit, Mehrfeldblitzsteuerung etc., wo die F2 nicht mithalten kann.
+Eine Lösung zum digitalen Photographieren mit der F2, beispielsweise über eine digital umgerüstete Rückwand, ist derzeit nicht in Sicht, auch wenn die Leica R8/9 gezeigt hat, dass solche Nachrüstungen prinzipiell möglich sind.
+
+
+Altersbestimmung
+Das Baujahr einer Nikon F2 ergibt sich relativ genau aus den ersten beiden Ziffern der Seriennummer der Gehäuse-Oberkappe. Wurde die Oberkappe gewechselt, so sagt sie nichts mehr über das Baujahr der Kamera aus.
+
+
+Funktionsprüfung
+Die Nikon F2 ist äußerst robust gebaut. Ein Schwachpunkt sind die in den Photomic-Suchern verwendeten Ringwiderstände, die beim Verstellen von Belichtungszeit oder Blende von einem Kontakt überstrichen werden. Diese Widerstände können sich abnutzen oder verschmutzen, was an einer „springenden“ Nadel der Belichtungsanzeige zu erkennen ist. Bei den MD-2- und MD-3-Motoren, nicht aber beim MD-1, sind – vermutlich aus Geräuschgründen – Kunststoffzahnräder zum Einsatz gekommen, die heute vielfach verschlissen sind bzw. einfach zerbrechen. Es gibt allerdings eine Umrüstmöglichkeit auf Messingzahnräder.
+Da die Bedienung der F2 denkbar übersichtlich ist, ist ein mechanischer Funktionscheck durch „In-Augenscheinnahme“ schnell erledigt. Lässt sich der Auslöser weich auslösen, hat das Titan-Rollo des Verschlusses keine Dellen und Löcher und wackelt auch kein Objektiv an ihr, muss dann nur noch mit eingelegtem Film überprüft werden, ob sie die Verschlusszeiten einigermaßen gleichmäßig einhält. Besitzt man bereits Nikon-Objektive oder welche von Fremdherstellern mit F-Bajonett, so kann man diese alle verwenden. Es ist zu prüfen, ob die automatische Springblende funktioniert. Dafür sollte die Betätigung der Abblendtaste reichen.
+
+
+Gebrauchtmarkt
+Die F2 wurde sowohl in schwarz, als auch verchromt angeboten. Die schwarzen Gehäuse sind mittlerweile recht abgenutzt, und ein unbeschädigter und nicht überpinselter Lack ist meist nur bei Exemplaren zu finden, die von der Vitrine in die Vitrine wandern. Die Funktionalität der schwarzen F2 wird von Abschürfungen des Lacks nicht beeinträchtigt, und je beschädigter der Lack ist, desto weniger kann der Verkäufer für sie verlangen. Das darunter hervorscheinende Messing der Gehäuseoberkappe, des Suchers und der Bodenplatte verleiht ihr eine vielleicht beim Fotografen erwünschte Patina. Starke Abnutzung deutet allerdings auf eine intensive Verwendung der Kamera (z. B. durch einen Berufsphotographen) und damit auch eine entsprechend starke Abnutzung der inneren Komponenten hin.
+Trotz ihrer hohen Stückzahl (ca. 900.000 Exemplare) und damaligen Verbreitung sind auch nach Durchsetzung der Digitalfotografie die Gebrauchtpreise halbwegs konstant. Exemplare mit Photomic-Sucher können mehr kosten als solche ohne ihn (also nur in der Grundausstattung mit Prismensucher als „reine“ Nikon F2). Gerade das letzte Modell F2AS erreicht in gutem Zustand noch Preise, die den damaligen Neupreisen entsprechen.
+
+
+Kompatibilität mit Blitzgeräten
+Wie auch ihre Vorgängerin F und das Nachfolgemodell Nikon F3 hat sie keinen normalen Blitzschuh, sondern einen für die damaligen F-Modelle typischen eigenen Blitzanschluss über der Rückspulkurbel. Neben speziell dafür ausgelegten Blitzgeräten gab es einen Adapter („AS-1“) zum Anschluss normaler Blitzgeräte. Blitzautomatik bietet diese rein mechanische Kamera nicht. Studio- und Stabblitzgeräte können über den Kabelanschluss (mit Schraubgewinde) ausgelöst werden.
+
+
+Literatur
+Heiner Henniges: Nikon F-2. Kameras von Gestern für Anwender von Heute. 1992, ISBN 3-87467-500-9.
+Peter Braczko: Das Nikon Handbuch. 3., stark erweiterte Auflage. 2004, ISBN 3-88984-112-0.
+
+
+Weblinks
+
+Nikon F2 – Nikon System online
+Nikon Story, Von der Nikon F zur Nikon F2
+Deutschsprachiges Nikon F2 Forum
+Reparatur- und Modifikationsservice von Sover Wong in Großbritannien (Memento vom 9. Februar 2006 im Internet Archive)
+Beitrag im Nikonclassics Infoblog

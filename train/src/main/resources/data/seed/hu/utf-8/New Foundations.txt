@@ -1,0 +1,524 @@
+A New Foundations (NF) egy alternatív halmazelmélet. Legegyszerűbb változatában mindössze két kézenfekvő axiómából áll, amelyek nagyon hasonlítanak a naiv halmazelmélet két alapelvéhez. A ZF-hez hasonlóan az NF is számos változatban létezik; ezért aztán helyesebb elméletcsaládról beszélni. Legizgalmasabb sajátossága, hogy létezik benne univerzális halmaz, amelynek minden halmaz eleme, beleértve saját magát is.
+
+
+Története
+Eredeti változatát Willard Van Orman Quine publikálta 1937-es New Foundations for Mathematical Logic (A matematikai logika új megalapozása) című cikkében. Kezdeti népszerűségének rosszat tett, hogy Ernst P. Specker 1953-ban az NF axiómáiból cáfolta a kiválasztási axiómát. Ezzel az NF konzisztenciája is komolyan gyanúba került. Máig nyitott kérdés NF relatív konzisztenciája a standard matematikai elméletekhez képest. Ronald Jensen 1969-ben bebizonyította, hogy az NF atomos változatától, NFU-tól már független a kiválasztási axióma. Ráadásul kiderült, hogy ha a Peano-aritmetika konzisztens, akkor az NFU is az. Ezek a megnyugtató eredmények azonban már nem befolyásolták érdemben a New Foundations megítélését a matematikus társadalomban. Jelenleg aktív kutatói közül kiemelkedik Thomas Forster és Randall M. Holmes.
+
+
+Nyelvi keretek
+A New Foundations elméletcsalád a halmazelméletben szokásos azonosságjeles elsőrendű logikai nyelvet használja. Az eredeti NF elméletben az egyetlen primitív nem-logikai konstans a kétargumentumú 
+  
+    
+      
+        ∈
+      
+    
+    {\displaystyle \in }
+   relációjel. A változók értékei itt halmazok. Az atomos (urelementes) változatokban van még egy egyargumentumú halmazpredikátum is: 
+  
+    
+      
+        
+          M
+        
+      
+    
+    {\displaystyle \mathrm {M} }
+  . 
+  
+    
+      
+        
+          M
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \mathrm {M} (x)}
+   szándékolt jelentése: x halmaz. A változók megengedett értékei itt atomok és halmazok.
+
+
+Formulák rétegzése
+A komprehenziós axiómasémában használni fogjuk a rétegezhető formula fogalmát. Egy halmazelméleti formula rétegzése során az összes változóelőfordulást ellátjuk a 0, 1, 2 stb. számindexekkel a következő szabályok szerint:
+
+(i) egyazon kvantor által kötött változóelőfordulások ugyanazt az indexet kapják;
+(ii) a = szimbólum két oldalán szereplő változók ugyanazt az indexet kapják;
+(iii) az 
+  
+    
+      
+        ∈
+      
+    
+    {\displaystyle \in }
+   szimbólum bal oldalán szereplő változó eggyel kisebb indexet kap, mint a jobb oldalán szereplő;
+(iv) egyazon változó szabad előfordulásai ugyanazt az indexet kapják;Egy formulát rétegezhetőnek mondunk akkor és csak akkor, ha változóelőfordulásai (i)-(iv) szerint indexezhetőek.
+Példák rétegezhető formulákra:
+
+Példák nem rétegezhető formulákra:
+
+
+NF axiómái
+1. axióma (extenzionalitás) – Két halmaz egyenlő, ha ugyanazok az elemeik.
+  
+    
+      
+        ∀
+        z
+        
+        (
+        z
+        ∈
+        x
+        ↔
+        z
+        ∈
+        y
+        )
+        →
+        x
+        =
+        y
+      
+    
+    {\displaystyle \forall z\,(z\in x\leftrightarrow z\in y)\rightarrow x=y}
+  2. axióma (rétegzett komprehenzió) – Ha 
+  
+    
+      
+        ϕ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \phi (x)}
+   rétegezhető formula, akkor létezik egy y halmaz, melynek pontosan azok az x halmazok az elemei, melyekre 
+  
+    
+      
+        ϕ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \phi (x)}
+   teljesül.
+  
+    
+      
+        ∃
+        y
+        ∀
+        x
+        
+        (
+        x
+        ∈
+        y
+        ↔
+        ϕ
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle \exists y\forall x\,(x\in y\leftrightarrow \phi (x))}
+  
+
+
+Néhány halmazmeghatározás
+A második axióma feljogosít bennünket a szokásos 
+  
+    
+      
+        {
+        x
+        
+          |
+        
+        
+        ϕ
+        (
+        x
+        )
+        }
+      
+    
+    {\displaystyle \{x|\,\phi (x)\}}
+   halmazabsztrakciós séma használatára, amennyiben 
+  
+    
+      
+        ϕ
+        (
+        x
+        )
+      
+    
+    {\displaystyle \phi (x)}
+   rétegezhető formula.
+
+
+A paradoxonok kezelése
+Szokásos halmazelméleti keretek között (ZF-ben vagy NBG-ben) az előző szakasz (1), (6), (7) meghatározásai valódi osztályokat vezetnének be. NF-ben ezek is halmazok. Mégsem lépnek fel a szokásos halmazelméleti paradoxonok:
+
+a Russell-paradoxon azért nem, mert az 
+  
+    
+      
+        x
+        ∉
+        x
+      
+    
+    {\displaystyle x\notin x}
+   formula nem rétegezhető, ezért nem vezethető be a Russell-halmaz;
+a Cantor-paradoxon azért nem, mert a Cantor-tétel eredeti formájában nem bizonyítható;
+a Burali-Forti-paradoxon azért nem, mert a Frege-rendszámok halmaza nem jólrendezett.
+
+
+A Cantor-tétel
+Valamely x és y halmazt ekvivalensnek (egyenlő számosságúnak) mondunk akkor és csak akkor, ha létezik egy olyan f halmaz, amely bijektív módon rendeli egymáshoz x és y elemeit:
+
+  
+    
+      
+        x
+        ∼
+        y
+        ⇔
+        ∃
+        f
+        (
+        f
+        ⊆
+        x
+        ×
+        y
+        
+        ∧
+        
+        (
+        ∀
+        u
+        ∈
+        x
+        )
+        (
+        ∃
+        !
+        v
+        ∈
+        y
+        )
+        ⟨
+        u
+        ,
+        v
+        ⟩
+        ∈
+        f
+        
+        ∧
+        
+        (
+        ∀
+        v
+        ∈
+        y
+        )
+        (
+        ∃
+        !
+        u
+        ∈
+        x
+        )
+        ⟨
+        u
+        ,
+        v
+        ⟩
+        ∈
+        f
+        )
+      
+    
+    {\displaystyle x\sim y\Leftrightarrow \exists f(f\subseteq x\times y\,\land \,(\forall u\in x)(\exists !v\in y)\langle u,v\rangle \in f\,\land \,(\forall v\in y)(\exists !u\in x)\langle u,v\rangle \in f)}
+  A Cantor-tétel eredeti formája nem bizonyítható:
+
+NF 
+  
+    
+      
+        ⊬
+        
+        ∀
+        x
+        
+        x
+        ≁
+        
+          
+            P
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \nvdash \,\forall x\,x\nsim {\mathcal {P}}(x)}
+  A Cantor-tétel szokásos diagonális bizonyítása az alábbi tételhez vezet:
+
+NF 
+  
+    
+      
+        ⊢
+        
+        ∀
+        x
+        
+        
+          S
+        
+        (
+        x
+        )
+        ≁
+        
+          
+            P
+          
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \vdash \,\forall x\,\mathrm {S} (x)\nsim {\mathcal {P}}(x)}
+  Kissé zavarba ejtő módon nem bizonyítható azonban az alábbi – szokásos halmazelméleti kontextusban triviális – összefüggés:
+
+NF 
+  
+    
+      
+        ⊬
+        
+        ∀
+        x
+        
+        x
+        ∼
+        
+          S
+        
+        (
+        x
+        )
+      
+    
+    {\displaystyle \nvdash \,\forall x\,x\sim \mathrm {S} (x)}
+  Az univerzális halmaz esetében ez ment meg bennünket a Cantor-paradoxontól. Ugyanis 
+  
+    
+      
+        
+          V
+        
+        =
+        
+          
+            P
+          
+        
+        (
+        
+          V
+        
+        )
+      
+    
+    {\displaystyle \mathrm {V} ={\mathcal {P}}(\mathrm {V} )}
+  , tehát 
+  
+    
+      
+        
+          V
+        
+        ≁
+        
+          
+            P
+          
+        
+        (
+        
+          V
+        
+        )
+      
+    
+    {\displaystyle \mathrm {V} \nsim {\mathcal {P}}(\mathrm {V} )}
+   ellentmondás lenne.
+
+
+Rendszámok és számosságok
+NF-ben a szokásos Neumann-rendszámok és Neumann-számosságok nem definiálhatók (lásd például a fenti (9) formulát). Bevezethetők viszont a Frege-számosságok és Frege-rendszámok:
+
+Egy x halmaz Frege-számossága az x-szel ekvivalens halmazok halmaza:
+  
+    
+      
+        
+          |
+        
+        x
+        
+          
+            |
+          
+          
+            
+              F
+              r
+            
+          
+        
+        =
+        {
+        y
+        
+          |
+        
+        
+        x
+        ∼
+        y
+        }
+      
+    
+    {\displaystyle |x|_{\mathrm {Fr} }=\{y|\,x\sim y\}}
+  
+A fenti táblázat (6) sorában bevezetett 
+  
+    
+      
+        
+          1
+          
+            
+              F
+              r
+            
+          
+        
+        ,
+        
+          2
+          
+            
+              F
+              r
+            
+          
+        
+        ,
+        …
+      
+    
+    {\displaystyle 1_{\mathrm {Fr} },2_{\mathrm {Fr} },\dots }
+   halmazok a Frege-féle természetes számok.Egy 
+  
+    
+      
+        
+          x
+          
+            R
+          
+        
+      
+    
+    {\displaystyle x_{R}}
+   jólrendezett halmaz Frege-rendszáma a vele izomorf (egyazon rendtípusba tartozó) jólrendezett halmazok halmaza:
+  
+    
+      
+        
+          o
+          r
+          
+            d
+            
+              F
+              r
+            
+          
+        
+        (
+        
+          x
+          
+            R
+          
+        
+        )
+        =
+        {
+        
+          y
+          
+            
+              R
+              ′
+            
+          
+        
+        
+          |
+        
+        
+        
+          x
+          
+            R
+          
+        
+        ≅
+        
+          y
+          
+            
+              R
+              ′
+            
+          
+        
+        }
+      
+    
+    {\displaystyle \mathrm {ord_{Fr}} (x_{R})=\{y_{R'}|\,x_{R}\cong y_{R'}\}}
+  
+
+
+Irodalom
+Th. Forster: Set Theory with a Universal Set. Clarendon, 19952 (19921).
+R. M. Holmes: Elementary Set Theory with a Universal Set. Cahiers du Centre de logique 10. kötet. Academia, 1998.
+R. Jensen: „On the consistency of a slight(?) modification of Quine's NF”. Synthese 19 (1969), 250-263.o.
+W. V. O. Quine: „New foundations for mathematical logic”. The American Mathematical Monthly 44 (1937). 15-24.o. Újabb megjelenés in: Quine: From a Logical Point of View. Harvard UP, 19612 (19531). 81-101.o.
+J. B. Rosser: „Set Theory for Mathematicians”. McGraw-Hill, 1953.
+E. Specker: „The axiom of choice in Quine's new foundations for mathematical logic”. Proceedings of the National Academy of Sciences of the U.S.A. 39, 972-975.o.
+
+
+Külső hivatkozások
+Stanford Encyclopedia of Philosophy szócikk
+New Foundations-honlap
+New Foundations-bibliográfia

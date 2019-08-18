@@ -1,0 +1,182 @@
+항진식(恒眞式, 영어: tautology) 또는 항진명제, 토톨로지는 논리학의 용어로, 어떤 해석(interpretation)에 있어서도 항상 참이 되는 논리식이나 진술을 의미한다. 간단한 예시로 "x가 y와 같거나, x가 y와 같지 않다", "이 공은 녹색이거나 이 공은 녹색이 아니다" 따위를 들 수 있다. 어원은 그리스어에서 '같다'는 의미의 단어인 ταυτο이다.
+
+
+정의와 예시
+명제논리에서, 명제변수에 어떤 진릿값이 쓰여도 항상 참인 식을 항진식(tautology)라 한다.
+항진식은 무한히 많이 존재할 수 있다. 예컨대 다음과 같은 형태들이 존재한다:
+
+  
+    
+      
+        (
+        A
+        ∨
+        ¬
+        A
+        )
+      
+    
+    {\displaystyle (A\lor \lnot A)}
+   ("A이거나 not-A이다"), 배중률. 이 식은 오직 하나의 명제변수 A를 갖는데, 정의에 의해 이 식에 대한 어떤 valuation에서도, A에는 참 또는 거짓을 할당하고 
+  
+    
+      
+        ¬
+      
+    
+    {\displaystyle \lnot }
+  A에는 그 반대의 값을 할당하게 된다.
+
+  
+    
+      
+        (
+        A
+        →
+        B
+        )
+        ⇔
+        (
+        ¬
+        B
+        →
+        ¬
+        A
+        )
+      
+    
+    {\displaystyle (A\to B)\Leftrightarrow (\lnot B\to \lnot A)}
+   ("만약 A가 B를 시사한다면, not-B는 not-A를 시사한다, 또한 그 역도 성립한다"), 대우의 법칙.
+
+  
+    
+      
+        (
+        (
+        ¬
+        A
+        →
+        B
+        )
+        ∧
+        (
+        ¬
+        A
+        →
+        ¬
+        B
+        )
+        )
+        →
+        A
+      
+    
+    {\displaystyle ((\lnot A\to B)\land (\lnot A\to \lnot B))\to A}
+   ("만약 not-A가 B와 그 부정 not-B를 동시에 시사한다면, not-A는 거짓이어야 하며, 그러면 A는 참이어야 한다"), 귀류법(reductio ad absurdum).
+
+  
+    
+      
+        ¬
+        (
+        A
+        ∧
+        B
+        )
+        ⇔
+        (
+        ¬
+        A
+        ∨
+        ¬
+        B
+        )
+      
+    
+    {\displaystyle \lnot (A\land B)\Leftrightarrow (\lnot A\lor \lnot B)}
+   ("만약 동시에 A와 B일 수 없다면, not-A이거나 not-B이다. 또한 그 역도 성립한다"), 드모르간의 법칙.
+
+  
+    
+      
+        (
+        (
+        A
+        →
+        B
+        )
+        ∧
+        (
+        B
+        →
+        C
+        )
+        )
+        →
+        (
+        A
+        →
+        C
+        )
+      
+    
+    {\displaystyle ((A\to B)\land (B\to C))\to (A\to C)}
+   ("만약 A가 B를 시사하고, B가 C를 시사한다면, A가 C를 시사하는 것이다"), 삼단논법(연역법).
+
+  
+    
+      
+        (
+        (
+        A
+        ∨
+        B
+        )
+        ∧
+        (
+        A
+        →
+        C
+        )
+        ∧
+        (
+        B
+        →
+        C
+        )
+        )
+        →
+        C
+      
+    
+    {\displaystyle ((A\lor B)\land (A\to C)\land (B\to C))\to C}
+   ("만약 적어도 A와 B 중 하나가 참이면서, 각각이 C를 시사한다면, C는 항상 참이어야 한다"), 논거에 의한 증명(Proof by cases).최소항진식(minimal tautology)은, 더 짧은 항진식으로 대체될 수 없는 항진식을 의미한다.
+
+  
+    
+      
+        (
+        A
+        ∨
+        B
+        )
+        →
+        (
+        A
+        ∨
+        B
+        )
+      
+    
+    {\displaystyle (A\lor B)\to (A\lor B)}
+  는 항진식이지만 최소의 것은 아니다. 왜냐하면, 더 짧은 형태인 
+  
+    
+      
+        C
+        →
+        C
+      
+    
+    {\displaystyle C\to C}
+   로 대체될 수 있기 때문이다.

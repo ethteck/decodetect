@@ -1,0 +1,69 @@
+Koeficiento de efikeco estas karakterizo de efikeco de sistemo (maŝino, aparato) rilate al transformo kaj transporto de energio; ĝi estas kalkulata kiel proporcio de utile uzita energio (
+  
+    
+      
+        
+          E
+          
+            
+              u
+              t
+            
+          
+        
+      
+    
+    {\displaystyle E_{\mathrm {ut} }}
+  ), kontraŭ suma kvanto de tuta energio (
+  
+    
+      
+        
+          E
+          
+            
+              s
+              u
+              m
+            
+          
+        
+      
+    
+    {\displaystyle E_{\mathrm {sum} }}
+  ) ricevita de la sistemo. 
+Oni skribas tion ordinare kiel: 
+
+  
+    
+      
+        η
+        =
+        
+          
+            
+              E
+              
+                
+                  u
+                  t
+                
+              
+            
+            
+              E
+              
+                
+                  s
+                  u
+                  m
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \eta ={\frac {E_{\mathrm {ut} }}{E_{\mathrm {sum} }}}}
+  .
+Pro neeviteblaj perdoj de energio por frotado, varmigo de ekstera medio ktp, la koeficiento estas ĉiam malpli granda ol unu, kaj ordinare estas skribata per procentoj (%).

@@ -1,0 +1,1242 @@
+순서론에서, 순서위상(順序位相, 영어: order topology)은 전순서 집합 위의, 열린구간으로부터 생성되는 위상이다.
+
+
+정의
+원순서 집합 
+  
+    
+      
+        (
+        X
+        ,
+        ≲
+        )
+      
+    
+    {\displaystyle (X,\lesssim )}
+  이 주어졌다고 하고, 이로부터 유도되는 동치 관계를
+
+  
+    
+      
+        x
+        ∼
+        y
+        
+        ⟺
+        
+        x
+        ≲
+        y
+        ≲
+        x
+      
+    
+    {\displaystyle x\sim y\iff x\lesssim y\lesssim x}
+  로 표기하고, 이에 대한 동치류를
+
+  
+    
+      
+        [
+        x
+        
+          ]
+          
+            ∼
+          
+        
+        =
+        {
+        y
+        ∈
+        X
+        :
+        x
+        ∼
+        y
+        }
+      
+    
+    {\displaystyle [x]_{\sim }=\{y\in X\colon x\sim y\}}
+  로 표기하자. 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   위의 열린 반직선(영어: open ray)을 다음과 같이 표기하자.
+
+  
+    
+      
+        ↑
+        a
+        ∖
+        [
+        a
+        
+          ]
+          
+            ∼
+          
+        
+        =↑
+        a
+        ∖
+        ↓
+        a
+        =
+        {
+        b
+        ∈
+        X
+        :
+        a
+        ≲
+        b
+        ≴
+        a
+        }
+      
+    
+    {\displaystyle \uparrow a\setminus [a]_{\sim }=\uparrow a\setminus \downarrow a=\{b\in X\colon a\lesssim b\not \lesssim a\}}
+  
+
+  
+    
+      
+        ↓
+        a
+        ∖
+        [
+        a
+        
+          ]
+          
+            ∼
+          
+        
+        =↓
+        a
+        ∖
+        ↑
+        a
+        =
+        {
+        b
+        ∈
+        X
+        :
+        b
+        ≲
+        a
+        ≴
+        b
+        }
+      
+    
+    {\displaystyle \downarrow a\setminus [a]_{\sim }=\downarrow a\setminus \uparrow a=\{b\in X\colon b\lesssim a\not \lesssim b\}}
+  여기서 
+  
+    
+      
+        ↑
+      
+    
+    {\displaystyle \uparrow }
+  는 상폐포이며, 
+  
+    
+      
+        ↓
+      
+    
+    {\displaystyle \downarrow }
+  는 하폐포이다.
+
+
+순서 위상
+
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   위의, 다음과 같은 집합족을 부분 기저로 삼은 위상을 순서 위상이라고 한다.
+
+  
+    
+      
+        {
+        ↑
+        a
+        ∖
+        ↓
+        a
+        
+          }
+          
+            a
+            ∈
+            X
+          
+        
+        ∪
+        {
+        ↓
+        b
+        ∖
+        ↑
+        b
+        
+          }
+          
+            b
+            ∈
+            X
+          
+        
+      
+    
+    {\displaystyle \{\uparrow a\setminus \downarrow a\}_{a\in X}\cup \{\downarrow b\setminus \uparrow b\}_{b\in X}}
+  즉, 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  의 기저는 다음과 같은 꼴이다.
+
+  
+    
+      
+        (
+        ↑
+        
+          a
+          
+            1
+          
+        
+        ∖
+        ↓
+        
+          a
+          
+            1
+          
+        
+        )
+        ∩
+        ⋯
+        ∩
+        (
+        ↑
+        
+          a
+          
+            m
+          
+        
+        ∖
+        ↓
+        
+          a
+          
+            m
+          
+        
+        )
+        ∩
+        (
+        ↓
+        
+          b
+          
+            1
+          
+        
+        ∖
+        ↑
+        
+          b
+          
+            1
+          
+        
+        )
+        ∩
+        ⋯
+        ∩
+        (
+        ↓
+        
+          b
+          
+            n
+          
+        
+        ∖
+        ↑
+        
+          b
+          
+            n
+          
+        
+        )
+        
+        (
+        m
+        ,
+        n
+        ∈
+        
+          N
+        
+        ,
+        
+        
+          a
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          a
+          
+            m
+          
+        
+        ,
+        
+          b
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          b
+          
+            n
+          
+        
+        ∈
+        X
+        )
+      
+    
+    {\displaystyle (\uparrow a_{1}\setminus \downarrow a_{1})\cap \cdots \cap (\uparrow a_{m}\setminus \downarrow a_{m})\cap (\downarrow b_{1}\setminus \uparrow b_{1})\cap \cdots \cap (\downarrow b_{n}\setminus \uparrow b_{n})\qquad (m,n\in \mathbb {N} ,\;a_{1},\dots ,a_{m},b_{1},\dots ,b_{n}\in X)}
+  (여기서, 0개의 부분 집합들의 교집합은 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   전체이다.)
+만약 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  가 격자라면, 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  의 순서 위상의 기저는 다음과 같이 쓸 수 있다.
+
+  
+    
+      
+        {
+        (
+        ↑
+        a
+        ∖
+        ↓
+        a
+        )
+        ∩
+        (
+        ↓
+        b
+        ∖
+        ↑
+        b
+        )
+        
+          }
+          
+            a
+            ,
+            b
+            ∈
+            X
+          
+        
+        ∪
+        {
+        ↑
+        a
+        ∖
+        ↓
+        a
+        
+          }
+          
+            a
+            ∈
+            X
+          
+        
+        ∪
+        {
+        ↓
+        b
+        ∖
+        ↑
+        b
+        
+          }
+          
+            b
+            ∈
+            X
+          
+        
+        ∪
+        {
+        X
+        }
+      
+    
+    {\displaystyle \{(\uparrow a\setminus \downarrow a)\cap (\downarrow b\setminus \uparrow b)\}_{a,b\in X}\cup \{\uparrow a\setminus \downarrow a\}_{a\in X}\cup \{\downarrow b\setminus \uparrow b\}_{b\in X}\cup \{X\}}
+  다음과 같이 구간 표기법
+
+  
+    
+      
+        (
+        a
+        ,
+        ∞
+        )
+        =↑
+        a
+        ∖
+        ↓
+        a
+      
+    
+    {\displaystyle (a,\infty )=\uparrow a\setminus \downarrow a}
+  
+
+  
+    
+      
+        (
+        −
+        ∞
+        ,
+        b
+        )
+        =↓
+        b
+        ∖
+        ↑
+        b
+      
+    
+    {\displaystyle (-\infty ,b)=\downarrow b\setminus \uparrow b}
+  
+
+  
+    
+      
+        (
+        a
+        ,
+        b
+        )
+        =
+        (
+        a
+        ,
+        ∞
+        )
+        ∩
+        (
+        −
+        ∞
+        ,
+        b
+        )
+      
+    
+    {\displaystyle (a,b)=(a,\infty )\cap (-\infty ,b)}
+  
+
+  
+    
+      
+        (
+        −
+        ∞
+        ,
+        ∞
+        )
+        =
+        X
+      
+    
+    {\displaystyle (-\infty ,\infty )=X}
+  
+
+  
+    
+      
+        (
+        ∞
+        ,
+        b
+        )
+        =
+        (
+        a
+        ,
+        −
+        ∞
+        )
+        =
+        (
+        ∞
+        ,
+        −
+        ∞
+        )
+        =
+        ∅
+      
+    
+    {\displaystyle (\infty ,b)=(a,-\infty )=(\infty ,-\infty )=\varnothing }
+  을 적용하면, 이는 다음과 같다.
+
+  
+    
+      
+        {
+        (
+        a
+        ,
+        b
+        )
+        
+          }
+          
+            a
+            ,
+            b
+            ∈
+            X
+            ⊔
+            {
+            ±
+            ∞
+            }
+          
+        
+      
+    
+    {\displaystyle \{(a,b)\}_{a,b\in X\sqcup \{\pm \infty \}}}
+  만약 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  가 유계 격자라면, 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  의 순서 위상의 기저는 다음과 같이 쓸 수 있다.
+
+  
+    
+      
+        {
+        (
+        a
+        ,
+        b
+        )
+        
+          }
+          
+            a
+            ,
+            b
+            ∈
+            X
+          
+        
+      
+    
+    {\displaystyle \{(a,b)\}_{a,b\in X}}
+  
+
+
+반순서 위상
+
+  
+    
+      
+        (
+        X
+        ,
+        ≲
+        )
+      
+    
+    {\displaystyle (X,\lesssim )}
+   위의 상 반순서 위상(영어: upper half-order topology) 또는 좌 반순서 위상(영어: left half-order topology)은 다음과 같은 부분 기저로 정의되는 위상이다.
+
+  
+    
+      
+        {
+        ↓
+        b
+        ∖
+        ↑
+        b
+        
+          }
+          
+            b
+            ∈
+            X
+          
+        
+      
+    
+    {\displaystyle \{\downarrow b\setminus \uparrow b\}_{b\in X}}
+  마찬가지로, 
+  
+    
+      
+        (
+        X
+        ,
+        ≲
+        )
+      
+    
+    {\displaystyle (X,\lesssim )}
+   위의 하 반순서 위상(영어: lower half-order topology) 또는 우 반순서 위상(영어: right half-order topology)은 다음과 같은 부분 기저로 정의되는 위상이다.
+
+  
+    
+      
+        {
+        ↑
+        a
+        ∖
+        ↓
+        a
+        
+          }
+          
+            a
+            ∈
+            X
+          
+        
+      
+    
+    {\displaystyle \{\uparrow a\setminus \downarrow a\}_{a\in X}}
+  
+
+
+성질
+순서 위상을 준 전순서 집합은 항상 완비 정규 하우스도르프 공간이다.
+
+유한 전순서 집합 위의 순서 위상은 이산 위상이다.
+전순서 집합에 대하여, 다음 두 조건이 서로 동치이다.
+
+선형 연속체이다.
+순서 위상을 가했을 때, 연결 공간이다.
+
+
+예
+
+
+유한 집합
+
+  
+    
+      
+        {
+        a
+        ,
+        b
+        }
+      
+    
+    {\displaystyle \{a,b\}}
+  의 멱집합 위의 순서 위상을 생각하자. 이 경우, 열린집합은 다음과 같이 7개이다.
+
+  
+    
+      
+        
+          {
+          
+            ∅
+            ,
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+            ,
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\varnothing ,\{a\},\{b\},\{a,b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+            ,
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\{a\},\{b\},\{a,b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+            ,
+            ∅
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\{a\},\{b\},\varnothing \right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\{a\},\{b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\{a,b\}\right\}}
+  
+
+  
+    
+      
+        {
+        ∅
+        }
+      
+    
+    {\displaystyle \{\varnothing \}}
+  
+
+  
+    
+      
+        ∅
+      
+    
+    {\displaystyle \varnothing }
+  
+  
+    
+      
+        {
+        a
+        ,
+        b
+        }
+      
+    
+    {\displaystyle \{a,b\}}
+  의 멱집합 위의 상순서 위상의 열린집합은 다음과 같이 4개이다.
+
+  
+    
+      
+        
+          {
+          
+            ∅
+            ,
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+            ,
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\varnothing ,\{a\},\{b\},\{a,b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+            ,
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\{a\},\{b\},\{a,b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\{a,b\}\right\}}
+  
+
+  
+    
+      
+        ∅
+      
+    
+    {\displaystyle \varnothing }
+  
+  
+    
+      
+        {
+        a
+        ,
+        b
+        }
+      
+    
+    {\displaystyle \{a,b\}}
+  의 멱집합 위의 하순서 위상의 열린집합은 다음과 같이 4개이다.
+
+  
+    
+      
+        
+          {
+          
+            ∅
+            ,
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+            ,
+            {
+            a
+            ,
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\varnothing ,\{a\},\{b\},\{a,b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          
+            ∅
+            ,
+            {
+            a
+            }
+            ,
+            {
+            b
+            }
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{\varnothing ,\{a\},\{b\}\right\}}
+  
+
+  
+    
+      
+        
+          {
+          ∅
+          }
+        
+      
+    
+    {\displaystyle \left\{\varnothing \right\}}
+  
+
+  
+    
+      
+        ∅
+      
+    
+    {\displaystyle \varnothing }
+  
+
+
+자명한 순서
+집합 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   위의 동치 관계는 (자명한) 원순서를 이룬다. 이 경우, 이에 대한 순서 위상 · 상위상 · 하위상은 모두 비이산 위상이다.
+
+
+순서체
+실수체 
+  
+    
+      
+        
+          R
+        
+      
+    
+    {\displaystyle \mathbb {R} }
+  , 유리수체 
+  
+    
+      
+        
+          Q
+        
+      
+    
+    {\displaystyle \mathbb {Q} }
+  , 정수환 
+  
+    
+      
+        
+          Z
+        
+      
+    
+    {\displaystyle \mathbb {Z} }
+   자연수 집합 
+  
+    
+      
+        
+          N
+        
+      
+    
+    {\displaystyle \mathbb {N} }
+   위의 표준적 위상은 순서 위상이다. (
+  
+    
+      
+        
+          Z
+        
+      
+    
+    {\displaystyle \mathbb {Z} }
+  와 
+  
+    
+      
+        
+          N
+        
+      
+    
+    {\displaystyle \mathbb {N} }
+  의 경우 이는 이산 위상이다.)
+초실수체 
+  
+    
+      
+        
+          
+
+          
+          
+            ∗
+          
+        
+        
+          R
+        
+      
+    
+    {\displaystyle {}^{*}\mathbb {R} }
+  에도 순서 위상을 줄 수 있다. 이 경우 
+  
+    
+      
+        
+          
+
+          
+          
+            ∗
+          
+        
+        
+          R
+        
+      
+    
+    {\displaystyle {}^{*}\mathbb {R} }
+  는 완전 분리 공간이 된다.
+
+
+순서수의 위상
+순서수 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  는 정렬 집합이므로, 여기에 순서 위상을 주어 위상 공간으로 만들 수 있다. 이 경우, 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  의 극한점은 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  보다 작은 극한 순서수이다.
+순서 위상을 주었을 때, 모든 순서수는 완전 분리 공간이다. 최초의 비가산 순서수 
+  
+    
+      
+        
+          ω
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \omega _{1}}
+  은 제1 가산 공간이지만 제2 가산 공간이 아니며, 콤팩트 공간이 아니다. 
+  
+    
+      
+        
+          ω
+          
+            1
+          
+        
+        +
+        1
+      
+    
+    {\displaystyle \omega _{1}+1}
+  은 제1 가산 공간·제2 가산 공간이 아니며, 콤팩트 공간이다. 
+  
+    
+      
+        
+          ω
+          
+            1
+          
+        
+        +
+        1
+      
+    
+    {\displaystyle \omega _{1}+1}
+  은 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+  의 스톤-체흐 콤팩트화이다.
+
+
+참고 문헌
+Steen, Lynn Arthur; J. Arthur Seebach, Jr. (1978). 《Counterexamples in topology》 (영어) 2판. Springer. ISBN 978-0-387-90312-5. MR 507446. Zbl 0386.54001. doi:10.1007/978-1-4612-6290-9.   CS1 관리 - 추가 문구 (링크)
+
+
+외부 링크
+“Order topology”. 《Encyclopedia of Mathematics》 (영어). Springer-Verlag. 2001. ISBN 978-1-55608-010-4. 
+Weisstein, Eric Wolfgang. “Order topology”. 《Wolfram MathWorld》 (영어). Wolfram Research. 
+“Order topology”. 《Topospaces》 (영어). 
+“Linearly orderable space”. 《Topospaces》 (영어). 
+“Definition: order topology”. 《ProofWiki》 (영어). 
+“Order topology is Hausdorff”. 《ProofWiki》 (영어). 
+“Order topology is normal”. 《ProofWiki》 (영어).

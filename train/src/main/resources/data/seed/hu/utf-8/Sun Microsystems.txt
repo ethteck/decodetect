@@ -1,0 +1,59 @@
+A Sun Microsystems egy 1982-ben alapított, informatikai termékeket (félvezetőket, számítógépeket, szoftvereket) gyártó cég volt.
+A cég termékei többek közt szerverek, munkaállomások, melyek általában a saját SPARC processzorra és/vagy az AMD Opteron processzoraira és a SunOS, vagy Solaris operációs rendszerekre, az NFS hálózati fájlrendszerre, valamint Java környezetre építettek, az AT&T Unix System V Release 4 irányelveit, előírásait figyelembe véve. 2005 júniusától a SUN is készített laptopokat Ultra 3 Mobile Workstation néven. A NeWS és az OpenLook (a SUN saját grafikus felületei) is a sikeres vállalkozásai közé tartoztak. A cég megpróbált minél szélesebb ablakot nyitni a nyílt forráskód felé és bevonni őket a fejlesztésekbe.
+A SUN céghelye a nyugati campuson a Agnews Developmental Area-ban volt (Santa Clara, Kalifornia), mely előtte elmegyógyintézetként működött.
+A SUN neve a „Stanford University Network” („Stanfordi Egyetemi Hálózat”) kezdőbetűiből származik. A Sun ezenkívül a napot is jelenti angolul.
+2009. április 20-án a Sun és az Oracle bejelentette, hogy az Oracle felvásárolja a Sun Microsystems-t 7,4 milliárd dollárért.
+
+
+A Sun Microsystems rövid története
+A Sun munkaállomások első konstrukcióit a Stanford Egyetemen Palo Altóban, Kalifornia államban készítették el, egyetemi diákok. A cég alapítói: Vinod Khosla, Scott McNealy, Bill Joy és Andy Bechtolsheim. Közülük Scott McNealy és Andy Bechtolsheim maradtak (máig) a Sunnál. A Sun logóját Vaughan Pratt professzor tervezte (Stanford Egyetem).
+A Sun hírességei között megemlítendő John Gilmore, Bill Joy és James Gosling, akik a kezdeti időszaktól kezdve a Sun munkatársai voltak. Billy Joyt akkor hívták meg, amikor a BSD-n dolgozott az UC Berkeley-ben Ken Thompson égisze alatt.
+Mialatt James Gosling és munkatársai a Java programozási nyelv megalkotásán munkálkodtak, a Sun egyike lett a legjobb és legnagyobb ipari vállalatoknak, ez már a cég mottójában is kifejeződik: „The Network is the Computer™” („A hálózat a számítógép”). Ezt leginkább Jon Bosak tudta, aki elkészítette az XML specifikációt a W3C-nek.
+A Sun-nal kapcsolatban említésre érdemes, hogy az internetes világ két meghatározó cégének, a Cisco-nak és a Google-nak az alapítói is korábban a Sun Microsystems-nél dolgoztak.
+A Sun érdekes logóját Vaughan Pratt professzor tervezte. Eredetileg az oldalak vízszintesek és függőlegesek voltak, de a négyzet az egyik újratervezésnél a sarkára lett állítva.
+27 év független működés után, 2009. április 20-án a Sun bejelentette, hogy az Oracle 7,4 milliárd dollárért felvásárolja a céget.
+
+
+Számítógépek, processzorok
+A Sun számítógépek gyártásával is foglalkozott. Gépeiben a Sun 1-től a Sun 3-ig Motorola 68000 processzort használt. A késői 1980-as években a Sun eladott néhány Intel 80386-ra épülő gépet, melyet „Sun 386i”-nek neveztek. Később a Sun 4-es sorozatnál, a cég már saját processzorarchitektúrát fejlesztett ki SPARC néven, mely megfelelt az IEEE szabvány RISC architektúrájának. Jelenleg a Sun kínálatában is szerepel 64 bites processzor, UltraSPARC néven.
+A Sun jelenlegi eladásainak fontos részét képezik a főleg a web fejlődésével keresetté vált blade szerverek, háttértároló rendszerek, illetve egyre több szervert adnak el CISC architektúrájú AMD Opteron processzorokkal.
+
+
+Operációs rendszerek
+A Sun 1 gépekben nemcsak a processzor, de az operációs rendszer sem volt belső gyártmányú, a UniSoft V7 UNIX operációs rendszerével szállították. Később 1982-ben a Sun a 4.1BSD UNIX egy átírt változatát adta munkaállomásaihoz. 1992-ben a Sun az AT&T-vel együttműködve a BSD Unixot és a System V-ot integrálta Solaris operációs rendszerébe, ami ebből következően a UNIX System V-on alapul.
+A Sun készített egy biztonságosabb Solarist, melynek neve: Trusted Solaris.
+A Sun gyakran alkalmaz főbb technológiáinak licencelésénél közösségi licenceket, beleértve néhány nyílt forráskódú publikációt is. Mára a Linuxot is stratégiájának részévé tette – miután, lévén kezdetben nem sok figyelemre méltatta ezt az operációsrendszer-családot, a Linux kezdte „felfalni” kiszolgálópiaci részesedését.
+A Sun fejlesztett egy Linux alapú asztali rendszert is, Java Desktop System néven (az eredeti kódneve: Madhatter), melyet x86 platformon és a Sun saját SunRay vékonykliens rendszerén lehetett használni.
+2005-ben a Solaris 10 megjelenése után megnyitotta az operációs rendszere forráskódját az OpenSolaris projekt keretében.
+
+
+A Java platform
+A Java Platformot az 1990-es évek elején kezdték el fejleszteni. A cél egy olyan eszköz elkészítése, mely segítségével nem kell minden operációs rendszerhez külön-külön megírni a programot, hanem elég egyszer is. Jelszavuk: „Write once, run everywhere” (=írd meg egyszer, futtasd mindenhol).
+A Java platform három fő részre osztható: a Java programozási nyelvre, a Java virtuális gépre és végül a Java alkalmazásprogramozási felületre (API).
+A Java programozási nyelv egy objektumorientált nyelv. 1995 óta egyike a legnépszerűbb programozási nyelveknek.
+A Java nyelven írt programok képesek (szinte) bármilyen platformon futni, mert a Java alkalmazásokat bájtkódra fordítják. Ezt a bájtkódot képes bármelyik JVM (Java virtuális gép) futtatni (a lényeg, hogy az adott platformra [hardver–szoftver] létezzen Java virtuális gép).
+A Java API-ja széles körben használható könyvtári rutinokat is tartalmaz. Az API Standard Edition (standard kiadás) célpontja az alap („normál”) munkaállomás, míg az Enterprise Edition (vállalati kiadás) a nagyvállalati szintű alkalmazás-kiszolgálókat futtató nagy cégeket célozza meg. (Az alkalmazás-kiszolgáló olyan kiszolgáló, melyen a programot futtatják, míg a munkaállomáson csak a program felülete, futásának eredményei jelennek meg.) A Micro Edition (mikrokiadás) elsősorban a kis erőforrással rendelkező, illetve mobil eszközökre készült (például mobiltelefonok).
+2006. november 16-án bejelentették, hogy újra licencelik a Java megvalósításukat a GPL alatt. Még aznap meg is nyitották a fordító programjukat és virtuális gépüket.
+
+
+Irodai csomagok
+A Sun megvásárolta a StarOffice-t a német StarDivision cégtől,
+majd OpenOffice.org néven nyílt forráskódúvá tette. Az LGPL-es OpenOffice.org a szabad szoftveres közösség vezető irodai csomagja, de vállalati körben is jelentős részesedést ért el a piacvezető Microsoft Office mellett.
+A jelenleg kapható StarOffice termék zárt forráskódú, de az OpenOffice.org forráskódjára épül. Az alapvető különbség a StarOffice és az OpenOffice.org között, hogy a StarOffice nagyobb támogatást nyújt a felhasználóknak, beleértve ebbe a Microsoft Excel VBA nyelvével való kompatibilitást, a Windows-éval megegyező betűtípusokat, dokumentációt és kisegítő lehetőségeket. A különbségek és a nyílt forráskód ellenére a Sun az OpenOffice.org-hoz is kínál vállalati szaktanácsadást.
+
+
+Adatbázis kezelők
+A Sun felvásárolta a MySQL adatbázist fejlesztő MySQL AB-t 2008-ban 1 mrd USD-ért. Jonathan Schwartz (CEO) blogjában említette, hogy a MYSQL teljesítményének optimalizálása volt a felvásárlás egyik legfőbb indoka. 2008. februárjában a Sun elkezdte publikálni results of the MySQL teljesítmény optimizálási munka eredményeit. A Sun részt vett a PostgreSQL projektben. Java platformon pedig a Sun részt vett és támogatta a Java DB-t.
+
+
+További információk
+
+A Sun hivatalos honlapja (angolul)
+A Sun magyarországi hivatalos honlapja (magyarul)
+Sun termékek magyarországi online áruháza (magyarul)
+A Sun legnagyobb magyar nyelvű online termékkínálata, 60 napos ingyenes próba akciók (magyarul)
+Sun-hírek archívuma (angolul)
+Sun.lap.hu - linkgyűjtemény
+
+
+Jegyzetek

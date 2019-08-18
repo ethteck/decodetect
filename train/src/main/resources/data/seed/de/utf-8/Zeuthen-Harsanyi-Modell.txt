@@ -1,0 +1,100 @@
+Das Zeuthen-Harsanyi-Modell (auch Zeuthen-Harsanyi-Spiel oder Zeuthen-Modell bzw. Zeuthen-Lösung genannt) ist ein nichtkooperativer Verhandlungsansatz, der ursprünglich von Frederik Ludvig Bang von Zeuthen (1930) entwickelt und später durch John Harsanyi (1977) für die Spieltheorie wiederentdeckt wurde. Dieses Modell kann als nichtkooperative Implementierung der kooperativen Nash-Lösung angesehen werden (zu der es auch konvergiert).
+
+
+Situation
+Zwei Spieler schlagen jeweils eine pareto-effiziente Auszahlung vor. Dabei werde der Vorschlag von Spieler 1 mit 
+  
+    
+      
+        x
+        =
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          x
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle x=(x_{1},x_{2})}
+   und derjenige von Spieler 2 mit 
+  
+    
+      
+        y
+        =
+        (
+        
+          y
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle y=(y_{1},y_{2})}
+   bezeichnet. Das heißt, jeder Spieler schlägt sowohl eine Auszahlung für sich selbst als auch für seinen Mitspieler vor. Wenn der Vorschlag, den Spieler 1 für sich selbst macht, und derjenige Anteil, den Spieler 2 für sich vorschlägt, innerhalb der möglichen Verhandlungsmenge liegen, ist das Spiel beendet: 
+  
+    
+      
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        )
+        ∈
+        S
+      
+    
+    {\displaystyle (x_{1},y_{2})\in S}
+  . Wenn das nicht der Fall ist, können die Spieler ihre Drohpunkt-Auszahlung 
+  
+    
+      
+        
+          d
+          
+            i
+          
+        
+      
+    
+    {\displaystyle d_{i}}
+   erhalten (Nichteinigung) oder in eine Verhandlung eintreten.
+Die sich anschließende Frage lautet, welcher Spieler eine Konzession (Zugeständnis) machen muss und in welcher Höhe. Dieses Problem kann über Konfliktwahrscheinlichkeiten bzw. Konfliktmaße gelöst werden.
+
+
+Literatur
+J. C. Harsanyi: Rational Behavior and Bargaining Equilibrium in Games and Social Situations. Cambridge Univ. Press, Cambridge 1977, ISBN 0-521-20886-6.
+F. Zeuthen: Problems of Monopoly and Economic Warfare. Routledge, London 1930.
+S. K. Berninghaus, K. M. Erhart, W. Güth: Strategische Spiele: Eine Einführung in die Spieltheorie. 2., überarb. und erw. Auflage. Berlin u. a. 2010, Kapitel 4.2.1.2.
+
+
+Einzelnachweise

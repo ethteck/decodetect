@@ -1,0 +1,15 @@
+Mobil haritacılık mobil bir platforma monte edilmiş, yüksek algılama gücüne sahip donanımlar yardımıyla, konuma bağlı noktasal verilerin toplanması anlamına gelir.
+Kullanılan donanımlardan bir kaçı; dijital kameralar, lazer tarayıcılar, ışıklı radar, navigasyon ve konumlandırma sistemleridir.
+Mobil Haritalama yapılan bölgede, cadde-sokak ve buna bağlı alanlarda yer alan her türlü obje, nesne ya da taşınmaza görüntüleri bir paket olarak sunulur. Hazırlanan veri ve görüntü kümesi sayesinde uzunluk, yükseklik, mesafe ve alan hesaplama gibi temel işlevlerle uygulamalarını çalıştırabilirler.
+Kullanıcılar noktasal koordinat alabilir, varsayılan noktadan 360 derece keşif yapabilirler. Farklı birimlerin, aynı alan üzerinde çalışmasına izin verir. Bu sayede alt yapı çalışmalarının farklı kurumlarca tek altlık üzerinde oluşturulması sağlanır.
+
+
+İleri okumalar
+Tao, C. V. (2007) Advances in mobile mapping technology: Volume 4 of International Society for Photogrammetry and Remote Sensing book series. (ISSN 1572-) Taylor & Francis. ISBN 0415427231
+Gao, J. (2009) Digital Analysis of Remotely Sensed Imagery. McGraw Hill Professional. ISBN 0071604650.
+Zlatanova, S. & Li, J. (2008) Geospatial Information Technology for Emergency Response: Volume 6 of International Society for Photogrammetry and Remote Sensing book series. Routledge. ISBN 0415422477.
+van Oosterom, Peter (2008) Advances in 3D geoinformation systems: Lecture notes in geoinformation and cartography. Springer. ISBN 3540721347.
+Hofmann-Wellenhof, B., Legat, K., Wieser, M. (2003) Navigation: principles of positioning and guidance Springer. ISBN 3211008284.
+Vitrià, J., Radeva, P., Aguiló, I. (2004) Recent advances in artificial intelligence research and development: Volume 113 of Frontiers in artificial intelligence and applications. IOS Press. ISBN 1586034669.
+Gavrilova, M.L. (2006) Computational science and its applications: ICCSA 2006 : international conference, Glasgow, UK, May 8-11, 2006 : proceedings. Springer. ISBN 3540340726.
+Weng, Q. (2009) Remote Sensing and GIS Integration: Theories, Methods, and Applications McGraw Hill Professional. ISBN 007160653X.

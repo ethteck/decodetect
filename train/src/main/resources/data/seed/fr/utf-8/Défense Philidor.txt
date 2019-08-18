@@ -1,0 +1,57 @@
+La défense Philidor est une ouverture au jeu d'échecs qui est obtenue (dans son ordre de coups traditionnel) par les coups 1.e4 e5 2.Cf3 d6.
+
+
+Historique
+Son nom vient de François-André Danican Philidor, considéré comme le plus grand joueur du XVIIIe siècle, ayant établi l'importance cruciale des chaînes de pions (dont un exemple est constitué ici dès l'ouverture par la chaîne c7-d6-e5), qui la recommandait comme une alternative au plus habituel 2…Cc6 dans son livre L'Analyse du jeu des échecs. Son idée originale était, après avoir consolidé le pion e5 par …d6, d'attaquer les blancs au centre par …f5. Cette poussée de pion ayant rapidement été considérée comme trop risquée par la plupart des grands joueurs, les noirs se sont tournés vers la défense du centre par 3…Cd7, l'échange de pions par 3…exd4 ou la contre-attaque sur e4 par 3…Cf6. Siegbert Tarrasch considère la prise e5xd4 comme presque toujours fautive, non seulement ici mais dans toutes les ouvertures.
+La défense Philidor est réputée solide, mais assez passive. Après le XIXe siècle où elle fut très populaire, elle n'a plus été très jouée, malgré les efforts d'Aaron Nimzovitch durant le premier quart du XXe siècle, de Bent Larsen, qui a développé la ligne 3…exd4 suivi de …g6 au début des années 1970. Cependant, à partir des années 1990, la possibilité d'utiliser l'ordre de coups de la défense Pirc est explorée par quelques joueurs de haut niveau, comme Étienne Bacrot ou Liviu-Dieter Nisipeanu. D'autres joueurs de haut niveau y recourent lorsqu'ils ne veulent pas employer leur répertoire d'ouvertures normal, par exemple par crainte d'une préparation adverse. C'est le cas d'Alexander Morozevich et de Maxime Vachier-Lagrave.
+
+
+Variantes principales sur l'ordre de coups moderne
+De nos jours, la défense Philidor est rarement jouée à haut niveau dans l'ordre de coups originel à cause de la variante 1.e4 e5 2.Cf3 d6 3.d4 Cf6 4.dxe5 Cxe4 5.Dd5!, qui donne l'initiative aux blancs. Elle est donc généralement obtenue par transposition à partir de la défense Pirc : 1.e4 d6 2.d4 Cf6 3.Cc3 Cbd7 4.Cf3 e5.
+Dans la pratique moderne, la variante généralement jouée est 1.e4 d6 2.d4 Cf6 3.Cc3 Cbd7 4.Cf3 e5 5.Fc4 Fe7 6.0-0 0-0 et la partie est revenue dans la variante Hanham de la Philidor, qui en est la variante principale. L'ordre de coups 1.e4 d6 2.d4 e5 se rencontre aussi. Comme dans la défense vieille-indienne, les Blancs peuvent alors jouer 3.dxe5 et échanger les dames en déroquant les noirs, mais ils n'obtiennent qu'un petit avantage pouvant difficilement mener au gain de la partie.
+Une ligne alternative a été introduite par Alexei Shirov : 1.e4 d6 2.d4 Cf6 3.Cc3 Cbd7 4.Cf3 e5 5.g4. Ce gambit mène à des positions très tactiques.
+
+
+Variantes principales sur l'ordre de coups classique
+1.e4 e5 2.Cf3 d6
+
+3.d4 est le coup usuel
+3…f5 introduit la contre-attaque Philidor, autrement appelé contre-gambit Philidor, qui était l'intention originale de l'inventeur de cette défense. Les variantes usuelles sont :
+a) 4.Fc4! Cc6! (Défense Morphy) ou 4... exd4,
+b) 4.Cc3 fxe4 5.Cxe4 Cf6!
+c) 4.dxe5 fxe4 5.Cg5 d5 6.e6!
+c1) 6... Fc5!? (variante Berger)
+c2) 6... Fb4+ (variante Mechkarov)
+c3) 6... Ch6
+d) 4.exf5 e4
+e) 4.Fd3!?
+3…Cf6 4.Cc3 Cbd7 5.Fc4 Fe7 6.0-0 0-0 est la variante Hanham, dans laquelle les noirs cherchent habituellement à entrer dans la pratique actuelle à haut niveau.
+3…exd4 4.Cxd4
+4... g6 5.Cc3 Fg7 6.Fe3 est la variante Larsen.
+4... Cf6 5.Cc3 Fe7 est la variante Antochine qui, comme la Larsen, est réputée très aiguë.3.Fc4 est rare. Il permet aux blancs de jouer d3 au lieu de d4.
+
+
+Exemples de parties
+
+
+Partie de l'opéra
+
+Paul Morphy - Duc de Brunswick & Comte Isouard (en consultation), Paris, 1858 :
+partie dite de l'Opéra
+1. e4 e5 2. Cf3 d6 3. d4 Fg4? 4. dxe5 Fxf3 5. Dxf3 dxe5 6. Fc4 Cf6 7. Db3! De7 8. Cc3 c6 9. Fg5 b5 10. Cxb5!! cxb5 11. Fxb5+ Cbd7 12. o-o-o Td8 13. Txd7! Txd7 14. Td1 De6 15. Fxd7+ Cxd7 16. Db8+!! Cxb8 17. Td8 mat.
+Cette partie est exemplaire de l'importance de l'avance de développement dans les parties ouvertes. Elle fut jouée à l'Opéra de Paris lors d'une représentation de la Norma.
+
+
+La « dame folle »
+Dans cette partie jouée à La Nouvelle-Orléans en 1920 entre Edwin Ziegler Adams et Carlos Torre, les blancs opèrent de manière répétée des pseudo-sacrifices de Dame qui ne peuvent être acceptés sous peine de se voir infliger le mat du couloir. Cette partie est commentée par Camil Seneca dans son livre Les échecs.
+1. e4 e5 2. Cf3 d6 3. d4 exd4 4. Dxd4 Cc6 5. Fb5 Fd7 6. Fxc6 Fxc6 7. Cc3 Cf6 8. o-o Fe7 9. Cd5! Fxd5 10. exd5 o-o 11. Fg5 c6 12. c4 cxd5 13. cxd5 Te8 14. Tfe1 a5 15. Te2! Tc8 16. Tae1 Dd7 17. Fxf6!! Fxf6 18. Dg4!! Db5 19. Dc4!! Dd7 20. Dc7!! Db5 21. a4!! Dxa4 22. Te4!! Db5 23. Dxb7!! 1-0 (les noirs abandonnent). La Dame n'a plus de case de fuite où elle continuerait à contrôler la case e8, et où elle empêcherait ainsi le mat du couloir.
+
+
+Bernstein - Tartakover (1937)
+Un joli piège, dans une partie jouée à Paris en 1937 entre Ossip Bernstein et Xavier Tartakover:
+1. e4 e5 2. Cf3 d6 3.d4 Cf6 4.dxe5 Cxe4 5. Fc4 Fe6 Ici, Tartakover s'écarte de la théorie. On recommande 5…c6, mais Tartakover préfère tendre un piège : 6. Fxe6 fxe6 7. De2 d5 8. Db5+ Cc6 9. Cd4 Dd7 10. Dxb7 Fb4+!! 11.c3 Cxd4!! 12. Dxa8+ Re7 13. Dxh8 Db5! avec gain de la dame. Bernstein abandonne.
+
+
+Notes et références
+
+ Portail des échecs

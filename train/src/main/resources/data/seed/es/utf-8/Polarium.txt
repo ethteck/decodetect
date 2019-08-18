@@ -1,0 +1,25 @@
+Polarium (original japonés: 直感ヒトフデ Chokkan Hito-fude) es un videojuego de puzzle desarrollado por Mitchell Corporation para Nintendo DS. En el juego, los jugadores usan el stylus para dibujar caminos en la pantalla táctil con el objetivo de resolver diferentes puzzles.
+
+
+Jugabilidad
+En Polarium, al jugador se le plantean puzzles en los cuales debe realizar líneas las cuales voltearán las baldosas que lo compongan, cambiando su color de blanco a negro y viceversa.
+El objetivo es conseguir que el entramado tenga cada una de sus líneas horizontales con sólo un color de baldosa. Es decir, que cada línea tenga todas sus baldosas blancas, o todas sus baldosas negras, pero nunca albergar baldosas negras y blancas al mismo tiempo. Es indiferente que haya algunas líneas blancas y otras líneas negras, el objetivo es que cada una de las líneas horizontales sea de color uniforme.
+Se pueden usar un espacio exterior a la zona de juego, correspondiente a una baldosa, para conseguir una línea continua que tenga más posibilidades a la hora de girar baldosas.
+
+
+Modos de juego
+Dependiendo del modo de juego, el jugador tendrá que resolver un puzzle con sólo un trazo o ir eliminando líneas con trazos sucesivos mientras van apareciendo nuevas baldosas al estilo del juego Tetris.
+
+Desafío: El jugador debe hacer líneas de color uniforme mientras llegan nuevas baldosas de manera continua. Las baldosas vienen con una rutina determinada que el jugador experto debe conocer para hacer líneas rápidamente. Si se acumulan demasiadas baldosas la partida se acaba. El objetivo es obtener la mayor puntuación posible y acceder al nivel más alto posible.
+Rompecabezas: Se proponen al jugador 100 puzzles distintos con dificultad creciente para resolver con un sólo trazo. Los puzzles se van desbloqueando conforme el jugador va resolviendo los anteriores. Incluye la opción de Editar, en la que se permite al jugador diseñar puzzles. Se pueden albergar hasta 40 puzzles. Cada uno genera un código que se puede compartir con otros usuarios del juego, desafiándolos así a resolverlo.
+Duelo: Modo multijugador que permite competir con otro poseedor de una Nintendo DS mediante la conexión inalámbrica. Sólo es necesario un cartucho. En este modo, los jugadores tratan de hacer líneas rápidamente y de esa forma penalizar al rival.
+Extras: Se permite al jugador realizar un entrenamiento para aprender las reglas básicas del juego, enviar y recibir puzzles creados mediante el modo Editar dentro de Rompecabezas, realizar ajustes de imagen y sonido o contemplar los créditos.Además, dispone de un modo de práctica para que el jugador novel se haga con los controles básicos.
+
+
+Otras versiones
+Casi un año después del lanzamiento de Polarium en Japón, Mitchell Corporation desarrolló una versión del juego para Game Boy Advance llamada Polarium Advance. Se elimina la posibilidad del control táctil, pero contiene casi cuatro veces más puzzles que la versión de Nintendo DS en el modo rompecabezas.
+
+
+Enlaces externos
+Página oficial
+Polarium Puzzle Archive (en inglés)

@@ -1,0 +1,39 @@
+A testbed nagyobb fejlesztési projektek kísérleti platformja.
+(Szó szerinti fordításban tesztágy, de a publikációkban, nyelvektől függetlenül, testbed-nek hívják, ezért zavaró lenne a magyarosított változat).
+A testbed lehetővé teszi tudományos elméletek, számítástechnika eszközök, és új technológiák reprodukálható, szigorú és átlátszó tesztelését.
+Ezt a fogalmat széles körben, számos tudományágban (diszciplína) használják, fejlesztési környezet leírására, ahol az élő, vagy termelési környezettől hazárdoktól védett tesztelés végezhető.
+A testbed egy módszer különleges modulok tesztelésére, izolált módon.
+Kissé hasonló a homokozóhoz, de nem feltétlenül a biztonságosság a fő cél.(A homokozó, biztonságos futtató környezetek létrehozását lehetővé tevő technológia).
+A testbed-et egy koncepció, egy elképzelés, vagy egy új modul kipróbálásakor használják, amikor bizonyítani kell az eredeti elgondolás helyességét, mielőtt beintegrálják a rendszerbe.
+Egy keretet szimulálnak a tesztelés alatt lévő modulhoz, úgy, hogy az hasonlóan viselkedhet, mintha része lenne egy nagyobb rendszernek.
+Egy tipikus testbed lehet szoftver, hardver, vagy hálózati komponens.
+Szoftver fejlesztésnél, egy speciális hardver és szoftver környezetet hoznak létre, mely a tesztelés alatt lévő alkalmazás testbed-je.
+Testbed-ek azok az oldalak is az interneten, ahol a felhasználóknak lehetősége nyílik kipróbálni egy CSS, vagy HTML alkalmazást, mielőtt élesben működne.
+
+
+Példák
+Az Arena webböngésző, egy korai testbed, melyet a WC3 (World Wide Web Consortium), és a CERN hozott létre, HTML3, CSS, PNG, és libwww progarmok tesztelésére.Az Arenát az Amaya váltotta fel új web szabványok tesztelésére.A Line Mode browser új funkcióval bővült a libwww könyvtár tesztelésére. .A  libwww fejlesztés alatt lévő hálózati protokollok tesztelésére is alkalmas.
+
+
+Irodalom
+Stocks, Phil; Carrington, David: A framework for specification-based testing. (hely nélkül): IEEE Transactions on Software Engineering 22 (11). 1996.  777–793. o.  
+
+
+Kapcsolódó szócikkek
+World Wide Web Consortium
+CERN
+CSS
+PNG
+Libwww
+Amaya
+protokoll
+http://event.cwi.nl/W4G/WS94/usertools.html
+http://www.ros.org/wiki/libwww
+https://web.archive.org/web/20120217040433/http://erulemaking.cs.cmu.edu/data.php
+http://testbed.fmi.fi/
+http://www.planet-lab.eu/
+https://web.archive.org/web/20030205061330/http://www.yggdrasil.com/Products/Arena/
+Sandbox
+
+
+Jegyzetek

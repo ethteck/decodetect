@@ -1,0 +1,28 @@
+Le Tune-o-matic destiné initialement aux guitares électriques est un chevalet mécanique qui a été créé par la société Gibson et utilisé pour la première fois sur la guitare Les Paul Custom en 1954. Puis il a été utilisé progressivement sur presque tous les autres modèles de guitares de la marque, à commencer par la Les Paul Goldtop qui auparavant était pourvue d'un combiné chevalet-cordier appelé Stopbar. Par la suite d'autres fabricants se sont inspirés de l'idée Gibson pour réaliser leurs propres systèmes. L'utilisation d'un Tune-o-matic ou d'un système assimilé s'est généralisé à la presque totalité des guitares électriques.
+
+
+Fonction
+Le Tune-o-matic permet de régler individuellement la longueur vibrante de chaque corde afin d'obtenir une intonation correcte, c'est-à-dire une justesse des notes sur toute la longueur utile de la touche de guitare.
+La théorie est que lorsqu'on presse sur une corde sur la touche pour produire une note, la pression exercée augmente la tension de la corde, et ce d'autant plus que l'action est importante, ce qui déplace la hauteur de la note au-dessus de la valeur désirée. Pour compenser cet écart, le sillet du chevalet doit être légèrement déplacé vers l'arrière afin d'augmenter la longueur vibrante de la corde. La compensation nécessaire à une bonne intonation varie en fonction de plusieurs paramètres, notamment le calibre des cordes, la matière utilisée dans la fabrication de ces cordes, le diapason de la guitare, etc. Il faut retenir que globalement plus le calibre de la corde est gros plus le recul du sillet doit être grand. C'est pour cela que l'on peut voir sur les guitares acoustiques, dépourvues de système de réglage, le sillet positionné en biais sur le chevalet.
+
+
+Construction
+
+Le Tune-o-matic est constitué d'un ensemble de pièces métalliques. Le corps se présente sous la forme d'une barre arrondie aux extrémités, dans laquelle des cavités sont aménagées pour recevoir des petites pièces jouant le rôle de sillet. Au travers de ces sillets passe une vis permettant de les déplacer d'avant en arrière. La barre est percée d'un trou à chaque bout pour recevoir les axes de fixation. Il existe plusieurs modes de fixation du Tune-o-matic et en fonction du mode choisi, les pièces utilisées pour ce faire varient sensiblement. Le plus rudimentaire consiste en deux tiges filetées directement fixées dans la table et sur chaque tige filetée un petit disque cranté sert à la fois de support et de moyen de réglage en hauteur du corps du Tune-o-matic. Un système de fixation plus élaboré est constitué de deux inserts, fixés dans la table, dans lesquels viennent des pièces décolletées un peu en forme de toupie. Ces pièces ont une partie filetée qui se visse dans l'insert, une partie lisse pour tenir le Tune-o-matic et un disque cranté pour le réglage en hauteur.
+Les corps des Tune-o-matic sont souvent fabriqués dans des alliages à base de zinc. Ils sont réalisés en utilisant une technique de moulage plutôt qu'une technique d'usinage beaucoup plus onéreuse. D'autres matières peuvent être utilisées telles que l'aluminium, le titane, le laiton etc. Pour la finition, les traitements de surface les plus courants sont nickel, chrome, or et chrome noir.
+
+
+Variétés
+Les trois types de Tune-o-matic les plus courants sont :
+
+Le Standard 
+Initialement produit par Gibson sous la référence ABR-1. Le corps est assez étroit, les vis de sillet sont d'un côté simplement posées sur le bord du corps nécessitant un système de retenue, un simple fil d'acier, pour éviter que les sillets tombent lors d'un changement de corde ou casse inopinée.
+Le Moderne 
+Il a un corps plus large, donc une plus grande amplitude du réglage des sillets. Le disque de support est plus étroit et non cranté. Les axes sont plus gros, est fendus comme une tête de vis à leur extrémité supérieure, permettant d'effectuer le réglage en hauteur à l'aide d'un tournevis.
+Le Classique 
+Il a un corps étroit comme le ABR-1 mais un système de fixation des sillets similaire au Moderne. Selon les besoins, ce modèle est proposé par les fabricants avec des options différentes.
+
+
+Notes et références
+
+ Portail de la guitare

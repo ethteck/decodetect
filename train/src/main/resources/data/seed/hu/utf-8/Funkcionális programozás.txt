@@ -1,0 +1,61 @@
+A funkcionális programozás (angolul: functional programming) egy programozási módszertan, vagyis egyike a programozási paradigmáknak. Nevezhetjük applikatív programozásnak is. A funkcionális programnyelvek a programozási feladatot egy függvény kiértékelésének tekintik. A két fő eleme az érték és a függvény, nevét is függvények kitüntetett szerepének köszönheti.
+Egy más megfogalmazás szerint, a funkcionális programozás során a programozó inkább azt specifikálja programban, mit kell kiszámítani, nem azt, hogy hogyan, milyen lépésekben. Függvények hívásából és kiértékelésből áll a program. Nincsenek állapotok, mellékhatások (nem számít, mikor, csak az melyik függvényt hívjuk).A rekurzió a funkcionális programozás egyik fontos lehetősége, az ismétlések és ciklusok helyett rekurziót alkalmazhatjuk.
+
+
+Áttekintés
+Alapjául a lambda-kalkulus (vagy λ-kalkulus) szolgál, a tisztán funkcionális nyelvek a matematikában megszokott függvényfogalmat valósítják meg. Az ilyen programozás során a megoldandó feladatnál az eredményhez vezető út nem is biztosan ismert, a program végrehajtásához csupán az eredmény pontos definíciója szükséges. Tisztán funkcionális programozás esetén tehát nincs állapot és nincs értékadás.
+Egy egyszerű funkcionális program például az f f1 kifejezés, ahol az f egy függvényértéket eredményező kifejezés (röviden függvény), az f1 pedig egy tetszőleges kifejezés. Matematikailag ezt úgy is mondhatjuk, hogy az 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   függvényt alkalmazzuk az 
+  
+    
+      
+        f
+        1
+      
+    
+    {\displaystyle f1}
+   argumentumra.
+Egy Haskell nyelven írt példa, a faktoriális függvény definíciója:
+
+Ugyanez Erlang nyelven:
+
+A faktoriális függvény egy lehetséges megadása Lisp nyelven:
+
+Végül egy lambda-absztrakciós megoldás Standard ML (SML) nyelven:
+
+
+Történelem
+Az egyik korai funkcionális nyelv a Lisp, melyet John McCarthy alkotott meg az 1950-es évek végén. A ma legelterjedtebb változatai az általános célú Common Lisp és Scheme nyelvek.
+Az első típusos funkcionális nyelv az ML (Meta Language) egyik korai változata volt, amit Robin Milner készített az 1970-es évek közepén a Edinburgh-i Egyetemen, melyben megvalósította típuselméleti eredményeit. Ezt a nyelvet alapvetően logikai állítások és tételek bizonyítására tervezték.
+A Hope és egyéb funkcionális nyelvek, köztük az ML és NPL által inspirálva dolgozták ki az SML, azaz Standard ML nyelvet az 1980-as évek közepétől. Több dialektusa is készült, mint például az OCaml.
+
+
+Funkcionális nyelvek
+APL
+Clojure
+Common Lisp
+Curl
+DAX
+Elm
+Erlang
+F#
+Haskell
+Hope
+Lisp
+ML
+OCaml
+SASL
+Scala
+Standard ML
+Wolfram Language
+…
+
+
+Források

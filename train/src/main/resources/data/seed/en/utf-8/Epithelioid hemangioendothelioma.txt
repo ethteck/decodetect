@@ -1,0 +1,46 @@
+Epithelioid hemangioendothelioma (eHAE) is a rare tumor, first characterized by Sharon Weiss and Franz Enzinger that both clinically and histologically is intermediate between angiosarcoma and hemangioma. However, a distinct, disease-defining genetic alteration recently described for EHE indicates that it is an entirely separate entity from both angiosarcoma and hemangioma.
+EHE is a soft tissue sarcoma and is generally considered a vascular cancer insofar as the ‘lesional’ cells have surface markers typical of endothelial cells, (cells lining the interior of blood vessels). EHE was originally described as occurring most commonly in the veins of the extremities (arms and legs) and two organs, the liver and lungs. It has since been described in organs throughout the body. In addition to liver and lungs, bones and skin have been the most frequent organs.
+Before the initial description of Weiss, the tumor had been reported under a variety of other names, including histiocytoid hemangioendothelioma, intravascular bronchoalveolar tumor (in the lung), and sclerosing cholangiocarcinoma. In the lung and liver, common sites of metastatic tumor, it was most likely to be confused with carcinoma a far more common type of tumor.
+EHE typically occurs in the 20 – 40 age range although the overall age range involved is much broader and a modest predilection for females over males. It often has an indolent course, and many affected people have survived for decades with multi-organ disease.[1]:601 The extent and number of organs involved apparently has little effect on longevity.
+
+
+Genetics
+The cytogenetics of EHE gave some of the first clues of an underlying genetic alteration. A balanced, reciprocal translocation t(1;3)(p36.3;q25) in EHE tumor cells was first described by Mendlick et al. in 2001 (PMID 11342784). This led to the landmark paper by Tanas et al. in 2011(PMID 21885404) describing the specific genes involved in the translocation associated with the most common forms of EHE. This alteration results in the fusion of genes coding for two transcription co-activators (transcriptional regulators): TAZ (transcriptional co-activator with PDZ-binding motif) also known as WWTR1 (WW domain-containing transcription regulator protein 1) and CAMTA1 (calmodulin-binding transcription activator 1). The names in parenthesis are not relevant to casual (or even science) readers but are included to help distinguish them from other genes. For instance, another gene with an entirely different function, Tafazzin, is unrelated to EHE but confusingly, also referred to as TAZ. In any case, the EHE translocation results in an abnormal ‘fusion gene’ that expresses an abnormal mRNA resulting in synthesis of a fusion protein variant of TAZ that is always turned on. This form of TAZ always resides in the nucleus and therefore is constitutively active. It binds and turns on a very important member of the TEAD family of transcription factors and this causes cells to proliferate. It is this production of the TAZ-TEAD transcriptome that causes the affected endothelial cells to grow into tumors. In normal cells, TAZ is considered a major negative transducer of the Hippo pathway, a signaling system that regulates organ size by causing cells to stop growing when they touch each other (contact inhibition). Many upstream inputs regulate the Hippo signal which normally functions to turn off or de-activate TAZ by keeping it in the cytoplasm and out of the nucleus. In EHE cells, the abnormal fusion TAZ is ‘immune’ to this input and just stays in the nucleus, and continuing to stimulate cell growth.
+Note that about 10% of EHE patients harbor a different translocation. This one similarly results in the constitutive activation of YAP, an orthologue of TAZ (i.e., a gene that has sequence and function that are very similar to TAZ). This also results in persistent, unregulated growth of the affected cells and therefore causes EHE-type tumors.
+
+
+Diagnosis
+•Sirolimus: Also known as rapamycin, this oral medication suppresses the immune system and slows the growth of abnormal lymphatic vessels that form the tumor. This can help shrink EHE tumors and improve symptoms, including pain
+•Tyrosine kinase inhibitors: These drugs, designed as targeted therapies for cancers, have shown short-term success with EHE. Examples include sorafenib, sunitinib and pazopanib.
+•Vincristine: This chemotherapy drug targets all dividing cells within the body and is therefore used to treat many cancers. It is also used for aggressive benign vascular tumors.
+Interferon: The body produces interferon to combat infections or control inflammation. It has been formulated into a medication that targets blood vessel growth.
+•Multi-agent chemotherapy: EHE tumors that grow rapidly, spread to other tissues or do not respond to other medications may require more aggressive drug therapy. However, this combination of medications is rarely needed in children and young adults with EHE.
+•Others like surgery  can be done as treatment for the virus during its most severe.
+
+
+Prognosis
+Although Epithelioid Hemangioendothelioma typically presents as a low-grade tumor, occasionally, eHAE presents as high grade and more aggressive. eHAE presenting in the pleura, for example, is associated with a much more aggressive and hard to treat course. There is no standard chemotherapy treatment for eHAE at current but success with drugs such as Interferon, Paclitaxel, MAID combination chemotherapy, Thalidomide and Doxorubicin have been reported.
+
+
+Epidemiology
+It is so rare that only 0.01 percent of the cancer population has it and it affects about 1 person in every 1,000,000 worldwide. Around 20 cases are diagnosed in America every year – the cause is unknown. It is unresponsive to any known strain of chemotherapy, making treatment very difficult.
+
+
+Society
+There is a Facebook site set up for people with EHE. 
+There is also a Registry for patients to enter their medical history. 
+CRAVAT Center for Research and Analysis of VAscular Tumors is a website for the EHE community. The EHE Rare Cancer Foundation Australia was established in 2015 by Australians with Epithelioid Hemangioendothelioma (EHE). The core objective of the EHE Rare Cancer Foundation Australia is to proactively fundraise in order to support research into this rare cancer in the hope that a maintenance program or cure can be found.In 2003 photographer and actress Kris Carr was diagnosed with a stable and low grade version of eHAE. Carr has become a success as a 'Wellness Warrior' advocating a vegan lifestyle as a way to avoid and stabilize disease.
+
+
+See also
+List of cutaneous conditions
+Skin lesion
+
+
+References
+
+12^
+http://www.childrenshospital.org/conditions-and-treatments/conditions/e/epithelioid-hemangioendothelioma/diagnosis-and-treatment
+
+
+External links

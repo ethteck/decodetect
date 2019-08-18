@@ -1,0 +1,243 @@
+Baza ekonomio estas la efikeco de esprimo de donita nombro N en aparta cifereca bazo b. La ekonomio estas egala al la kvanto de ciferoj bezonataj por esprimi multiplikita per la bazo:
+
+  
+    
+      
+        E
+        (
+        b
+        ,
+        N
+        )
+        =
+        b
+        ⌈
+        
+          log
+          
+            b
+          
+        
+        ⁡
+        (
+        N
+        )
+        ⌉
+      
+    
+    {\displaystyle E(b,N)=b\lceil \log _{b}(N)\rceil }
+  Ekzemple por nombro cent (100):
+
+En bazo 2, 100=11001002 havas bazan ekonomion 7×2 = 14.
+En bazo 3, 100=102013 havas bazan ekonomion 5×3 = 15.
+En bazo 10, 100=10010 havas bazan ekonomion 3×10 = 30.
+En bazo 36, 100=2S36 havas bazan ekonomion 2×36 = 72.Por malgrandaj prezentataj nombroj estas perturboj pro la rondigo de la kvanto de bezonataj ciferoj al entjero. Tamen por malgrandaj prezentataj nombroj, ĉi tio ne tiel gravas kaj la baza ekonomio povas esti pritaksita kiel:
+
+E(b,N) ≈ b logb(N)Tiel la bazoj b1 kaj b2 povas esti komparataj por la sama N:
+
+  
+    
+      
+        
+          
+            
+              E
+              (
+              
+                b
+                
+                  1
+                
+              
+              ,
+              N
+              )
+            
+            
+              E
+              (
+              
+                b
+                
+                  2
+                
+              
+              ,
+              N
+              )
+            
+          
+        
+        ≈
+        
+          
+            
+              
+                b
+                
+                  1
+                
+              
+              
+                
+                  log
+                  
+                    
+                      b
+                      
+                        1
+                      
+                    
+                  
+                
+                ⁡
+                (
+                N
+                )
+              
+            
+            
+              
+                b
+                
+                  2
+                
+              
+              
+                
+                  log
+                  
+                    
+                      b
+                      
+                        2
+                      
+                    
+                  
+                
+                ⁡
+                (
+                N
+                )
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  
+                    b
+                    
+                      1
+                    
+                  
+                  
+                    log
+                    ⁡
+                    (
+                    N
+                    )
+                  
+                
+                
+                  log
+                  ⁡
+                  (
+                  
+                    b
+                    
+                      1
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+                
+                  
+                    b
+                    
+                      2
+                    
+                  
+                  
+                    log
+                    ⁡
+                    (
+                    N
+                    )
+                  
+                
+                
+                  log
+                  ⁡
+                  (
+                  
+                    b
+                    
+                      2
+                    
+                  
+                  )
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                b
+                
+                  1
+                
+              
+              log
+              ⁡
+              (
+              
+                b
+                
+                  2
+                
+              
+              )
+            
+            
+              
+                b
+                
+                  2
+                
+              
+              log
+              ⁡
+              (
+              
+                b
+                
+                  1
+                
+              
+              )
+            
+          
+        
+      
+    
+    {\displaystyle {{E(b_{1},N)} \over {E(b_{2},N)}}\approx {{b_{1}{\log _{b_{1}}(N)}} \over {b_{2}{\log _{b_{2}}(N)}}}={{b_{1}{\log(N)} \over {\log(b_{1})}} \over {b_{2}{\log(N)} \over {\log(b_{2})}}}={{b_{1}\log(b_{2})} \over {b_{2}\log(b_{1})}}}
+  Laŭ la formulo (por sufiĉe granda prezentata nombro), bazo e estas la plej ekonomia. Tamen por uzado entjera bazo bezonatas, kaj bazo 3 estas la plej ekonomia el ĉiuj entjeraj bazoj, la sekvaj laŭ ekonomieco estas la bazo 2 (duuma sistemo) kaj bazo 4. Pli grandaj bazoj estas pli malbonaj.
+Ĉi tio devus teorie permesi al komputiloj al esti malmulte (je proksimume 5%) pli povaj kaj memorkapablaj se ili uzus bazon 3, sed konsiderebla evoluo bezonatas por atingi ĝin startante de la kutima duuma aparataro.
+Jen estas averaĝa cifereca baza ekonomio de entjeroj 1 ... 100 en diversaj bazoj:
+
+
+Eksteraj ligiloj
+"Baza ekonomio" je Everything2

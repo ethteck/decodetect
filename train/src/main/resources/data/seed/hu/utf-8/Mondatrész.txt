@@ -1,0 +1,132 @@
+A hagyományos grammatikában mondatrészeknek nevezik azokat a szavakat vagy szócsoportokat, amelyek a mondategységen belül, legyen az egyszerű mondat vagy összetett mondat tagmondata, mondattani (idegen szóval szintaktikai) funkciókat töltenek be, és mondattani viszonyok fűzik őket össze.Nem tévesztendő össze a grammatikai mondatrész a mondat logikai és lélektani részeivel. Kevés kivétellel, elszigetelt, azaz kontextus nélküli teljes egyszerű mondatnak, akár minimális, akár bővített, amelynek egyik része sincs kiemelve, logikai és lélektani szempontból két része van, a topik (más néven téma) és a predikátum (más néven réma vagy komment). Leegyszerűsítve az előbbi az, amiről szó van, az utóbbi pedig az, amit a beszélő állít az előzőről. Csak a hagyományosan tőmondatnak nevezett szerkezeti mondattípusban esik egybe a topik a mondat szintaktikai terminussal alanynak nevezett részével, a predikátum pedig a mondat állítmánynak nevezett részével. Példa: A gyerek (topik és alany) olvas (predikátum és állítmány). Bővített mondatban a topik a mondat alanyából és csak a hozzá kapcsolódó egyéb mondatrészekből áll, a predikátum pedig az állítmányból és csak a hozzá kapcsolódó egyéb mondatrészekből: A világos szobában ülő gyerek (topik) érdekes és tanulságos könyvet olvas (predikátum).A mondatban előfordulhatnak olyan szavak vagy szócsoportok is, amelyek szintaktikai szempontból nem mondatrészek. Ilyen például az olyan főnév, amellyel rendszerint személyt szólítanak meg. Egyes nyelvekben ennek jellegzetes esetragja van, amely az ún. megszólító eset morfémája. Példa: Péter, gyere ide! Egyéb ilyen szavak a módosítószók és a partikulák. Példák:
+
+módosítószós mondat: Géza biztosan betalált a belső körbe.
+partikulás mondat: Hallottam ám a dologról.
+
+
+A mondatrészek hierarchiája
+Hagyományosan úgy tekintik, hogy a mondatnak két fő része van, az állítmány és az alany. Azonban egyes nyelvészek szerint az állítmány az egyedüli fő mondatrész, mivel csak ez lehet önálló és képes teljes mondatot alkotni, például olyan igékkel, amelyek egyes természeti jelenségeket fejeznek ki: Esteledik, Pirkad. Az emellett való érveléshez olyan egyéb példákat is felhoznak, amelyekben nincs alanyi funkciójú szó, úgymint Jössz?, Fürödjünk!, Fáradt vagyok. Más nyelvészek nem tekintik az utóbbiakat alany nélküli mondatoknak, hanem az ige személyragjával kifejezett alanyúaknak, mely külön szó alakjában is megjelenhet előző mondatban.Az állítmányon (azon szerzők szerint, akik csak ezt tartják fő mondatrésznek), illetve az állítmányon és az alanyon (azok szerint, akik mindkettőt fő mondatrészként tekintik) kívül a többi mondatrész közvetlenül vagy közvetve alárendeltje az állítmánynak vagy az alanynak. A közvetve alárendeltek előbb egy másik alárendelt mondatrésznek vannak alárendelve, és ezzel együtt képeznek alárendelt szócsoportot.
+
+
+Az állítmány
+Ez a mondatrész megállapít valamit a másik fő mondatrészről, az alanyról, kifejezve cselekvését, általa elszenvedett cselekvést, vele való történést, állapotba jutását, állapotát, állapotának változását, létezését, milétét, minőségét vagy mennyiségét.
+
+
+Az alany
+Ez az a mondatrész, amelyről az állítmánnyal a beszélő megállapít valamit, azaz az állítmányban kifejezett cselekvésnek, történésnek, állapotnak vagy létezésnek, illetve minőségi vagy mennyiségi jegynek a hordozója.Ez a definíció akkor érvényes egészében, ha csak az igenevet nem tekintjük állítmányt alkotó szófajnak mellékmondatban. Ez a helyzet a hagyományos magyar grammatikákban, de más nyelvek grammatikái szerint ekkor is lehet alanya az igenévnek. Ez általában azonos az igenevet alárendelő ige alanyával: (franciául) Je promets à Pierre de venir ’Megígérem Pierre-nek, hogy eljövök’. Azonban az igenévnek saját alanya is lehet: Je dis à Pierre de sortir ’Azt mondom Pierre-nek, hogy menjen ki’. A francia hagyományos grammatikában az ilyet összetett mondatnak tekintik, melyben Pierre egyben részeshatározó a főmondatban és alany ennek tárgyi mellékmondatában.
+
+
+Bővítmények
+Az alárendelt mondatrészek bővítményei az alaptagjuknak. Aszerint, hogy a legtöbbször milyen szófajú az alaptagjuk, a bővítmények ezzel együtt igei vagy igenévi csoportot, illetve névszói csoportot alkotnak. A tárgy és általában a határozó az igei/igenévi csoportba tartozik, a jelző pedig a névszói csoportba. Olyan vélemény is van, hogy az ige mellett a mondatban két névszói csoport van, melyek alaptagjai az alany, illetve a tárgy, és olyan is, hogy van tárgyi névszói csoport, és hogy ez az igei csoporthoz tartozik.Hogy hány bővítménytípust és -altípust vesznek számításba, és hogyan határolják el őket egymástól, az a nyelvészek nézetétől függ, mely különbözhet egyazon nyelvre vonatkozóan is. Például Kálmánné Bors – A. Jászó 2007 szerint bővítmények a tárgy, a határozó és a jelző (beleértve az értelmezőt).A francia nyelvre vonatkozóan Grevisse – Goosse 2007-nél megtalálható a complément du verbe ’az ige (és az igenevek) bővítménye’, ami a magyar grammatikákban a tárgynak és a határozóknak felel meg; a détérminant ’determináns’, melyhez a névelő, a melléknévi számnév és a melléknévi névmások tartoznak; az épithète, mely csak a melléknévi jelzőnek felel meg; külön a complément du nom ’a főnév bővítménye’, mely alatt az egyéb szófajokkal kifejezett jelző értendő; külön az apposition ’értelmező’.A román nyelv hagyományos grammatikáiban is megvan a complement ’az ige (és az igenevek) bővítménye’, ami a magyar grammatikákban a tárgynak és a határozók többségének felel meg; az atribut ’jelző’, ugyanabban az értelemben, mint a magyar grammatikákban; az element predicativ suplimentar ’állítmány-kiegészítő’, mely nagyjából az állapothatározónak felel meg.A szerb nyelv esetében Klajn 2005-nél el van határolva a dopuna ’bővítmény’, mely a magyar értelemben vett tárgyat, a részes határozót, a képes helyhatározót és a nem melléknévi jelzőt foglalja magába; az atribut, melynek a magyar melléknévi jelző és a melléknévvel kifejezett állapothatározó felel meg; az apozicija ’értelmező’; a priloška odredba ’határozószói determináns’, melyhez a magyar hely-, idő-, mód-, ok-, cél-, eszköz- és mértékhatározónak megfelelők tartoznak.Vonzatnak (idegen szóval rektumnak) nevezik azt a bővítményt, amely formáját az alaptagja pontosan meghatározza (például egy meghatározott esetragot kell viselnie), vagyis nem váltakozhat más formájú alakokkal. Ilyen például a tárgy: Olvas egy könyvet, Megnézi a filmet.Az alaptag lexikai jelentésétől függ, hogy működhet-e bővítmény nélkül. Ebből a szempontból a bővítmény lehet:
+kötelező, ha nélküle nem lehet szó helyes szószerkezetről (szintagmáról) vagy mondatról:
+
+tárgy:(magyarul) készít valamit;
+(franciául) Maman prépare un gâteau ’Mama tortát süt’ (szó szerint ’… készít’);
+(románul) Atunci el spuse o prostie, ’Akkor mondott egy butaságot’, Atunci spuse că pleacă ’Akkor azt mondta, hogy elmegy’;határozó:(magyarul) jártas a biológiában;
+(franciául) J’habite rue Danton ’A Danton utcában lakom’;
+(románul) Locuiește aici ’Itt lakik’;jelző: (montenegróiul) Radimo u nemogućim okolnostima ’Lehetetlen körülmények között dolgozunk’;
+állítmány-kiegészítő: (románul) Ea se numește Puica ’Puicának hívják’.reprezentálható, ha bizonyos körülmények között elhagyható, de mindig beleértjük a szintagmába vagy mondatba:
+
+tárgy:(magyarul) meggyógyít (valakit);
+(franciául) On connaît (ça) ’Ismerjük (ezt)’;
+(románul) Am terminat (de scris) ’Bafejeztem (az írást);határozó:(magyarul) hozzáfog (valamihez);
+(románul) N-am fost (la mare) ’Nem voltam (a tengerparton)’.fakultatív, ha beleérteni sem kell ahhoz, hogy a szintagma vagy a mondat helyes legyen:
+
+tárgy:(magyarul) A kislány (leckét) ír;
+(franciául) Pierre mange (une pomme) ’Pierre (almát) eszik’;
+(románul) Citesc (un articol) ’(Cikket) olvasok’;határozó:(magyarul) (jóízűen) alszik, (a fűben) fekszik;
+(franciául) J’ai déjeuné (d’une tranche de jambon) ’(Egy szelet sonkát) reggeliztem’;
+(románul) Scriu (părinților) ’(A szüleimnek) írok’;jelző:(magyarul) (Sült) kenyeret vettem;
+(franciául) La voiture (électrique) ne pollue pas l’air ’Az (elektromos) autó nem szennyezi a levegőt’;
+(románul) Și-a pus pantofii (cei noi) ’Felvette a(z új) cipőjét’;állítmány-kiegészítő: (románul) A plecat (râzând) ’Nevetve ment el’.
+
+
+A mondatrészek szerkezeti felépítése
+
+
+Halmozott mondatrészek
+Halmozott mondatrésznek nevezik azt a szócsoportot, amely azonos funkciójú mondatrészekből áll, és ezek között kötőszóval vagy anélkül megvalósított mellérendelő viszony van. Ennek ugyanazok a típusai, mint a mellérendelő összetett mondat tagmondatai közötti mellérendelésnek. Halmozott lehet az alany, a tárgy, a határozó és a jelző. A halmozott állítmányról megoszlanak a vélemények. Lengyel 2000 szerint van ilyen, de megjegyzi, hogy sokszor nehéz eldönteni, nem több mondatról van-e szó esetében. Ezzel szemben Kálmánné Bors – A. Jászó 2007 nem tesz említést halmozott állítmányról. A francia és a román grammatikákban az a szabály van megadva, hogy ha egy mondatban több ige van, mindegyik tagmondatot képez, akkor is, ha csak egy alany van benne.
+
+
+Kettős mondatrészek
+Kettős állítmánynak tekintik azt, amelyik a kell, szabad stb. személytelen igéből + egy személyes igéből áll, pl. kell menjek. Analóg szerkezetet más nyelvek grammatikáiban összetett mondatnak tekintenek, melyben a második egység alanyi mellékmondat. Példa: Il faut que vous répondiez ’Kell, hogy válaszoljatok’.Kettős alanynak számít az, amély egy névszóból és egy főnévi igenévből áll, olyan állítmány mellett, melyet elsősorban a tetszik, látszik, hallatszik igék adják. Példa: Az autó közeledni látszik.A kettős tárgy is egy névszóból és egy főnévi igenévből tevődik össze: „Láttam a delfineket cicázni” (Babits Mihály: Arany kísértetek). Analóg szerkezet a francia grammatikákban összetett mondatnak számít, amelyben a névszó és az igenév tárgyi mellékmondatot alkot. Példa J’entends les oiseaux chanter ’Hallom a madarakat énekelni’. A román grammatikákban ilyen szerkezet egyszerű mondat, amelyben a névszó tárgy, az igenév pedig (ebben a nyelvben határozói) állítmány-kiegészítő: L-am auzit râzând ’Hallottam őt nevetni’.A kettős határozó általában egy kezdő- és egy végpontra utal: ágról ágra (helyhatározó), évről évre (időhatározó), sorról sorra (módhatározó).
+
+
+Összetett mondatrészek
+Az összetett alany egy névszóból és egy igenévből (segédigenévből) áll: Jó volna gazdag lenni. Az összetett tárgynak azonos a szerkezete: Szeretnék tanár lenni.
+
+
+Többszörös mondatrészek
+A többszörös határozó különböző típusú határozókból áll, melyek közül, kettő esetében, az egyik alárendeltje a másiknak: az ablak alatt (hely) üldögélve (állapot) várja; nagyon (fok) sokszor (szám) megígérte. 
+A többszörös jelző esetében is alárendelő szószerkezetről van szó: a fekete kalapos férfi.
+
+
+Összekapcsolt határozó
+A határozó esetében összekapcsoltról lehet szó, amelyet értelmező határozónak is neveznek, amikor az egyik pontosítja a másik jelentését: ott, mégpedig fönn, kint a kertben (helyhatározók), mához (egy) hétre (időhatározó), kezében ernyővel (állapothatározó).
+
+
+Egynél többször kifejezett mondatrészek
+Egyes nyelvekben mondatrész lehet egynél többször is kifejezett, olyan értelemben, hogy névmással történik rá utalás ugyanabban az egyszerű mondatban. A franciában gyakori az ilyen szerkesztésű mondatrész. Kétszer fejezik ki az alanyt nyomatékosítás nélkül, kötelezően, például a következő esetekben:
+Mivel csaknem mindig külön szóval kell kifejezni az alanyt, ez a személytelen igére is érvényes, melynek van egy, az il hímnem egyes szám 3. személyű személyes névmással kifejezet grammatikainak nevezett alanya, és egy valódinak nevezett alanya: Il manque mille francs ’Ezer frank hiányzik’.
+Ugyanazt a kérdést több változattal lehet szerkeszteni. Ha az alanyt főnév fejezi ki, a pallérozott nyelvi regiszterben a neki megfelelő személyes névmás is utal rá: La vérité est-elle toujours bonne à dire ? ’Vajon az igazat mindig jó kimondani?’Nyomatékosítás céljából is gyakori ez a szerkesztési mód.
+A személyes névmással kifejezett mondatrész nyomatékosítás nélkül hangsúlytalan alakú, hacsak nem elöljárós. Nyomatékosítási céllal a hangsúlyos változatával is kifejezik: Moi, il va m’écouter ’Engem meg fog hallgatni’.
+A főnévvel kifejezett mondatrészt nyomatékosítandó a neki megfelelő névmás utal rá: Mon père, il parle peu ’Az apám keveset beszél’, Du pain, il y en a ’Kenyér, az van’, À Paris, j’y vais souvent ’Párizsba gyakran megyek’.
+A főnévvel kifejezett alanyt nagyobb nyomatékosítás érdekében háromszor is ki lehet fejezni, másodszor hangsúlyos személyes névmással, és harmadszor ennek hangsúlytalan változatával: Mon père, lui, il parle peu ’Az apám keveset beszél’.A románban is vannak esetek, amikor kötelező a kétszeres kifejezés:
+tárgy: Pe Ion l-am văzut ieri ’Iont tegnap láttam’;
+részeshatározó: „Am vrut să vi-l cânt dumneavoastră” ’El akartam énekelni önnek’ (George Topîrceanu).Máskor a kétszeres kifejezés fakultatív, főleg a mondatrész nyomatékosítása céljából:
+előreutalás az alanyra: Vine el tata și-ai să vezi tu! „Megjön az apád, és akkor megnézheted magad!”;
+hátrautalás az alanyra: Virtutea pentru dânșii ea nu există” ’Számukra az erény nem létezik’ (Mihai Eminescu).
+
+
+A mondatrészek közötti viszonyok
+
+
+Hozzárendelés
+Hozzárendelés van az alany és az állítmány között. Együtt alanyi-állítmányi szintagmát, más néven predikatív szerkezetet alkotnak. Logikai szempontból viszonyuk kölcsönös, azaz a két tag egymás jelentéskörét szűkíti. Egy olyan mondatot véve például, mint A lány olvas, az látszik, hogy az alany egy bizonyos körre korlátozza, azaz a lány személyére, az állítmány tág lehetőségeit, mivel sok mindenki olvashat. Ezzel szemben az állítmány kiválasztja abból a sok mindenből, ami elmondható az alanyról azt, hogy olvas. Strukturális szempontból is kölcsönösség van a két tag között. Legalábbis a flektáló és az agglutináló nyelvekben az állítmány egyezik az alannyal, vagyis az állítmányon látható, nyelvtől, az alany szófajától és az állítmány igealakjától függően, az alany nyelvtani kategóriáiból (szám, személy és nem) az egyik, kettő vagy mindhárom.
+
+
+Mellérendelés
+Azonos mondattani funkciójú mondatrészek között mellérendelési viszony van, ami strukturális szempontból halmozott mondatrészt eredményez. Mindegyik olyan mondatrész esetében van mellérendelés, amely halmozott lehet, tehát kivéve egyes nyelvészek szerint az állítmányt (lásd fentebb). A mellérendelés egyik megvalósulási változata az, hogy a mondatrészek közvetlenül követik egymást, beszédben csupán szünettel, írásban vesszővel elválasztva: „Hiába döngetek kaput, falat” (Ady Endre). A mellérendelés másik eszköze a mellérendelő kötőszóval való összekapcsolás. A kötőszó logikai jelentése szerint többféle mellérendelés jön létre: kapcsolatos – A fiú és a lány (olvas); ellentétes – fontos, de rossz (hír); választó – gyorsan vagy lassan (megy); következtető – győzelmet, tehát sikert (aratott); magyarázó – használhatatlan, ugyanis törött (váza).
+
+
+Alárendelés
+A fő mondatrészek és bővítményeik között alárendelési viszony jön létre. Ezt Constantinescu-Dobridor 1998 elsőfokú alárendelésnek nevezi. Egymástól különböző funkciójú bővítmények között is létezhet alárendelés, másodfokúnak nevezett. Másodfokú alárendeléssel létrejött szószerkezetet más mondatrész rendelhet alá. A névszóragozásos nyelvekben az alárendelés megvalósulhat vagy csupán az esetraggal, vagy az esetraggal és egy viszonyszóval (névutó egyes nyelvekben, elöljárószó más nyelvekben) együtt, vagy csak viszonyszóval. Névszóragozás nélküli nyelvekben, mint amilyen a francia, az esetragok szerepét elöljárók töltik be. Esetrag és viszonyszó nélküli alárendelés is van, például a melléknévi jelző és az alaptagja között, vagy a tárgy és az állítmány között a franciában.
+Általában egy mondatrész csak egyetlen másik mondatrész alárendeltje. Kivétel például a románban az állítmány-kiegészítő, mely egyrészt az állítmánynak van alárendelve, másrészt egy másik, az állítmánnyal viszonyban álló mondatrésznek. Olyan jellegzetességet, vagy az állítmányéval általában egyidejű cselekvést fejez ki, amely a másik mondatrészre utal, például az alanyra (Ion a venit supărat ’Ion haragosan jött’), a tárgyra (L-am auzit râzând ’Nevetni hallottam’) stb.
+
+
+Jegyzetek
+
+
+Források
+(románul) Avram, Mioara. Gramatica pentru toți (Grammatika mindenkinek). Bukarest: Humanitas. 1997. ISBN 973-28-0769-5
+(magyarul) Balogh Dezső – Gálffy Mózes – J. Nagy Mária. A mai magyar nyelv kézikönyve. Bukarest: Kriterion. 1971
+(horvátul) Barić, Eugenija et al. Hrvatska gramatika (Horvát grammatika). 2. kiadás. Zágráb: Školska knjiga. 1997. ISBN 953-0-40010-1 (Hozzáférés: 2018. május 3)
+(románul) Bărbuță, Ion et al. Gramatica uzuală a limbii române (A román nyelv mindennapi grammatikája). Chișinău: Litera. 2000. ISBN 9975-74-295-5 (Hozzáférés: 2018. május 3)
+(románul) Constantinescu-Dobridor, Gheorghe. Dicționar de termeni lingvistici (Nyelvészeti terminusok szótára). Bukarest: Teora, 1998; az interneten: Dexonline (DTL) (Hozzáférés: 2018. május 3)
+(magyarul) Cs. Nagy Lajos. A szóalkotás módjai. A. Jászó Anna (szerk.) A magyar nyelv könyve. 8. kiadás. Budapest: Trezor. 2007. ISBN 978-963-8144-19-5. 293–319. o. (Hozzáférés: 2018. május 3)
+(franciául) Dubois, Jean et al. Dictionnaire de linguistique (Nyelvészeti szótár). Párizs: Larousse-Bordas/VUEF. 2002
+(angolul) Eifring, Halvor – Theil, Rolf. Linguistics for Students of Asian and African Languages (Nyelvészet ázsiai és afrikai nyelveket tanulmányozó hallgatók számára). Oslói Egyetem. 2005 (Hozzáférés: 2018. május 3)
+Farkas Jenő. Román nyelvtan. Budapest: Palamart Kiadó. 2007
+(franciául) Grevisse, Maurice – Goosse, André. Le bon usage. Grammaire française (A jó nyelvhasználat. Francia grammatika). 14. kiadás. Bruxelles: De Boeck Université. 2007. ISBN 978-2-8011-1404-9
+Kálmán László – Trón Viktor. Bevezetés a nyelvtudományba. 2., bővített kiadás. Budapest: Tinta. 2007, ISBN 978-963-7094-65-1 (Hozzáférés: 2018. május 3)
+Kálmánné Bors Irén – A. Jászó Anna. Az egyszerű mondat. A. Jászó Anna (szerk.) A magyar nyelv könyve. 8. kiadás. Budapest: Trezor. 2007. ISBN 978-963-8144-19-5. 345–436. o. (Hozzáférés: 2018. május 3)
+(magyarul) Karakai Imre. Francia nyelvtan magyaroknak. 6. kiadás. Legutóbbi frissítés: 2013. december 2. (Hozzáférés: 2018. május 3)
+(szerbül) Klajn, Ivan. Gramatika srpskog jezika (A szerb nyelv grammatikája). Belgrád: Zavod za udžbenike i nastavna sredstva. 2005. ISBN 86-17-13188-8 (Hozzáférés: 2018. május 3)
+Kugler Nóra. A partikula. Magyar Nyelvőr. 122. évf. 2. sz. 1998. (április–június). 214–219. o. (Hozzáférés: 2018. május 3)
+Kugler Nóra. Próbák és szempontok a módosítószók elhatárolásához. Magyar Nyelvőr. 125. évf. 2. sz. 2001. (április–június). 233–241. o. (Hozzáférés: 2018. május 3)
+Lengyel Klára. Az állítmány. Magyar Nyelvőr. 1. sz. (január–március). 2000 (Hozzáférés: 2018. május 3)
+* (franciául) Wyler, Gabriel. Manuel de la grammaire française (A francia grammatika tankönyve). Legutóbbi frissítés: 2016. július 25 (Hozzáférés: 2018. május 3)
+
+
+Kapcsolódó szócikkek
+Alany
+Alárendelés (nyelvészet)
+Állítmány
+Értelmező
+Határozó
+Jelző
+Mondat
+Szófaj
+Szószerkezet
+Tárgy
+Vonzat

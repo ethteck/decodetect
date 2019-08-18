@@ -1,0 +1,63 @@
+La línea 46 es una línea de colectivos que une el barrio porteño de La Boca con la localidad de San Justo, ubicada en el Partido de La Matanza (Gran Buenos Aires).
+
+
+Recorridos [1]​
+
+
+La Boca - San Justo (Ramal Por Barrio Espora)
+IDADesde Av. Don Pedro de Mendoza y Necochea por Av. Don Pedro de Mendoza, Av. Almirante Brown, Brandsen, Av. Regimiento de Patricios, Defensa, Av. Caseros, Bernardo de Irigoyen, Av. Juan De Garay, Lima Este, General Hornos, Dr. Enrique Finochietto, Herrera, Ituzaingó, Paracas, Av. Caseros, Av. Amancio Alcorta, Iguazú, Santo Domingo, Oscar Natalio Bonavena, Av. Amancio Alcorta, Av. Sáenz, Traful, Alberto Einstein, Av. Perito Moreno, Agustín De Vedia, Av. Gral. Francisco Fernández de la Cruz, Av. Varela, Ana María Janer, Mariano Acosta, Balbastro, Av. Perito Moreno, Mariano Acosta, Av. Eva Perón, Av. Olivera, Rafaela, Mozart, Av. Rivadavia, cruce Av. Gral. Paz, Av. Gral. Paz Oeste, Rafaela, D' Onofrio, Ingeniero Amoretti, Alianza, Cnel. Perín, Av. Eva Perón, Av. Gral. Tomás J. Villegas, Av. Gral. Enrique Mosconi, Rincón, Florencio Varela hasta Presidente Juan Domingo Perón (Universidad Nacional de la Matanza).
+
+REGRESODesde Universidad Nacional de la Matanza por Florencio Varela, Argentina, Av. Gral. Enrique Mosconi, Av. Gral. Tomás J. Villegas, Av. Eva Perón, Cnel. Perín, Estero Bellaco, Ingeniero Pereyra, Ibarrola, Ramón L. Falcón, Av. Gral. Paz Este, Av. Rivadavia, White, Cnel. Ramón L. Falcón, Medina, Av. Olivera, Homero, Av. Eva Perón, Martínez Castro, Tte. Cnel. Casimiro Recuero, Mariano Acosta, Av. Perito Moreno, Balbastro, Mariano Acosta, Ana María Janer, Av. Varela, Av. Gral. Francisco Fernández de la Cruz, Av. Perito Moreno, Av. Sáenz, Av. Sáenz Oeste, 27 de Febrero, Av. Sáenz Este, Av. Amancio Alcorta, Pepirí, Osvaldo Cruz, Iguazú, Av. Amancio Alcorta, Dr. Ramón Carrillo, Dr. Enrique Finochietto, Salta, Av. Brasil, Tacuarí, Av. Caseros, Bolívar, Av. Martín García, Av. Regimiento de Patricios, Brandsen, Ruy Díaz de Guzmán, Olavarría, Av. Alte. Brown, Av. Don Pedro de Mendoza hasta Necochea.
+
+
+La Boca - San Justo (Ramal Por Avenida Iriarte)
+IDADesde Av. don Pedro de Mendoza y Necochea por Av. Alte. Brown, Olavarría, Necochea, Brandsen, Av. Regimiento de Patricios, Defensa, Av. Caseros, Bernardo de Irigoyen, Av. Juan de Garay, Lima Este, General Hornos, Dr. Enrique Finochietto, Herrera, Ituzaingó, Paracas, Av. Caseros, Av. Amancio Alcorta, Los Patos, Av. Vélez Sársfield, Av. Iriarte, Iguazú, Santo Domingo, Oscar Natalio Bonavena, Av. Amancio Alcorta, Av. Sáenz, Traful, Alberto Einstein, Av. Perito Moreno, Agustín de Vedia, Av. Gral. Francisco Fernández de la Cruz, Av. Varela, Ana María Janer, Mariano Acosta, Balbastro, Av. Perito Moreno, Mariano Acosta, Av. Eva Perón, Av. Olivera, Rafaela, Mozart, Av. Rivadavia, cruce Av. Gral. Paz, Av. Gral. Paz Oeste, Rafaela, D' Onofrio, Ingeniero Amoretti, Cnel. Perín, Av. Eva Perón, Av. Gral. Tomás J. Villegas, Av. Gral. Enrique Mosconi, Rincón, Florencio Varela hasta Presidente Juan Domingo Perón (Universidad Nacional de la Matanza).
+
+REGRESODesde Universidad Nacional de la Matanza por Florencio Varela, Argentina, Av. Gral. Enrique Mosconi, Av. Gral. Tomás J. Villegas, Av. Eva Perón, Cnel. Perín, Estero Bellaco, Ingeniero Pereyra, Ibarrola, Cnel. Ramón L. Falcón, Medina, Av. Olivera, Homero, Av. Eva Perón, Martínez Castro, Tte. Coronel Casimiro Recuero, Mariano Acosta, Av. Perito Moreno, Balbastro, Mariano Acosta, Ana María Janer, Av. Varela, Av. Gral. Francisco Fernández de la Cruz, Av. Perito Moreno, Av. Sáenz, Av. Sáenz Oeste, 27 de Febrero, Av. Sáenz Este, Av. Amancio Alcorta, Pepirí, Osvaldo Cruz, Iguazú, Av. Iriarte, Lafayette, Río Cuarto, Av. Vélez Sársfield, Av. Amancio Alcorta, Dr. Ramón Carrillo, Dr. Enrique Finochietto, Salta, Tacuarí, Av. Caseros, Bolívar, Av. Martín García, Av. Regimiento de Patricios, Brandsen, Ruy Díaz de Guzmán, Olavarría, Av. Alte. Brown, Av. Don Pedro de Mendoza hasta Necochea.
+
+
+La Boca - San Justo (Expreso por Autopista 25 de Mayo)
+IDA (de 17 a 21)Desde Av. Don Pedro de Mendoza y Necochea por Av. Don Pedro de Mendoza, Av. Almirante Brown, Brandsen, Av. Regimiento de Patricios, Defensa, Av. Caseros, Bernardo de Irigoyen, Av. Juan De Garay, Lima Este, General Hornos, Dr. Enrique Finochietto, Bernardo de Irigoyen, Autopista 25 de Mayo, Metrobus Autopista 25 de Mayo, Autopista Tte. Gral. Luis Dellepiane, Av. Escalada, Av. Olivera, Rafaela, Mozart, Av. Rivadavia, cruce Av. Gral. Paz, Av. Gral. Paz Oeste, Rafaela, D' Onofrio, Ingeniero Amoretti, Alianza, Cnel. Perín, Av. Eva Perón, Av. Gral. Tomás J. Villegas, Av. Gral. Enrique Mosconi, Rincón, Florencio Varela hasta Presidente Juan Domingo Perón (Universidad Nacional de la Matanza).
+
+REGRESO (de 6.30 a 10.30)Desde Universidad Nacional de la Matanza por Florencio Varela, Argentina, Av. Gral. Enrique Mosconi, Av. Gral. Tomás J. Villegas, Av. Eva Perón, Cnel. Perín, Estero Bellaco, Ingeniero Pereyra, Ibarrola, Ramón L. Falcón, Av. Gral. Paz Este, Av. Rivadavia, White, Cnel. Ramón L. Falcón, Medina, Av. Olivera, Av. Escalada, Autopista Tte. Gral. Luis Dellepiane, Metrobus Autopista 25 de Mayo, Autopista 25 de Mayo, Lima Este, Av. Brasil, Tacuarí, Av. Caseros, Bolívar, Av. Martín García, Av. Regimiento de Patricios, Brandsen, Ruy Díaz de Guzmán, Olavarría, Av. Alte. Brown, Av. Don Pedro de Mendoza hasta Necochea.
+
+
+Barrios
+ Ciudad de Buenos AiresLa Boca
+San Telmo
+Constitución
+Barracas
+Parque Patricios
+Nueva Pompeya
+Villa Soldati
+Parque Avellaneda
+Vélez Sarsfield
+Villa Luro
+Liniers Buenos AiresCiudadela
+Lomas del Mirador
+Ramos Mejía
+San Justo
+
+
+Puntos de Interés
+Estadio Alberto J. Armando (Boca Juniors)
+Parque Lezama
+Plaza de la Constitución
+Hospital Borda
+Villa 21
+Estadio Tomás Adolfo Ducó (Huracán)
+Estadio Pedro Bidegain (San Lorenzo)
+Villa 1-11-14
+Estación Liniers
+Universidad Nacional de La Matanza
+
+
+Referencias
+
+
+Enlaces externos
+Recorrido de la Línea 46 en Buenos Aires
+Línea 46 - Transonline
+Línea 46 - Tu colectivo
+
+ Wikimedia Commons alberga una categoría multimedia sobre Línea 46.

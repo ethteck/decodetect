@@ -1,0 +1,8 @@
+En omdrejningstæller eller tachometer er som navnet antyder et måleinstrument, som "tæller" omdrejningerne per tidsenhed, hvilket også kaldes rotationsfrekvensen eller omdrejningsfrekvensen.
+En omdrejningstæller benyttes ofte i motoriserede maskiner (fartøjer) og måler motorakslens omdrejninger per tidsenhed. Normalt benytter omdrejningstællere sig af enheden: Omdrejninger per minut. På de fleste omdrejningstællere står der dog "RPM", dette er engelsk for revolutions (el. revs) per minute, som betyder omdrejninger per minut.
+Der er flere grunde til at man udstyrer en motoriseret maskine med en omdrejningstæller:
+
+Vise at motoren drejer rundt.
+Vise hvornår motoren kører for hurtigt rundt. Dette vises normalt med rødt. Er rotationsfrekvensen for høj, skader det motoren.
+Indikere hvornår motoren burde have den bedste energiudnyttelse.
+Indikere hvornår motoren burde have det største drejningsmoment. Det benyttes især indenfor motorsport til at få fartøjet til at accelerere hurtigst muligt.Mange af ovenstående mål kan i dag styres elektronisk af motorens microcontroller, men det kan evt. kræve elektronisk styret gearing.

@@ -1,0 +1,136 @@
+Az időmértékes verselésen belül jambikus verselésnek nevezzük azt, amikor egy versen belül csak emelkedő (jambikus) verslábak szerepelnek. 
+
+
+Története
+A jambikus verselés atyjának Arkhilokhosz, ókori görög költőt tekintik, az Arkhilokhosz által megalkotott iambosz miatt, mely csipkelődő vers a mindennapok világából, emberi hibákat, 
+fogyatékosságokat támad és emelkedő hanglejtésben íródott. 
+Pl.: 
+
+Te vén Lükambész, mit ki nem találsz megint?
+Hol hagytad józanságodat,
+amellyel eddig éltél úgy-ahogy? De most
+egész város rajtad nevet.U — | U — | — — | U — | U — | U — |
+— — | — — | — — | U U |
+U — | U — | U — | — — | U — | U — |
+U — | — — | — — | U U
+
+
+Szabályai
+
+Az egy versen belül található verslábak mindegyikének vagy emelkedőnek (jambikusnak) kell lenniük, vagy semlegesnek. 
+Alkothatja:
+
+Jambus
+Anapestus
+Bacchius
+Paeon 4. változata
+Ionicus a minore
+Epitritos 1. változataTovábbá a semleges verslábak bármelyike helyettesíthet egy jambikus verslábat.
+
+
+Jambikus sorfajták és versszerkezetek
+
+
+Kettes jambus
+A kettes jambus a verslábak legelemibb kombinációja.  Csupán két jambusból áll, értéke 6 mora.
+
+Képlete: U — | U —
+
+
+Hármas jambus
+A kettes jambus kibővített változata, összesen 3 jambus alkotja. 
+
+Képlete: ∪ — | ∪ — | ∪ —
+
+
+Negyedfeles jambus
+A negyedfeles jambus a hármas jambus megtoldott változata, a három egymást követő jambus után egy mora értékű rövid szótag zárja ezt a sorfajtát. 
+
+Képlete: U — | U — | U — | UA hármas és a negyedfeles jambus összetételével egy versszerkezetet kapunk, melynek a neve Hármas-negyedfeles jambusú szakasz.
+
+
+Négyes jambus
+4 jambus összekapcsolódását egy sorban négyes jambusnak, vagy más néven jambikus bimeternek (görög) vagy quaternariusnak (latin) nevezzük.
+
+Képlete: U — | U — | | U — | U — ( a sort 4 jambus adja)vagy 
+U — U — | U — U — (2-2 jambus összekapcsolódik egy szón belül egy-egy dijambussá, így adva a jambikus bimetert)
+Ez is alkothat párt a hármas jambussal, ami főleg az angol költészetre jellemző. Ebben az esetben a képlet:
+
+U — | U — | U — | U —
+U — | U — | U —
+U — | U — | U — | U —
+U — | U — | U —A Szent Ambrus egyházi költő (aki a rímet megalkotta) által alkotott ambroziánus vers is jambikus bimeterre épül. 8 strófás vers, melyet 4 soros versszakok építenek fel. A versszakok egy-egy sora 8 szótagú, s 4 jambusból állnak (jambikus bimeter). 
+Elegiambusnak nevezzük azt a periódust a klasszikus költészetben mely egy kis arkhilokhoszi sorból és egy négyes jambikus sorból áll. Ha a jambikus négyes szerepel először, akkor pedig iambelegusnak hívjuk.
+
+
+Ötödfeles jambus
+Ha 4 jambus értékű versláb és pluszba egy mora értékű rövid szótag áll egymás mellett, akkor ötösfeles jambusról beszélünk. 
+
+Képlete: U — | U — | U — | U — | UAzonban ha a kitekintést is figyelembe vesszük (a sor utolsó szótagjának ritmika értéke függ a következő sor első betűjétől is) akkor a záró ∪ lehet ∪  is, ettől még ötösfeles jambusnak tekintjük, mert csak a kitekintés miatt nyúlik meg a szótag.
+Az ötösfeles jambus a négyes jambussal együtt alkotja az ötödfeles-négyes jambusú szakaszt. 
+Pl.:
+
+"Anyám, az álmok nem hazudnak,
+Takarjon bár a szemfödél:
+Dicső neve költő-fiadnak,
+Anyám, soká, örökkön él"(Petőfi Sándor: Jövendölés)
+
+U — | U — | — —| U — | UÖtödfeles jambus, melyben a 3. jambust egy spondeus helyettesíti, de mivel az semleges a vers lejtése megmarad emelkedőnek.
+
+U — | — — | U — | U —Négyes jambus, ahol a 2. jambust egy semleges spondeus helyettesíti.
+
+U — | U U | — — | U — | UÖtödfeles jambus, a 2. jambust pyrrichius, a 3. jambust spondeus helyettesíti. Mindkettő semleges, így a lejtés továbbra is jambikus marad.
+
+U — | U — | U — | U —Tiszta jambikus négyes, minden verslába jambus.
+Puskin Anyegin-strófája is ötödfeles-négyes jambikus. Ez a strófa 14 soros, rímképlete: a b a b c c d d e f f e g g. Érdekessége, hogy a szótagszám hasonul a ritmusképlethez: 
+
+9 |8 |9 |8 |9 |9 |8 |8 |9 |8 |8 |9 |8 |8
+a |b |a |b |c |c |d |d |e |f |f |e |g |g
+
+
+Ötös-hatodfeles jambus
+A két sor szinte mindig együtt szerepel. Az ötös jambus 5 jambikus verslábból áll, melyet helyettesíthetnek semleges verslábak. A hatodfeles képlete tisztán, csak jambusokkal:
+
+U — | U — | U — | U — | U — ( | U )Pl.:
+
+S ilyen legyen dalom: egy villám fénye,
+Egy könny, kimondva ezrek kínjait;
+Kit nem hevít korának érzeménye,
+Szakítsa ketté lantja húrjait!(Eötvös József: Én is szeretném)
+
+U —  | U — | U U | — — | — — | UA mondatkezdő „S” nem számít bele a ritmusba, mert megelőzi a magánhangzót. Ez egy hatodfeles jambus, melynek a 3. és 4. jambusát pyrrichius, illetve spondeus helyettesíti.
+
+— — | U — | U — | — — | U UJambikus ötös, melynek csupán a 2. és a 3. verslába jambus, a többi semleges. (pyrrichius és spondeus)
+
+— — | U — | U — | U — | U — | UHatodfeles jambus, csak az első, a kezdő jambust helyettesíti spondeus.
+
+U — | U — | — — | U — | U UJambikus ötös, 3. verslába spondeus, s egy pyrrichius-szal zár.
+Drámai jambusnak is nevezik, bár eleinte a klasszikus drámákban a 12 szótagos jambikus trimetert hívták így, de Shakespeare, az angol drámaíró előszeretettel alkalmazta drámáiban: a 10 szótagú sorok jambikus ötösek, a 11 szótagos sorok hatodfeles jambikus sorok voltak. 
+Az itáliai eredetű oktáva versben, melynek rímképlete a b a b a b c c, a ritmusképlet szintén lehet ötös-hatodfeles jambus. 
+Például Arany László, A délibábok hőse című művében a ritmust és a rímet összefűzte egymással, így a keresztrímeknél jambikus hatodfeles és ötös váltotta egymást, a záró párosrímet pedig két jambikus ötös adta. 
+A szintén itáliai eredetű tercina versben, mely 3 soros részekből áll, melyeknek ritmusképlete a b a   b c b   c d c volt ritmusképlete lehetett ötös-hatodfeles jambus, esetleg hatodfeles jambus magában. 
+A hendekaszillabus (11 szótagú) verseknek is volt hatodfeles jambikus változata, például Petrarca Pó, földi kérgem bárhogy is sodorjad című versében a második sor:
+”…vized hatalmas, száguldó folyásán:…”
+
+U — | U — — | U — | U — | U — | UA második versláb egy anapestus, mely egy szintén jambikus lejtésű, 4 mora értékű versláb. 
+A nagy alkaioszi strófa is hendekaszillabus ritmusa lehet hatodfeles jambus.
+
+
+Hatos jambus
+Más néven jambikus trimeter, mivel 3-szor (tri-) két jambus alkotja az alapját. Jellemző az ógörög drámákra, illetve Phaedrus római meseköltő szerkesztésére
+
+Képlete: U — | U — | | U — | U — | | U — | U —
+
+
+Magyar alexandrinus
+Ősi formája egy négyütemes sor volt, melyben a sorok 8 és 14 szótag között mozogtak szabadon. A XVI. századra ez a szám 12-re stabilizálódott. Eredetileg  6|6 arányban cezura (metszet) választotta el a sor két felét, de idővel ez a szabályszerűség elhanyagolódott. 
+
+Képlete: U — | U — | U — | | U — | U — | U —„…Sikolt a harci síp, riadj magyar, riadj!…”(Czuczor Gergely: Riadó)
+Ritmusképlete tiszta, mind a 6 verslába jambus. A cezurát a vessző jeleníti meg, a levegővétellel megszakítja a gondolatot, hogy felkiáltással zárja a sort.
+
+
+Források
+Fazekas-Projekt, Kulturális Enciklopédia
+Mándy Gábor: Zseb-verstan
+Klassike Versvoeten en Sterktemetra
+Gábor Ignác: Az alexandrinus átalakulása Gyöngyösitől Arany Jánosig

@@ -1,0 +1,33 @@
+The renal circulation supplies the blood to the kidneys via the renal arteries, left and right, which branch directly from the abdominal aorta. Despite their relatively small size, the kidneys receive approximately 20% of the cardiac output.Each renal artery branches into segmental arteries, dividing further into interlobar arteries, which penetrate the renal capsule and extend through the renal columns between the renal pyramids. The interlobar arteries then supply blood to the arcuate arteries that run through the boundary of the cortex and the medulla. Each arcuate artery supplies several interlobular arteries that feed into the afferent arterioles that supply the glomeruli.
+After filtration occurs, the blood moves through a small network of venules that converge into interlobular veins. As with the arteriole distribution, the veins follow the same pattern: the interlobular provide blood to the arcuate veins then back to the interlobar veins, which come to form the renal vein exiting the kidney for transfusion for blood.
+
+
+Structure
+
+
+Arteries
+The table below shows the path that blood takes when it travels through the glomerulus, traveling "down" the arteries and "up" the veins. However, this model is greatly simplified for clarity and symmetry. Some of the other paths and complications are described at the bottom of the table. The interlobar artery and vein (not to be confused with interlobular) are between two renal lobes, also known as the renal column (cortex region between two pyramids).
+
+Renal arteries
+Segmental arteries
+Lobar arteries
+Interlobar arteries
+Afferent arteriolesNote 1: The renal artery also provides a branch to the inferior suprarenal artery to supply the adrenal gland.
+Note 2: Each renal artery partitions into an anterior and posterior branch. The anterior branch further divides into the superior (apical), anterosuperior, anteroinferior and inferior segmental arteries. The posterior branch continues as the posterior segmental artery.
+Note 3: Also called the cortical radiate arteries. The interlobular artery also supplies to the stellate veins.
+Note 4: The efferent arterioles do not directly drain into the interlobular vein, but rather they go to the peritubular capillaries first. The efferent arterioles of the juxtamedullary nephron drain into the vasa recta.
+
+
+Veins
+Renal veins
+Interlobar veins
+Interlobuar vein
+
+
+Function
+
+
+Clinical significance
+
+
+References

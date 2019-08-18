@@ -1,0 +1,73 @@
+Parprogrammering er en softwareudviklingsteknik, hvor to programmører arbejder sammen ved et tastatur. Den ene skriver koden ind, og den anden reviewer hver kodelinje mens den bliver skrevet. Den person der skriver kaldes Driver. Den person der reviewer koden kaldes observer eller navigator. De to programmører skifter rolle jævnligt. 
+Mens observeren reviewer, overvejer observeren også den strategiske retning af arbejdet, og kommer med ideer til forbedringer og overvejer hvilke sandsynlige problemer der måtte opstå. Dette frigør driveren til at fokusere al sin opmærksomhed på de "taktiske" aspekter ved at færdiggøre den aktuelle opgave, idet observeren fungerer som en slags sikkerhedsnet og guide.
+
+
+Kom i gang
+
+
+Generelt
+Sørg for at der er en veldefineret opgave før i sætter jer til at par-programmere noget der forventes at tage en time eller to at færdiggøre.
+Arbejd således at der tages en lille opgave/mål ad gangen, – noget I kan færdiggøre indenfor nogle få minutter. Bare det at formulere et problem i ord, overfor et andet menneske, hjælper med til at fokusere både dig selv og din partner på opgaven. Det sikrer også at begge ved hvad I arbejder på lige nu. Man kan trygt færdiggøre denne opgave inden man begynder på noget nyt, og er mindre fristet til at forlade opgaven for at håndtere kompleksitet der lige er dukket op. Det kan man gøre senere.
+Som driver, stol på at observeren er dit sikkerhedsnet. Færdiggør det aktuelle lille mål så hurtigt du kan, og ignorer større og afledte problemer.
+Som Observer, læs koden, idet driveren skriver den. Tænk på mulige bugs, større problemer og måder at forenkle eller forbedre designet. Hvis der er fejl eller ulæselig kode, skal det straks tages op. Vent til det lille delmål er opnået med at tage større aspekter op; designforbedringer, f.eks. Skriv disse større ting ned, så driveren kan holde sig fokuseret på den aktuelle opgave. Hvis du for eksempel kan se at koden ikke tager højde for et null-input, skriv en note: "Lav en unit test for null-input".
+Skift roller hver halve time. 15 minutter er mere almindeligt.
+Skriv en unit test først, før I implementerer kode. Dette hjælper med til at definere det næste lille mål i arbejder på. På denne måde bliver det næste lille mål: "bestå Unit-testen".
+
+
+Begynder – Ekspert par sammensætning
+Den person der ved mindst om systemet eller sproget bør være driver det meste af tiden, for at sikre at begynderen forbliver aktivt engageret.
+
+
+Etikette
+Som observer, lad driveren skrive kodelinjen færdig før du påpeger en fejl.
+Vær høflig: For eksempel, hvis du bliver rettet, sig tak. Når du påpeger en fejl, så gør det nænsomt, og lad være med at træde på egoer.
+Når I har færdiggjort opgaver eller løst problemer, husk at fejre det.
+Når din partner spørger om man er enig i noget som f.eks. "Skal vi skrive den der unit test nu?" eller "Jeg tror vi kan slette den her metode nu. Er du enig?", svar klart og tydeligt "Ja" eller "Nej". Klar kommunikation reducerer usikkerheden.
+
+
+Praktiske forhold
+Sid ved bord, hvor det er nemt at flytte tastaturet mellem jer for at skifte roller.
+sørg for at være enige om basal kodestandard, så I ikke kommer til at skændes om trivialiteter.
+
+
+Fordele
+Nogle fordele ved Parprogrammering: 
+
+design kvalitet: Kortere programmer, bedre designs, færre bugs. Programkoden skal være forståelig for begge parter, ikke kun Driveren, for at blive tjekket ind. Par overvejer typisk flere designalternativer end programmører der arbejder alene, og kommer frem til enklere, mere vedligeholdelsesvenlig design, og finder designfejl meget tidligt.
+Reducerede udviklingsomkostninger: Bugs er en specielt omkostningstung del af softwareudvikling, især hvis de først findes sent i udviklingsprocessen. Idet parprogrammering kraftigt reducerer fejlraten, medfører dette en dramatisk reduktion i omkostningerne ved softwareudvikling.
+Træning og videndeling: Viden deles nemt mellem parprogrammører: De deler viden om det specifikke system og de lærer programmeringsteknikker og små tricks og fif's af hinanden. Nyansatte lærer hurtigt holdets arbejdsformer at kende gennem pararbejde.
+Løsning af svære problemer: Par oplever ofte at tilsyneladende "umulige" problemer bliver lette (eller i det mindste mulige) at løse når man arbejder sammen.
+forbedret moral: Programmører fortæller om større glæde ved arbejdet og større tillid til at deres arbejde er korrekt.
+Reduceret risiko: Eftersom kendskabet til systemet er delt mellem mange programmører er der mindre risiko for virksomheden, hvis en enkelt programmør falder fra.
+Forbedret disciplin og bedre tidsudnyttelse: Programmører er mindre tilbøjelige til at springe over unit-tests, bruge tid på personlig email eller surfe på webbet; – eller andre brud på disciplinen når de arbejde med deres partner. Partneren "Keeps them honest".
+Robust "Flow": Det virker som om det "Flow" der er i arbejdet bliver mere robust, og kommer hurtigere: Den ene spørger den anden: "Hvad arbejder vi på?" Flowet er også mere robust overfor afbrydelser: Den ene tager sig af afbrydelsen mens den anden arbejder videre.
+Færre afbrydelser: Folk er mere tilbageholdende med at afbryde et par end en der arbejder alene.' Færre arbejdsstationer: Eftersom to personer bruger én arbejdsstation, spares der én.
+
+
+Ulemper
+Udviklernes egoer: Erfarne udviklere finder det måske kedeligt at skulle oplære en mindre erfaren kollega i et parsamarbejde.
+Følelse af afsløring: En mindre erfaren udvikler kan måske føle sig afsløret eller skræmt ved udsigten til at en erfaren skal opdage ens svage sider. Dette kan resultere i svigtende engagement.
+Personlig præference: Nogle udviklere foretrækker måske at arbejde alene, og finder det svært at håndtere pararbejde.
+Oplærings-omkostning: Erfarne udviklere der arbejder alene kan sagtens være i stand til at producere kode der er ren og fejlfri fra starten, og den ekstra teoretiske gevinst ved pararbejde er måske ikke omkostningen ved en ekstra programmør værd.
+Potentielle konflikter: Forskelle i kodestil kan resultere i konflikt, og personlige konflikter kan resultere i at begge udviklere føler sig akavede og utilpasse.
+SnikSnak: Ind imellem snakker ansatte for meget om irrelevante emner, og kommer for meget ud af en tangent, f.eks. nyhederne, fælles venner, personlige problemer, etc. Andre ansatte kan føle sig foranlediget til at prøve at være charmerende eller underholdende sammen, mens de hver for sig måske ville fokusere mere på ugens milepæl... Imidlertid ved projektledere typisk hvornår gode venner risikerer at falde i fyraftensplanlægning i stedet for seriøst arbejde. Selv om det måske vil hjælpe at blive mindet om at holde fokus, så er det måske unfair at bede nære venner arbejde sammen og undgå lange snakker om deres fælles interesse.
+
+
+Videnskabelige studier
+Studier har vist at efter tilvænning og optræning af de personlige kompetencer der kræves, er to programmører mere end dobbelt så produktive som én, for en given opgave. Ifølge The Economist: 
+
+"Laurie Williams of the University of Utah in Salt Lake City has shown that paired programmers are only 15% slower than two independent individual programmers, but produce 15% fewer bugs (N.B.: The original study showed that 'error-free' code went from 70 % to 85 %; it may be more intuitive to call this a 50 % decrease of errors, from 30 % to 15 %). Since testing and debugging are often many times more costly than initial programming, this is an impressive result." Et studie af Williams et al. 2000 viste en forbedring i korrekthed på omkring 15 %, – og 20 til 40 % besparelse på tid, men mellem 15 og 60% forøgelse i indsats. Williams et al. 2000 citerer også et tidligere studie (Nosek 1998) som også havde 40% lavere tidsforbrug for en 60 % forøgelse af arbejdsindsats. 
+Et studie præsenterer et streng videnskabeligt eksperiment, hvor begynder-begynder par imod begynder-soloer oplever betydelig større produktivitetsstigninger end ekspert-ekspert-par imod ekspert-soloer.Et større nyligt arbejde (Arisholm et al. 2007) viste 48% større korrekthed for komplekse systemer, uden nogen signifikant forskel i tidsforbrug, mens simple systemer havde 20 % mindre tidsforbrug, men ingen signifikant forskel i korrekthed. Der var ingen generel reduktion i tidsforbrug, eller øget kvalitet, men en generel 84 % stigning i arbejdsindsats.
+
+
+Referencer
+
+
+Eksterne links
+All I Really Need to Know about Pair Programming I Learned in Kindergarten af Laurie Williams & Robert Kessler (2000),
+Agility counts, fra The Economist, Sep 20th 2001
+Will Pair Programming Really Improve Your Project? fra Methods & Tools
+Pair Programming Productivity: Novice-novice vs. Expert-expert International Journal of Human Computer Studies Vol 64 (2006) 915-925
+Strengthening the Case for Pair-Programming af Laurie Williams. Robert R. Kessler. Ward Cunningham. Ron Jeffries.
+Evaluating Pair Programming with Respect to System Complexity and Programmer Expertise af Erik Arisholm, Hans Gallis, Tore Dybå og Dag I.K. Sjøberg
+Index over artikler om pair programming på Agile Alliance

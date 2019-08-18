@@ -1,0 +1,687 @@
+Das gyromagnetische Verhältnis (auch: magnetogyrisches Verhältnis) 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   bezeichnet den Proportionalitätsfaktor zwischen dem Drehimpuls (oder Spin) 
+  
+    
+      
+        
+          
+            
+              X
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {X}}}
+   eines Teilchens und dem dazugehörigen magnetischen Moment 
+  
+    
+      
+        
+          
+            
+              
+                μ
+                →
+              
+            
+          
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\vec {\mu }}_{X}}
+  
+
+  
+    
+      
+        
+          
+            
+              
+                μ
+                →
+              
+            
+          
+          
+            X
+          
+        
+        =
+        
+          γ
+          
+            X
+          
+        
+        
+          
+            
+              X
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {\mu }}_{X}=\gamma _{X}{\vec {X}}}
+  .Daher folgt: 
+  
+    
+      
+        
+          γ
+          
+            X
+          
+        
+        =
+        
+          
+            
+              
+                |
+              
+              
+                
+                  
+                    
+                      μ
+                      →
+                    
+                  
+                
+                
+                  X
+                
+              
+              
+                |
+              
+            
+            
+              
+                |
+              
+              
+                
+                  
+                    X
+                    →
+                  
+                
+              
+              
+                |
+              
+            
+          
+        
+      
+    
+    {\displaystyle \gamma _{X}={\frac {|{\vec {\mu }}_{X}|}{|{\vec {X}}|}}}
+  .
+Die international verwendete Einheit des gyromagnetischen Verhältnisses ist A·s·kg−1 oder auch s−1·T−1. 
+Das gyromagnetische Verhältnis eines geladenen Teilchens ist das Produkt seines (dimensionslosen) gyromagnetischen Faktors 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   und seines Magnetons 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  , bezogen auf das reduzierte plancksche Wirkungsquantum 
+  
+    
+      
+        ℏ
+      
+    
+    {\displaystyle \hbar }
+  :
+
+  
+    
+      
+        γ
+        =
+        g
+        
+        
+          
+            μ
+            ℏ
+          
+        
+      
+    
+    {\displaystyle \gamma =g\,{\frac {\mu }{\hbar }}}
+  mit
+
+  
+    
+      
+        μ
+        =
+        
+          
+            q
+            
+              2
+              
+              m
+            
+          
+        
+        
+        ℏ
+      
+    
+    {\displaystyle \mu ={\frac {q}{2\,m}}\,\hbar }
+   dem Magneton des Teilchens
+
+  
+    
+      
+        q
+      
+    
+    {\displaystyle q}
+  : elektrische Ladung
+
+  
+    
+      
+        m
+      
+    
+    {\displaystyle m}
+  : Teilchenmasse.Das gyromagnetische Verhältnis kann bestimmt werden unter Ausnutzung des Barnett-Effektes und des Einstein-de-Haas-Effektes. In vielen anderen Experimenten, wie z. B. ferromagnetische Resonanz oder Elektronenspinresonanz, kann der Wert von 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   deutlich abweichen – in diesem Fall spricht man vom spektroskopischen Splitting-Faktor bzw. -Verhältnis.
+
+
+γℓ für reinen Bahndrehimpuls eines Elektrons
+Wie im Artikel Magnetisches Moment ausgeführt, gilt für das magnetische Moment des Bahndrehimpulses eines Elektrons: 
+
+  
+    
+      
+        
+          
+            
+              
+                μ
+                
+                  ℓ
+                
+              
+              →
+            
+          
+        
+        =
+        −
+        
+          
+            e
+            
+              2
+              
+                m
+                
+                  e
+                
+              
+            
+          
+        
+        
+          
+            
+              ℓ
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {\mu _{\ell }}}=-{\frac {e}{2m_{e}}}{\vec {\ell }}}
+  .Mit 
+
+  
+    
+      
+        −
+        e
+      
+    
+    {\displaystyle -e}
+   der Ladung des Elektrons
+
+  
+    
+      
+        
+          m
+          
+            e
+          
+        
+      
+    
+    {\displaystyle m_{e}}
+   seiner Masse.Daher folgt: 
+
+  
+    
+      
+        
+          γ
+          
+            ℓ
+          
+        
+        =
+        
+          
+            
+              
+                |
+              
+              
+                
+                  
+                    
+                      μ
+                      
+                        ℓ
+                      
+                    
+                    →
+                  
+                
+              
+              
+                |
+              
+            
+            
+              
+                |
+              
+              
+                
+                  
+                    ℓ
+                    →
+                  
+                
+              
+              
+                |
+              
+            
+          
+        
+        =
+        
+          
+            e
+            
+              2
+              
+                m
+                
+                  e
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                g
+                
+                  ℓ
+                
+              
+              
+                μ
+                
+                  B
+                
+              
+            
+            ℏ
+          
+        
+      
+    
+    {\displaystyle \gamma _{\ell }={\frac {|{\vec {\mu _{\ell }}}|}{|{\vec {\ell }}|}}={\frac {e}{2m_{e}}}={\frac {g_{\ell }\mu _{B}}{\hbar }}}
+  Mit
+
+  
+    
+      
+        
+          μ
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \mu _{B}}
+   dem Bohrschen Magneton. Der g-Faktor für die Bahnbewegung ist also 
+  
+    
+      
+        
+          g
+          
+            ℓ
+          
+        
+        =
+        1.
+      
+    
+    {\displaystyle g_{\ell }=1.}
+  
+
+
+γS für den Spin eines Teilchens
+Betrachtet man ein Teilchen mit Spin 
+  
+    
+      
+        
+          
+            
+              S
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {S}}}
+  , so gilt:
+
+  
+    
+      
+        
+          
+            
+              
+                μ
+                →
+              
+            
+          
+          
+            S
+          
+        
+        =
+        
+          γ
+          
+            S
+          
+        
+        
+          
+            
+              S
+              →
+            
+          
+        
+      
+    
+    {\displaystyle {\vec {\mu }}_{S}=\gamma _{S}{\vec {S}}}
+  , beziehungsweise 
+  
+    
+      
+        
+          γ
+          
+            S
+          
+        
+        =
+        
+          
+            
+              
+                |
+              
+              
+                
+                  
+                    
+                      μ
+                      
+                        S
+                      
+                    
+                    →
+                  
+                
+              
+              
+                |
+              
+            
+            
+              
+                |
+              
+              
+                
+                  
+                    S
+                    →
+                  
+                
+              
+              
+                |
+              
+            
+          
+        
+      
+    
+    {\displaystyle \gamma _{S}={\frac {|{\vec {\mu _{S}}}|}{|{\vec {S}}|}}}
+  Der Wert dieser Naturkonstante ist für jede Teilchenart charakteristisch. Nach derzeitiger Messgenauigkeit beträgt sie
+
+für das freie Proton:
+  
+    
+      
+        
+          γ
+          
+            Proton
+          
+        
+        =
+        2,675
+        
+        221
+        
+        8744
+        (
+        11
+        )
+        ⋅
+        
+          10
+          
+            8
+          
+        
+         
+        
+          
+            s
+          
+          
+            −
+            1
+          
+        
+        
+        
+          
+            T
+          
+          
+            −
+            1
+          
+        
+        
+      
+    
+    {\displaystyle \gamma _{\text{Proton}}=2{,}675\,221\,8744(11)\cdot 10^{8}\ \mathrm {s} ^{-1}\,\mathrm {T} ^{-1}\,}
+   für das Elektron:
+  
+    
+      
+        
+          γ
+          
+            Elektron
+          
+        
+        =
+        1,760
+        
+        859
+        
+        630
+        
+        23
+        (
+        53
+        )
+        ⋅
+        
+          10
+          
+            11
+          
+        
+         
+        
+          
+            s
+          
+          
+            −
+            1
+          
+        
+        
+        
+          
+            T
+          
+          
+            −
+            1
+          
+        
+        
+      
+    
+    {\displaystyle \gamma _{\text{Elektron}}=1{,}760\,859\,630\,23(53)\cdot 10^{11}\ \mathrm {s} ^{-1}\,\mathrm {T} ^{-1}\,}
+   dabei geben die eingeklammerten Ziffern jeweils die geschätzte Standardabweichung für den Mittelwert an, der den beiden letzten Ziffern vor der Klammer entspricht.
+Der g-Faktor für Spinmagnetismus ist  beim freien Elektron fast exakt – bis auf sieben Stellen hinter dem Komma – gleich 2. Beim freien Proton dagegen gilt Analoges keineswegs: das magnetische Moment des Protons liegt zwar der Größenordnung nach bei dem sog. „Kernmagneton“  (das wäre der Wert 
+  
+    
+      
+        
+          |
+        
+        e
+        
+          |
+        
+        ℏ
+        
+          /
+        
+        (
+        2
+        
+          m
+          
+            
+              P
+              r
+              o
+              t
+              o
+              n
+            
+          
+        
+        )
+        
+      
+    
+    {\displaystyle |e|\hbar /(2m_{\mathrm {Proton} })\,}
+  ), jedoch beträgt es ein krummzahliges Vielfaches dieses Wertes, genauer: das 2,79-fache. Auch das Neutron weist ein magnetisches Moment auf, obwohl es als ganzes elektrisch neutral ist. Sein magnetisches Moment ist das −1.91-fache des Kernmagnetons und zeigt also entgegengesetzt zu demjenigen des Protons. Es lässt sich erklären durch die Substruktur des Neutrons.
+Die ferromagnetischen Metalle Eisen, Kobalt und Nickel haben elektronische g-Faktoren ziemlich in der Nähe von 2 (z. B. nur etwa 10 % mehr oder weniger), d. h. dass der Magnetismus dieser Systeme überwiegend Spinmagnetismus ist, aber mit einem geringen Bahnanteil.
+
+
+Gyromagnetische Verhältnisse von Atomkernen
+Auch für Kerne kann dieses Verhältnis gemessen und angegeben werden. In der folgenden Tabelle sind einige Werte angegeben.
+
+
+Siehe auch
+Larmorfrequenz.
+
+
+Literatur
+Horst Stöcker: Taschenbuch der Physik. 4. Auflage, Verlag Harry Deutsch, Frankfurt am Main, 2000, ISBN 3-8171-1628-4.
+Hermann Haken, Hans Christoph Wolf: Atom- und Quantenphysik. 8. Auflage, Springer-Verlag, Berlin Heidelberg New York, 2004, S. 194 ff, ISBN 3-540-02621-5.
+
+
+Einzelnachweise

@@ -1,0 +1,57 @@
+Một đồ thị G được gọi là liên thông nếu có dây chuyền giữa mọi cặp đỉnh phân biệt đồ thị G.
+Thành phần liên thông của đồ thị G là các đồ thị con liên thông tối đại của G.
+Đồ thị G được gọi là đồ thị liên thông nếu G chỉ có một thành phần liên thông.
+Đồ thị có hướng gọi là liên thông mạnh nếu có đường đi từ a tới b và từ b tới a với mọi cặp đỉnh a và b của đồ thị.
+Đồ thị có hướng gọi là liên thông yếu nếu có đường đi giữa 2 đỉnh bất kỳ của đồ thị vô hướng nền.
+
+
+Thuật toán
+Giả sử đồ thị G gồm n đỉnh. Có thể tìm các thành phần liên thông của đồ thị bằng cách duyệt theo chiều sâu.
+Sử dụng tìm kiếm theo chiều sâu: được đưa ra trong thế kỷ 19, bởi nhà toán học người Pháp Charles Pierre Trémaux
+
+
+Mã giả
+
+Bước 1: khởi tạo biến label = 0 và gán nhãn 0 cho tất cả các đỉnh.
+Bước 2:
+Với mọi đỉnh i thuộc X 
+Nếu đỉnh i có nhãn 0 thì 
+Label = label + 1
+Viếng thăm và gán nhãn đỉnh I với nhãn là label 
+Cuối nếu 
+Cuối với mọi 
+Trong đó việc viếng thăm và gán nhãn được thực hiện với một thủ tục đệ quy như sau:
+Thủ tục Viengtham(đỉnh i, nhãn label) 
+Gán nhãn label cho đỉnh i
+Với mọi đỉnh j mà có cạnh nối với j với j
+Nếu j có nhãn 0 thì
+Gọi đệ quy Viengtham (j, label)
+Cuối nếu	
+Cuối với mọi
+Cuối thủ tục
+
+Ghi chú: khi thuật toán kết thúc thì các đỉnh nằm trong cùng 1 thành phần liên thông sẽ được gắn cùng 1 nhãn đỉnh.
+
+
+Ví dụ
+Cho đồ thị G vô hướng (4 đỉnh):
+Xét tính liên thông đồ thị G bằng thuật toán DFS:
+Bước 1: Gán nhãn các đỉnh là 0
+Bước 2: 
+Với I = 1: gán nhãn đỉnh I = 1 và xét từ đỉnh I có đường đi đến các đỉnh còn lại không
+Ta sẽ thấy từ đỉnh 1 có đường đi đến đỉnh 2 nên sẽ gán nhãn 2 là 1
+Tại đỉnh 2 ta xem có đường đi từ 2 đến các đỉnh còn lại không, từ đỉnh 2 ta đi được đến đỉnh 3 nên ta sẽ gán nhãn của đỉnh 3 là nhãn của đỉnh 2
+Tại đỉnh 3 ta xem có đường đi từ 3 đến các đỉnh còn lại không, từ đỉnh 3 ta đi được đến đỉnh 4 nên ta sẽ gán nhãn của đỉnh 4 là nhãn của đỉnh 3
+Từ đỉnh 1 ta đã đi được đến các đỉnh còn lại trong đồ thị nên G là 1 đồ thị lien thông vì G chỉ có 1 chu trình duy nhất. Kết thúc thuật toán
+
+
+Tài liệu
+Giáo trình lý thuyết đồ thị - Trần Đan Thư - Dương Anh Đức - Đại Học Khoa Học Tự Nhiên Thành phố Hồ Chí Minh - Nhà xuất bản. ĐHQG Thành phố Hồ Chí Minh
+
+
+Tham khảo
+
+
+Liên kết ngoài
+http://en.wikipedia.org/wiki/K-edge-connected_graph
+http://en.wikipedia.org/wiki/K-vertex-connected_graph

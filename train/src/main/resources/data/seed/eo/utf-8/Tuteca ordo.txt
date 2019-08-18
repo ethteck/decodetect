@@ -1,0 +1,177 @@
+En matematiko, tuteca ordo, lineara ordo aŭ simpla ordo sur aro X estas ĉiu duargumenta rilato sur X kiu estas malsimetria, transitiva, kaj tuteca. Tio signifas ke se ni nomos iun tian rilaton per ≤ , tiam jenaj propozicioj veros por ĉiuj a, b kaj c en X:
+
+se a ≤ b kaj b ≤ a tiam a = b (malsimetrio)
+se a ≤ b kaj b ≤ c tiam a ≤ c (transitiveco)
+a ≤ b aŭ b ≤ a (tuteco)Aro parigita kun asociita tuteca ordo sur ĝi nomiĝas tutece orda aro, lineare orda aro, simple orda aro, aŭ ĉeno.
+Rilata propraĵo de tuteco povas esti priskribita tiamaniere: ke ĉiu paro de eroj en la aro estas reciproke komparebla sub la rilato.
+Rimarku ke la kondiĉo de tuteco implicas refleksivecon, tio estas a ≤ a. Tial tuteca ordo estas ankaŭ parta ordo, tio estas, duargumenta rilato kiu estas refleksiva, malsimetria kaj transitiva. Tuteca ordo povas ankaŭ esti difinita kiel parta ordo kiu estas tuteca.
+Alternative, oni povas difini tutece orda aro kiel aparta speco de latiso, nome unu en kiu ni havas
+
+{ a ∨ b, a ∧ b } = { a, b } por ĉiuj a, b.Ni tiam skribas a ≤ b se kaj nur se a = a ∧ b.  Sekvas, ke tutece orda aro estas distribueca latiso.
+Se a kaj b estas membroj de aro kiu estas tutece ordita per ≤, tiam ni povas difini duargumentan rilaton a < b kiel: a ≤ b kaj a ≠ b. Ĉi tiu rilato estas transitiva (a < b kaj b < c implicas ke a < c) kaj, malkiel ≤, triĥotoma  (t.e., ekzakte unu de a < b, b < a kaj a = b veras). Ni povas procedi laŭ la alia vojo kaj starti per ekelekti < kiel transitivan triĥotoman duargumentan rilaton; tiam se ni difinas a ≤ b signifi a < b aŭ a = b , tiam ≤ povas esti montrita esti tuteca ordo.
+Tutece ordaj aroj formas plena subkategorio de la kategorio de parte ordaj aroj, kun la strukturkonservantaj transformoj estante mapoj kiuj respektas la ordojn, t.e. mapojn f tiaj ke se a ≤ b tiam f(a) ≤ f(b).
+Reciproke unuvalora surĵeto inter du tutece ordaj aroj kiu respektas la du ordojn estas izomorfio en ĉi tiu kategorio.
+
+
+Ekzemploj
+La literoj de la alfabeto orditaj laŭ la norma vortara ordo, e.g., A < B < C kaj tiel plu.Iu ajn subaro de tutece orda aro, kun la limigo de la ordo super la tuta aro.Iu ajn parte orda aro X kie ĉiuj du eroj estas kompareblaj (tio estas se a,b estas membroj de X, aŭ a≤b aŭ b≤a aŭ ambaŭ.Iu ajn aro de kardinaloj aŭ ordaj numeroj (pli forte, tiuj estas bonaj ordoj).Se 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   estas iu ajn aro kaj 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   reciproke unuvalora surĵeto de iu ajn tutece orda aro al 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   tiam 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   produktas tutecan ordadon sur 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   per tio fari 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        <
+        
+          x
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x_{1}<x_{2}}
+   se kaj nur se 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        =
+        f
+        (
+        
+          n
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle x_{1}=f(n_{1})}
+   kaj 
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        =
+        f
+        (
+        
+          n
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle x_{2}=f(n_{2})}
+   kaj 
+  
+    
+      
+        
+          n
+          
+            1
+          
+        
+        <
+        
+          n
+          
+            2
+          
+        
+      
+    
+    {\displaystyle n_{1}<n_{2}}
+  .La leksikographia (vortara, alfabeta) ordo sur la kartezia produto de aro de tutece ordaj aroj indicita per orda numero, mem estas tuteca ordo. Ekzemple, iu ajn aro de vortoj ordita alfabete estas tuteca ordo, rigardata kiel subaro de kartezia produto de kalkulebla kvanto de kopioj de aro formita per aldonado de la spaco-simbolo al la alfabeto (kaj difinado spacon esti malpli ol iu ajn litero).Naturaj nombroj, entjeraj nombroj, racionalaj nombroj, kaj reelaj nombroj orditaj per la kutimaj malpli ol (<) aŭ pli granda ol (>) rilatoj estas ĉiuj tutecaj ordoj. Ĉiu el ĉi tiuj povas esti montrita esti la unika (al en izomorfio) plej malgranda ekzemplo de tutece orda aro kun certa propraĵo, (tuteca ordo A estas la plej malgranda kun certa propraĵo se kiam ajn B havas la propraĵon, tiam estas orda izomorfio de A al subaro de B).:
+La naturaj nombroj konstituas la plej malgrandan tutece ordan aron sen supera limo.
+La entjeroj konstituas la plej malgrandan tutece ordan aron kun neniu supra nek suba limo.
+La racionalaj nombroj konstituas la plej malgrandan tutece ordan aron sen supra aŭ suba baro, kiu estas densa en la senco ke (a, b) estas ne-malplena por ĉiu a < b.
+La reelaj nombroj konstituas la plej malgrandan nelimitan koneksan tutece ordan aron. (Vidu pli sube por la difino de la topologio.)
+
+
+Pluaj konceptoj
+
+
+Topologio de ordo
+Por ĉiu tutece orda aro X ni povas difini la malfermitajn intervalojn (a, b) = {x : a < x kaj x < b}, (−∞, b) = {x : x < b}, (a, ∞) = {x : a < x} kaj (−∞, ∞) = X. Ni povas uzi malfermitajn intervalojn por difini topologion sur ĉiuorda aro, la topologio de ordo.
+Notu ke la formala difino de orda aro kiel aro parigita kun ordo garantias, ke estas unika ordotopologio sur kiu ajn orda aro. Tamen, en praktiko, la distingo inter aro kiu havas ordon sur ĝi difinitan kaj la paro de la aro kaj asociita ordo estas kutime ignorata. Tial por eviti konfuzon kiam pli ol unu ordo estas uzata en kune kun aro estas ordinare paroli pri la ordotopologio produktita de aparta ordo. Ekzemple, se N estas la naturaj nombroj, < estas malpli ol kaj > pli granda ol, ni povus paroli pri ordotopologio sur N produktita de < kaj pri la ordotopologio sur N produktita de > (en ĉi tiu kazo ili okaze estas identaj, sed tio ne okazos ĝenerale).
+La ordotopologio povas esti montrita herede normala.
+
+
+Kompleteco
+Tutece orda aro estas dirata kompleta, se ĉiu subaro kiu havas superan limon, ankaŭ havas malplejan superan limon. Estas nombro de rezultoj rilatantaj propraĵojn de la ordotopologio al la kompleteco de X:
+
+Se la ordotopologio sur X estas koneksa, X estas kompleta.
+X estas koneksa sub la ordotopologio, se kaj nur se ĝi estas kompleta kaj mankas breĉo en X (breĉo estas du punktoj a kaj b en X sen c kontentiganta a < c < b.)
+X estas kompleta, se kaj nur se ĉiu limita aro kiu estas fermita en la ordotopologio estas kompakta.
+
+
+Ĉenoj
+Dum el difina vidpunkto, ĉeno nure estas sinonimo por tutece orda aro, la termino kutime priskribas tutece orditan subaron de iu parta ordo. Tial la reelaj nombroj kredeble priskribiĝus kiel tutece orda aro. Tamen, se ni konsiderus ĉiujn subarojn de la entjeroj parte orditaj per inkludado tiam la tutece orda aro sub inkludo { In : n estas natura nombro} difinita supre en ekzemplo ofte nomiĝus ĉeno.
+La emo uzi la vorton ĉeno por nomi tutece orditan subaron de parta ordo verŝajne estas pro la grava rolo kiun tiaj tutece orditaj subaroj ludas en la Lemo de Zorn.
+
+
+Finiaj tutecaj ordoj
+Simpla argumento per nombrado konfirmos, ke kiu ajn finia tuteca ordo (kaj tial kiu ajn subaro de tiu) havas plej malgrandan eron. Tial ĉiu finia tuteca ordo estas fakte bona ordo. Ĉu per rekta pruvo, ĉu per observado, ke ĉiu bona ordo estas orde izomorfia al orda numero, oni povas montri, ke ĉiu finia tuteca ordo estas orde izomorfia al komenca segmento de la naturaj nombroj ordita per <. Alivorte, tutecan ordon kun k eroj produktas reciproke unuvalora surĵeto per la unuaj k naturaj numeroj. Tial  estas ordinare indeksi finiajn tutecajn ordojn aŭ nombreblajn bonajn ordojn per naturaj numeroj per maniero kiu respektas la ordon.
+Komparu kun parta ordo, al kiu mankas la tria kondiĉo. Ekzemplo de parta ordo estas la rilato okazis-antaŭe.
+
+
+Vidu ankaŭ

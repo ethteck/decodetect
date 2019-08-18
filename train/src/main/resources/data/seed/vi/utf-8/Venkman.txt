@@ -1,0 +1,12 @@
+Venkman là tên mã của một tiện ích dùng để tìm diệt lỗi JavaScript của những trình duyệt dựa trên trình duyệt Mozilla (tuy nhiên không hoạt động trong những trình duyệt chỉ dựa trên Gecko như Galeon), hiện tại, Venkman đi kèm theo trình duyệt Mozilla và có thể cài làm phần mở rộng bằng gói XPI cho Mozilla Firefox, Venkman cũng có thể hoạt động trên trình duyệt Netscape phiên bản 7.0 trở lên, riêng Venkman phiên bản 0.6.2 có thể chạy trên Netscape 6.2x. Tên của tiện ích được đặt theo tên nhân vật tiến sĩ Peter Venkman (do Bill Murray đóng vai) trong bộ phim "Những người bắt ma" phần 1 và 2 (Ghostbusters, Ghostbusters 2). Tên chính thức của tiện ích này là JavaScript Debugger, tuy nhiên hầu hết người dùng đều gọi tiện ích này theo tên mã là Venkman vì cái tên JavaScript Debugger quá chung chung.
+Năm 1998, John Bandhauer phụ trách việc phát triển tiện ích tìm diệt lỗi cho trình duyệt Netscape 4, anh bắt đầu bằng việc viết js/jsd - API tìm diệt lỗi cho JavaScript. Tháng 4 năm 2001, Robert Ginda bắt đầu phát triển Venkman dựa trên js/jsd. Venkman là một thành phần XPCOM, cho phép giao diện người dùng đồ họa (GUI) được viết bằng JavaScript và XUL, do đó Venkman có thể chạy trên nhiều nền khác nhau.
+Venkman có thể được khởi động bằng cách vào Tools, chọn Web Development sau đó chọn JavaScript Debugger hoặc có thể khởi động trình duyệt với đối số -venkman.
+Nhiều người lầm tưởng Venkman là tiện ích tìm diệt lỗi đầu tiên cho JavaScript vì sự nổi tiếng và phổ biến của nó. Tuy nhiên, trước khi Venkman ra đời, một số tiện ích tìm diệt lỗi cho JavaScript đã được phát triển, trong đó đáng kể nhất là Microsoft Script Debugger, một tiện ích tìm diệt lỗi JavaScript được nhúng vào Internet Explorer. Ngoài ra còn có The JavaScript Verifier (thường được biết đến dưới tên jslint), một tiện ích tìm diệt lỗi JavaScript được viết bởi Douglas Crockford. Khác với các tiện ích cùng loại khác, jslint được viết bằng chính JavaScript.
+
+
+Liên kết ngoài
+(bằng tiếng Anh)
+
+Trang web của Venkman
+Trang web phát triển Venkman
+Học cách sử dụng tiện ích tìm diệt lỗi Venkman

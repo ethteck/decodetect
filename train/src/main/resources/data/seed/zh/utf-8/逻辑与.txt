@@ -1,0 +1,402 @@
+在逻辑和数学中，逻辑合取或逻辑与或且是一个二元逻辑運算符。如果其两个变量的真值都为“真”，其结果为“真”，否则其结果为“假”。
+
+
+相关名称
+基本符号：
+  
+    
+      
+        ∧
+      
+    
+    {\displaystyle \land }
+  
+英文名：logical conjunction
+中文名：逻辑与，合取，交集，按位与，逻辑乘，与门，...
+命题逻辑中的二元连接词合取，是一个两元算子，集合论中的交集算子，二进制中的逻辑乘算子，按位与（Bitwise AND），逻辑门中的“与”门（AND gate），编程语言中的&或and运算符等等。
+
+
+基本定义
+逻辑与（logical conjunction）是两个逻辑变量的一种运算，经常是两个命题的运算。它满足：当且仅当其两个变量的真值都为真时，其结果为真。逻辑与
+  
+    
+      
+        ∧
+      
+    
+    {\displaystyle \land }
+  是个二元算子，运算结果取值为真的条件是，当且仅当两个命题的取值都真时。命题是取值要么是真要么是假的二值语句，没有第三种取值，或说值域为{真，假}或是{T,F}或是{0,1}。未知真又未知假的语句是猜想；既真又假，既不真又不假的语句是悖论。复合命题
+  
+    
+      
+         
+        A
+        ∧
+        B
+      
+    
+    {\displaystyle ~A\land B}
+  ，读作A合取B，在GCT逻辑中，也叫联言命题。也有称为合取命题的。
+
+
+真值表定义
+A与B的真值表（也写作A
+  
+    
+      
+        ∧
+      
+    
+    {\displaystyle \land }
+  B（逻辑学），A && B（计算机科学），或A
+  
+    
+      
+        ⋅
+      
+    
+    {\displaystyle \cdot }
+  B（电子学））。
+
+  
+    
+      
+         
+        A
+        ∧
+        B
+      
+    
+    {\displaystyle ~A\land B}
+   的真值表:
+
+
+推理規則
+
+
+合成与分解规则
+
+
+合取引入规则
+合取引入规则（∧+）（conjunction introduction rule）或联言推理的合成式，是经典逻辑中简单且有效的论证形式。这个论证形式有两个前提，A和B，可以直观地推出他们的合取。
+其形式如下：
+
+A,
+B.
+因此A且B.形式化为：
+
+  
+    
+      
+        
+          A
+        
+        ,
+      
+    
+    {\displaystyle \mathbf {A} ,}
+  
+
+  
+    
+      
+        
+          B
+        
+      
+    
+    {\displaystyle \mathbf {B} }
+  
+
+  
+    
+      
+        ⊢
+        A
+        ∧
+        B
+      
+    
+    {\displaystyle \vdash A\land B}
+  下面的例子是满足联言推理的合成式的论证：
+
+小橘子是正妹。
+小橘子是車神。
+因此小橘子是正妹也是車神。另一個例子如下：
+
+1小于2
+6大于5
+因此，1小于2，而且6大于5。還有一個例子如下：
+
+有一些PSPACE問題不是NL問題
+有一些EXPSPACE問題不是PSPACE問題
+因此有一些EXPSPACE問題不是PSPACE問題，而且有一些PSPACE問題不是NL問題
+
+
+合取消去规则
+合取消去规则（∧-）（Conjunction elimination rule）或联言推理的分解式，是另一个在经典逻辑中简单且有效的论证形式。从任何合取式中都可以直观地推论出两个前提中的任意一个。
+其形式如下：
+
+A且B。
+因此A。...或者，
+
+A且B.
+因此B.用逻辑运算符描述为，
+形式化为:
+
+  
+    
+      
+        A
+        ∧
+        B
+      
+    
+    {\displaystyle A\land B}
+  
+
+  
+    
+      
+        ⊢
+        A
+      
+    
+    {\displaystyle \vdash A}
+  或者,
+
+  
+    
+      
+        A
+        ∧
+        B
+      
+    
+    {\displaystyle A\land B}
+  
+
+  
+    
+      
+        ⊢
+        B
+      
+    
+    {\displaystyle \vdash B}
+  例如:
+
+有一些EXPSPACE問題不是PSPACE問題，而且有一些PSPACE問題不是NL問題
+因此有一些PSPACE問題不是NL問題或者
+
+有一些EXPSPACE問題不是PSPACE問題，而且有一些PSPACE問題不是NL問題
+因此有一些EXPSPACE問題不是PSPACE問題另一個例子如下：
+
+1小于2，而且6大于5。
+因此1小于2。或者
+
+1小于2，而且6大于5。
+因此6大于5。還有一個例子如下：
+
+小橘子是正妹也是車神。
+因此小橘子是正妹。或者
+
+小橘子是正妹也是車神。
+因此小橘子是車神。
+
+
+性质
+逻辑与满足以下性质：
+
+结合律: 
+  
+    
+      
+        A
+        ∧
+        (
+        B
+        ∧
+        C
+        )
+        ≡
+        (
+        A
+        ∧
+        B
+        )
+        ∧
+        C
+      
+    
+    {\displaystyle A\land (B\land C)\equiv (A\land B)\land C}
+  交换律: 
+  
+    
+      
+        A
+        ∧
+        B
+        ≡
+        B
+        ∧
+        A
+      
+    
+    {\displaystyle A\land B\equiv B\land A}
+  分配律: 
+  
+    
+      
+        (
+        A
+        ∧
+        (
+        B
+        ∨
+        C
+        )
+        )
+        ≡
+        (
+        (
+        A
+        ∧
+        B
+        )
+        ∨
+        (
+        A
+        ∧
+        C
+        )
+        )
+      
+    
+    {\displaystyle (A\land (B\lor C))\equiv ((A\land B)\lor (A\land C))}
+  
+  
+    
+      
+        (
+        A
+        ∨
+        (
+        B
+        ∧
+        C
+        )
+        )
+        ≡
+        (
+        (
+        A
+        ∨
+        B
+        )
+        ∧
+        (
+        A
+        ∨
+        C
+        )
+        )
+      
+    
+    {\displaystyle (A\lor (B\land C))\equiv ((A\lor B)\land (A\lor C))}
+  幂等律: 
+  
+    
+      
+        A
+        ∧
+        A
+        ≡
+        A
+      
+    
+    {\displaystyle A\land A\equiv A}
+  单调性: 
+  
+    
+      
+        (
+        A
+        →
+        B
+        )
+        →
+        (
+        (
+        C
+        ∧
+        A
+        )
+        →
+        (
+        C
+        ∧
+        B
+        )
+        )
+      
+    
+    {\displaystyle (A\rightarrow B)\rightarrow ((C\land A)\rightarrow (C\land B))}
+  
+  
+    
+      
+        (
+        A
+        →
+        B
+        )
+        →
+        (
+        (
+        A
+        ∧
+        C
+        )
+        →
+        (
+        B
+        ∧
+        C
+        )
+        )
+      
+    
+    {\displaystyle (A\rightarrow B)\rightarrow ((A\land C)\rightarrow (B\land C))}
+  保真性: 所有变量的真值皆为“真”的命题在逻辑与运算后的结果为真。保假性: 所有变量的真值皆为“假”的命题在逻辑与运算后的结果为假。如果用二进制来表达真（1）和假（0），逻辑与运算与算术乘法运算一致。
+
+
+计算机科学中的运用
+
+
+位运算
+逻辑与常在位运算中使用，比如：
+
+0 and 0 = 0
+0 and 1 = 0
+1 and 0 = 0
+1 and 1 = 11100 and 1010 = 1000
+
+
+编程中的使用
+在高等计算机编程中，逻辑合取“与”通常由内置算符and或&号来表达。很多编程语言还提供与逻辑与相应的短路求值控制结构。
+布尔“与”也在SQL的运算符中使用。有些数据库区分大小写，需要"AND"符号。
+在计算机科学中，AND运算符可以用来构造位屏蔽，以选择二进制序列的一部分。比如10011101 AND 00001000 = 00001000用来取二进制序列的第五位。
+
+
+交集运算
+集合论中的交运算是用逻辑与来定义的：x ∈ A ∩ B当且仅当(x ∈ A) ∧ (x ∈ B)。因此逻辑与有很多与交集运算相同的性质，诸如结合律，交换律，分配律，及德·摩根定律。
+
+
+参见
+与门
+
+
+相关网页
+Wolfram Mathematics Conjunction
+All Math Words Encyclopedia Conjunction

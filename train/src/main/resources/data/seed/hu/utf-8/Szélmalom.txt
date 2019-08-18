@@ -1,0 +1,95 @@
+A szélmalom olyan gép, mely a szél mozgási energiáját mechanikai munkává alakítja át tengelyre szerelt lapátok segítségével. Leggyakrabban gabonát őröltek a malomban, de más darabos anyag (például lőpor) darálására, őrlésére is szolgált, vagy vízkiemelő szivattyúkat hajtott, melyeket árvízmentesítésre vagy a tengertől elhódított területek víztelenítésére, esetleg öntözésre építettek.
+
+
+Története
+
+
+Függőleges tengelyű szélmalmok
+A szélmalom feltalálásának időpontja és helye bizonytalan. Homályos említések utalnak arra, hogy a mai Irak területén esetleg már több ezer évvel ezelőtt ismerték valamilyen formában. Alexandriai Hérón szélkereke a szélmalom egyik első ismert leírása. Az általunk ismert első gyakorlatban is megvalósított szélmalom Perzsiában, az afgán határ közelében volt Estakhri perzsa geográfus feljegyezése szerint, aki a 9. században élt. Egy Omár kalifáról (581-644) szóló történetben szerepel ugyan egy perzsa, aki állítólag tudta, hogy kell építeni szélmalmot, azonban ennek hitelességét kétségbe vonják, mivel a szöveg a 10. századból származik.A függőleges tengelyű szélmalmokat olyan helyen építették, ahol a szélirány többnyire állandó volt. Egy torony hossztengelyébe helyezett hajtótengely felső végébe náddal vagy vászonnal borított 6-12 darab, téglalap alakú fakeretes vitorlát helyeztek el küllőszerűen, úgy, hogy a szél bele tudjon kapaszkodni. A kerék körül a torony falait úgy húzták fel, hogy az uralkodó széljárás irányába és az ellenkező oldalon nyitott legyen, a kerék másik oldalán pedig fal zárja el a szél útját a kerék felé. Ezek a szerkezetek, melyek a legutóbbi időkig is használatban voltak Iránban és Afganisztánban, minden áttétel nélkül, közvetlenül forgatták a malomkereket.Bár néhány tudósításban állítják, hogy ezek az afgán típusú függőleges-tengelyű szélmalmok az egész kalifátus területén népszerűek voltak a 9. századtól kezdve és használatuk átterjedt Európába is az iszlám Spanyolországon keresztül, de a középkori európai technológiával foglalkozó kutatók ezt cáfolják, mert nincs rá bizonyíték. és kijelentik, hogy az Ibériai-félsziget összes szélmalma vízszintes tengelyűnek épült a 15. századig.
+Kínában hasonló szerkezetű függőleges tengelyű szélmalmok épültek öntözési célokra a 13. században. Az új technikát Yelü Chucai hozta be Turkesztánból való visszatérése után 1219-ben.A függőleges tengelyű szélmalom ötletét Európában Verancsics Faustus püspök elevenítette fel a 15. században, könyvében több változatot is bemutatott találmányaiból, melyek között néhány ma is használatos, de valószínűleg ő maga soha nem látta megvalósítva terveit.
+
+
+Vízszintes tengelyű szélmalmok
+
+
+Rögzített helyzetű vízszintes tengelyű szélmalmok
+A görög Küklád szigeteken széles körben használtak helyhez kötött szélmalmokat, melyeket az uralkodó széljárás irányába tájolva építettek. Az ingyen hajtóerő és a jó szállítási feltételek lehetővé tették, hogy ezek a malmok a görög szárazföldről származó gabonát őröljenek, majd vissza is szállítsák. A molnár a megőrölt liszt egytizedét kapta fizetség fejében. Ezeknek a malmoknak a lapátjaira működésükkor jellegzetes, háromszögletű vitorlákat vontak fel.
+
+
+Vízszintes tengelyű, széllel szembeforduló malmok
+Északnyugat-Európában a vízszintes tengelyű vagy függőleges (ez utóbbi a szélkerék síkjára utal) szélmalmok a 12. század második felétől kimutathatók az Észak-Franciaország, Kelet-Anglia és Flandria alkotta háromszögben. Lynn White Jr. rámutat arra, hogy az európai vízszintes tengelyű szélmalmot először biztosan 1185-ben említik. Ezek a legkorábbi malmok gabona őrlésére szolgáltak. A jelenlegi ismerteink szerint ezek az első szélmalmok bakos-malmok voltak, azért hívták így, mert egy erős faoszlopot vertek le a talajba, melyet minden oldalról további ferdén beültetett fagerendák támogattak: ez a szerkezet volt a bak, és erre ültették forgathatóan az egész malom felépítményét. Ilyen módon a malmot mindig szélirányba lehetett forgatni, ez volt az Északnyugat-Európában egyedül gazdaságosan működtethető típus, mivel ott a szélirány állandóan változik.
+A 13. század végétől megjelentek a torony-malmok, vagyis olyan malmok, melyek kőből vagy téglából épült toronyra forgathatóan ültetett sapkával készültek, és ebbe ágyazták a szélkereket. Ilyen szélmalmok terjedtek el Hollandiában is, ahol olyan nagy szélkerekeket építettek, hogy a vitorlái majdnem a talajt súrolták. Mivel csak a viszonylag kicsi fejet vagy sapkát kellett elforgatni, a tornyok igen magasra épülhettek és a lapátok sokkal hosszabbak lehettek, ez lehetővé tette a malom működését még gyenge szél esetén is. Az ilyen malmok gyakran egy kis segéd-vitorlával, „farokkal” épültek, ez a fejet önműködően mindig szélirányba forgatta. Franciaországban gyakran építettek kastélyok, várak vagy városfalak tornyaira is szélmalmokat. A torony-malmok kőből vagy téglából többnyire hengeres vagy kúp alakú toronnyal épültek. A köpeny-malmok fából készült tornya általában hatszög vagy nyolcszög alaprajzú, szerkezetük egyébként a torony-malmokéval megegyezett.
+A hagyományos rácsos szerkezetű vitorlával épült szélmalmoknál a molnár a kerék befékezésekor a vásznat fel tudta vonni a vitorlára. A vászon megfelelő kurtításával elérhető volt, hogy a malomkerék közel optimális fordulatszámmal forogjon függetlenül a szél sebességétől.
+Az újabb szélmalmoknak egy kis farok-szélkereke is volt, melynek az volt a feladata, hogy a torony sapkáját és így a nagy szélkereket is a szél mindenkori irányába forgassa önműködően. Ezt a szerkezetet Edmund Lee találta fel 1745-ben Angliában. A köpeny-malom a szélmalmok utoljára kifejlesztett formája, eredetileg a 16. században alakult ki és földek vízmentesítésére, lecsapolására használták.
+Több egymást követő újítás eredményeképpen a szélmalmokat alkalmassá tették másféle ipari alkalmazásra is olyan vidékeken, ahol gyakran fújt szél. Ilyen volt a gabona őrlő malom, fűrészmalom (a 16. század végétől), cséplés, valamint vízemelő kereket, Arkhimédeszi csavart és dugattyús szivattyút hajtva víz szivattyúzása öntözés, vízmentesítés és ivóvíz céljából.
+1772-ben Andrew Meikle skót molnár feltalálta a rugós vitorlát, amely egy sor zsaluból épült fel, melyeket nyitni vagy zárni lehetett a szélsebességtől függően. Átállításhoz a malmot le kellett fékezni, de a vitorlákba egy rugót is építettek, mely önműködően kinyitotta a zsalut a szél hirtelen lökéseinél, hogy megvédje a szerkezetet a túlterheléstől. 1789-ben Stephen Hooper feltalálta a görgős kurtítású vitorlát, ez lehetővé tette az önműködő állítást leállás nélkül. 1807-ben William Cubitt angol mérnök újfajta vitorlát talált fel, melyet az angolszász országokban szabadalmazott vitorlának neveztek. Ebben egy lánc és a szélkerék tengelyében végigfutó rúd segítségével állíthatóvá tette forgás közben is a Meikle-féle zsalukat a Hooper-féle görgős kurtítású vitorla automatikájával. Ez lett az alapja az önszabályozó vitorláknak. Alkalmazásával feleslegessé tette a mindaddig szükséges állandó ellenőrzést.
+Az ipari forradalomig a szélmalmok és a vízimalmok jelentették az elsődleges energiaforrást az ipar számára. A gőzgépek és a belsőégésű motorok azonban fokozatosan felváltották ezeket. Több helyen azonban működésben maradtak egyes példányaik az 1950-es évekig. Jelenleg a szélmalmokat igyekeznek megőrizni történelmi értékük miatt, sok helyen nem működő kiállítási tárgyakként, mivel a gépezet működés közben könnyen tönkremehet, de némely esetben teljesen működő malmokként is.
+
+
+Sokvitorlás szélmalom
+
+A legtöbb szélmalomnak négy vitorlája van. A vitorlák számának növelése a teljesítmény növekedésével jár a szélkerék tömegének növelése árán. A legkorábbi feljegyzés sokvitorlás szélmalomról Angliából, a Flint Mills, Leeds-i ötvitorlás szélmalomról maradt fenn, melyről John Smeaton 1747-ben számolt be. A soklapátos szélmalmok csendesebb járásúak, mint a hagyományos típusok. Építettek öt-, hat- és nyolcvitorlás malmokat, elsősorban Angliában.A négyvitorlás malmoknál, ha az egyik vitorla megsérül, le lehet szerelni az ellenkező irányú vitorlával együtt, és a malom a javításig két vitorlával is működőképes marad az eredeti teljesítmény körülbelül 60%-ával. A hatvitorlás malom képes működni két, három négy vagy hat vitorlával, így több lehetőséget is kínál sérülés, üzemzavar esetére. Az ötlapátos szélmalom viszont csak öt lapáttal üzemképes, így le kell állítani a javítás befejezéséig.
+
+
+Szélmalmok Magyarországon
+Magyar forrásban a szélmalom szó először az 1577-ben írt kolozsvári glosszákban merül fel, de ez és néhány más említés csak azt bizonyítja, hogy írójuk ismerte a kifejezést, de nem biztos, hogy Magyarországon látott ilyen malmot. Az első bizonyított szélmalom egy 1770-ben kelt tanúkihallgatási jegyzőkönyvben szerepel, mely szerint Debrecen mellett, Boldogfalván 1720-1730 körül állt egy elromlott szélmalom. A hiányos hiteles adatok ellenére valószínűsíthető, hogy a holland típusú szélmalmok csak a 19. század elején terjedtek el hazánkban. Az 1906-ban elrendelt malomösszeírás mindössze 12 szélmalmot tartalmaz, melyek (bemondás alapján) 1800-nál régebben épültek.
+A szélmalom elterjedésének késői időpontját az magyarázza, hogy a Kárpát-medencében a szelek iránya és sebessége nem állandó, a 17. század előtt épített malmok az ilyen viszonyok között nem voltak működőképesek, és mivel a fordulatszámot nem tudták viharos széllökések esetén kézben tartani, a malmok sokszor a túlfordulattól meggyulladtak és leégtek. Magyarországon az első biztonságos szélmalmot csak 1768-ban egy pozsonyi ácsmester épített.
+A 19. században a szélmalmok gyorsan elterjedtek: 1851–1860 között 63, 1861–1870 között 164, 1871–1880 között 189, 1881–1890 között 160 új szélmalom épült. A legtöbb szélmalmot 1873-ban számlálták össze: 854-et. Ezután számuk fokozatosan csökkent a gőzmalmok versenye miatt, de még a 20. század fordulójakor is építettek új szélmalmot.
+
+
+Híres magyar szélmalmok
+A kiskundorozsmai szélmalomról egy magyar nóta szól
+A tési szélmalom
+A kiskunhalasi Sáfrik szélmalom
+Pajkos-Szabó-féle szélmalom (Kiskunfélegyháza)
+
+
+Képek
+
+		
+		
+		
+		
+
+
+Gépészet
+Mindegyik fennmaradt és tudományosan leírt magyar szélmalom forgatható tetővel készült. Ebben volt csapágyazva a szelestengely, melyre a vitorlákat erősítették. A szelestengelyre volt szerelve a szeleskerék, ez nagy átmérőjű, fafogazású pálcás fogaskerék, melybe a fogak egyenként voltak beültetve. A fogak kopás, törés miatt időnként cserére szorultak, a molnár feladata volt minden más javítási munkával egyetemben az új fogak faragása és beszerelése is. A szeleskerék az ugyancsak fából készült dobot hajtotta meg, mely szintén fogaskerék volt, azonban ennek fogai két fatárcsa közé ékelt farudakból álltak. A két fogaskerék gyorsító hajtást valósított meg, a dob függőleges tengelyen, az úgynevezett villás vason vagy bálványon keresztül forgatta vagy közvetlenül, vagy további áttételen keresztül a malomkerekeket illetve hajtotta a többi berendezést (szitákat, darálót).
+A tetővel együtt a vitorlákat mindig szélirányba forgatták. A tető általában sugárirányba elrendezett, zsírral vagy kocsikenőccsel csúszóssá tett gömbölyű fagerenda darabokra, papucsokra támaszkodott, ezeken kellett elfordítani, amihez elég nagy nyomaték volt szükséges. Az elfordításhoz a tetőre egy gerendát, középszárat erősítettek, mely a szélkerékkel ellenkező oldalon ferdén lefelé nyúlt ki a fedélből és egy kocsikerékre, a fordítókerékre támaszkodott. A középszárat két oldalról másik két gerenda, karfa merevítette. Ez a szerkezet egyrészt ellensúlyozta a szélkereket, másrészt lehetővé tette, hogy a fordítókocsi segítségével a molnár a földön el tudja fordítani a fedelet a szélkerékkel együtt. A fordítókerék mély nyomot vágott körben a malom körül, hagyományosan ez volt a határa a malomhoz tartozó teleknek. A fordítókocsi kis fából ácsolt egyszerű taliga volt, melyet egy cövek segítségéveel ki lehetett horgonyozni, és a rászerelt egyszerű fából készült csörlőre csévélt kötél másik végét a középszár alsó végéhez kötve könnyen el lehetett forgatni a fedelet.
+
+A hazai malmok közül a legegyszerűbbek a papucsos vagy egyköves malmok. Ezeknél egyetlen malomkerék dolgozott, melyet a függőleges tengely közvetlenül hajott meg. A malom mindössze kétszintes volt, a malomkerék a garattal, ahol a gabonát beöntötték, az emeleten helyezkedett el, a megőrölt liszt a földszinti ládában gyűlt össze.Az alulhajtós malom kétszintes, a függőleges bálvány a kiskeréken (ami nevével ellentétben egy nagyátmérőjű pálcás fogaskerék) és két korongon keresztül (ezek azonos szerkezetűek a felül elhelyezett dobbal), melyek egy második gyorsító fokozatot alkotnak, hajtja a felette elhelyezkedő malomkerekeket.A felülhajtós malom bálványa rövidebb. Erre szerelik az itt sebeskeréknek nevezett nagy fogaskereket, mely az előzőekhez hasonlóan gyorsító áttételt képez a kisdobbal és ennek tengelye hajtja a malomkerekeket, melyek a sebeskerék szintje alatt helyezkednek el. Ez a típus váltotta fel idővel a korábban elterjedt alsóhajtású malmokat. A felülhajtós malmok négy emeletesek voltak, ezek alulról felfelé: lisztespad, kőpad, sebeskerékpad és nagydobpad.A Nyugat-Európában a szélmalmok történetének utolsó újításait a magyar malmok már nem nagyon vezették be.
+
+
+A molnár munkája
+A molnár feladata a tulajdonképpeni őrlésen túl sokrétű volt. Állandóan figyelnie kellett az időjárást és természetesen elsősorban a széljárást. A megfelelő irányba kellett fordítania a szerkezetet a szélirány változásakor. A szélsebességhez úgy alkalmazkodtak, hogy kisebb szélben nagyobb felületű vitorlát vontak fel és csak egy kőpárral őröltek, nagyobb szélben két kőpárral és kurtították a vitorlát. Orkánok idején a vitorlákat bevonták és elfordították a szélkereket, mert egyébként megrongálódhatott a szerkezet, a tető fel is borulhatott. A szélmolnár munkája állandó éjjel-nappali figyelmet igényelt, szélcsendes időben pedig kényszerpihenőre volt kárhoztatva. A javításokat, karbantartást szélcsendes időkben végezték. A molnár végezte el a szükséges ácsmunkákat beleértve a majdnem teljesen fából készült gépészeti berendezés javítását is, de a malomkövet is ő vágta. Így elmondható, hogy a szélmolnárok ügyeskezű, a kor színvonalához képest sokoldalúan képzett mesteremberek voltak. Szakértelmük odáig terjedt, hogy gyakran maguk vállalkoztak új szélmalmok építésére is.
+
+
+Lásd még
+Malom
+Szélkerék
+
+
+Jegyzetek
+
+
+Források
+Felix R. Paturi: A technika krónikája. Officina Nova, 1991. ISBN 963-7836-44-6
+Verancsics Faustus: Machinae nove és más művei. Magvető Könyvkiadó, Budapest, 1985. ISBN 963-14-0439-0
+A.G. Drachmann: "Heron's Windmill," Centaurus, 7 (1961), pp. 145–151
+Ahmad Y Hassan, Donald Routledge Hill (1986). Islamic Technology: An illustrated history. Cambridge University Press. ISBN 0-521-42239-6.
+Chartrand, French Fortresses in North America 1535–1763: Québec, Montréal, Louisbourg and New Orleans.
+Dietrich Lohrmann, "Von der östlichen zur westlichen Windmühle", Archiv für Kulturgeschichte, Vol. 77, Issue 1 (1995)
+A.G. Drachmann, "Heron's Windmill", Centaurus, 7 (1961).
+Needham, Joseph (1986). Science and Civilization in China: Volume 4, Physics and Physical Technology, Part 2, Mechanical Engineering. Taipei: Caves Books Ltd.
+Hugh Pembroke Vowles: "An Enquiry into Origins of the Windmill", Journal of the Newcomen Society, Vol. 11 (1930-31)
+
+
+További információk
+
+Magyar Néprajz Akadémiai Kiadó, Budapest 1988-2002
+Pongrácz Pál: Régi malomépítészet Műszaki Könyvkiadó, Budapest, 1967
+Miért őrizzük meg a szélmalmokat?
+Earth Science Australia, Wind Power and Windmills
+The International Molinological Society
+Windmills at Windmill World
+The Mill Database, Europe
+A short video demonstrating how to generate electricity from a windmill by the Vega Science Trust

@@ -1,0 +1,47 @@
+tvOS Apple tarafından geliştirilen dördüncü nesil Apple TV dijital medya oynatıcısı için  bir işletim sistemidir. Ancak 4.nesil Apple TV-de bulunur. Ondan öncekiler bu sistemi desteklemiyorlar. tvOS sistemi 4. nesil Apple TV ile birlikte, "Apple Eylül 2015" etkinliğinde 9 Eylül 2015 tarihinde ilan edildi. 26 Ekim 2015 günü, 4. nesil Apple TV ön siparişleri başladı ve gönderiler sonraki hafta başladı. tvOS iOS bazında yaratılmıştır. Şu ana kadar Apple TV (2. ve 3.nesilleri) için ayrıca iOS sürümleri (iOS 4 - iOS 8 arası) yayınlanırdı, fakat iOS 9 - dan itibaren resmi olarak Apple TV için tvOS tanıtıltı.tvOS bir beta şeklinde kullanılabilir. Bir geliştirici beta ve bir kamu beta ile Apple Inc.'in diğer işletim sistemlerinden farklı, sadece bir geliştirici beta olsa vardır. Apple diğer uygulamaların (örneğin Netflix ve HBO Now gibi) tvOS çalıştıran Apple TV-ye geliyor olacağını açıkladı. Bir App Store üzerinden üçüncü parti yazılım desteğiyle 4. nesil Apple TV, 9 Eylül 2015 tarihlerinde Apple Eylül 2015 Olay öncesinde söyleniyordu.
+
+
+Tanıtımı
+30 Ekim 2015 günü, 4. nesil Apple TV mevcut oldu, ve tvOS 9.0 ile birlikte geldi. 9 Kasım 2015 tarihinde, küçük sorunları gidermek için, öncelikle bir tvOS 9.0.1 güncelleştirme serbest bırakıldı. tvOS 9.1 versiyonu 8 Aralık 2015 tarihinde OS X 10.11.2, iOS 9.2 ve watchOS 2.1 ile birlikte yayımlanmıştır. Bu güncelleştirmeler ile birlikte, Apple da iOS ve watchOS-da  4. nesil Apple TV için temel uzaktan işlevselliği sağlayan "Uzaktan uygulamalar"ı (Remote App) güncelledi.(Daha önce, uygulama sadece Apple TV son sürümleri ile çalıştı) 25 Kasım 2015 tarihinde, Facebook tvOS için kendi SDK-nı gösterdi, bu, uygulamalara Facebook'a giriş, Facebookda paylaşmak ve Facebook Analytics kullanmak için izin verir. 2 Aralık 2015 tarihinde, Twitter tvOS için kullanıcılara basit uygulamalar ve hizmetler için giriş sağlayan oturum açma kimlik doğrulama hizmetini - "Rakamlar"ı sundu. 11 Mart 2016 tarihinde, Pangu Takım tvOS 9.0-9.0.1 sürümlü Apple TV 4 için yeni bir jailbreak aracı yaratağını ve aşağıdaki hafta çıkacağını Twitter'da açıkladı.
+13 Haziran 2016 tarihinde, Apple-nin İnternet Hizmetleri yöneticisi Eddy Cue WWDC 2016-da tvOS-un sonraki büyük versiyonunu, tvOS 10-u açıklandı. tvOS 10 Siri arama geliştirmeleri, Kablo abonelikleri için tek oturum açma, karanlık bir mod ve Apple TV'yi kontrol etmek için yeni bir uzaktan bir uygulama gibi yeni işlevler getiriyor
+
+
+Özellikleri
+tvOS 9 Dördüncü nesil Apple TV-de birçok yeni özellik ile birlikte geldi. Önemli özelliklerinden biri, uzaktan çoklu dokunmatik hareketlerini kullanarak yeni touchpad ile arabirim üzerinden hareket yeteneği oldu. Ayrıca, Apple TV ve tvOS için uygulamaları geliştirmek için kullanıcılara indirmek ve (örneğin, uygulamalar ve oyunlar gibi) yeni uygulamalar yüklemek izni veren bir yeni App Store'ni tanıttı. tvOS 9 kullanıcılara bir film / TV göstermek için bir çapraz uygulama araması, hızlı ileri, isim ve güncel filmin aktör / yönetmeni, geri sarma ve 15 saniye geri atlama gibi çok sayıda yapmak olanağı sağlayan Siri için destek ekler. tvOS-a ayrıca, Apple TV'de bir uygulama switcher için destek, tvOS-da HDMI-CEC için yerleşik destek ile birlikte Siri Remote kullanarak daha fazla uygulama özelleştirme seçenekleri, sinematik ekran koruyucular ve TV'yi kontrol eklendi. Buna ek olarak, tvOS çok farklı şekillerde Apple TV'yi kontrol etmek için izin verir. Bunlara, Siri Remote kullanarak bir üçüncü taraf evrensel uzaktan eşleştirme dahil, iOS Uzaktan uygulamasını kullanarak bir MFi Gamepad oyunları kontrol etmek için eşleştirme, ve kullanıcının yazma deneyimi yardımcı olmak için Bluetooth klavye eşleştirme dahildir.
+
+
+Ulaşılabilirlik
+tvOS, iOS dayalı dizayn edilmiştir ve tvOS iOS ve OS X'in birçok erişilebilirlik özelliklerini miras olarak götürür. tvOS kör ve az gören olanlara yardım etmek için VoiceOver, Zoom, ve Siri Apple teknolojilerini içerir. VoiceOver, Apple ekran okuyucu 30'dan fazla dilde kullanılabilir ve görsel engelli kullanıcılara  ekran istemleri, görsel ekran ve giriş yanıtlarında neyin yer almakta olduğunu bilmesini sağlar. iPhone ve diğer Apple ürünleri gibi erişilebilirlik özellikleri etkinleştirmek için ev düğmesine üç tıklama ile, devre dışı bırakılmış kullanıcı herhangi bir kurulum işlemi yapmadan VoiceOveri etkinleştirebilir. Bir tek ihtiyaclı Siri Uzaktan Kumanda üzerindeki Menü düğmesini üç kez tıklatma ile Apple TV, tam ilk kurulum işlemleri ile kullanıcıya rehberlik edecektir. Başka bir erişilebilirlik özelliği ekranda kontrast artırmak için Film ve TV Show sayfaları, menü sekmeleri ve işletim sisteminin diğer parçalarında arka plan elemanlarının şeffaflığını (Optik saydamlık ve yarı saydamlık) azaltan hareketdir. Görme engelliler de daha iyi odaklanmış içerik tanımlamak için bir yüksek kontrastlı kürsör açabilirler. Kullanıcı ayrıca Reduce Motion için ana ekranda uygulama simgeleri arasında hareket ve göze yorgunluğunu azaltmak için faydalı olan görsel benzer başlatma uygulamaları gibi bazı ekran eylemleri tercih edebilir. Apple TV-de tvOS-la bir Bluetooth klavye eşleştirmesi aynı zamanda VoiceOver birleşmesi erişilebilirlik özelliği sağlar. Yazarken, VoiceOver audio ses ile aynalar, her karakter klavyede basılır ve girildiğinde yine tekrarlanır. Apple TV Apple Kablosuz Klavye veya Apple Magic Klavye ile çalışmak üzere tasarlanmıştır. Bu, hemen hemen her marka bluetooth klavye ile çalışacaktır.
+tvOS olmadan da Apple TV kapalı açıklamalı alt yazıları ( closed captioning) destekler, bu yüzden sağır veya işitme güçlüğünü TV bölümlerini ve uzun metrajlı filmlerde yaşayabilirsiniz. Uyumlu bölüm ve filmler iTunes Store'da, Apple TV ya da iTunes-de bir CC (altyazı) veya SDH (Açıklayıcı Audio) simgesi ile belirtilir. İzleyici stilleri ve yazıları ile bölüm başlıkları veya film özelleştirebilir, bu, onların işitme ve / veya görme bozukluğuna neden olabilir. Siri Uzaktan Kumanda üzerindeki dokunmatik yüzey özelleştirilebilir.
+iOS cihazlarda Apple'ın Remote uygulaması iPhone, iPad ya da iPod Touch-dan Apple TV'nin kontrolünü sağlar. iOS uzaktan uygulama Switch Kontrolü sağlayarak Apple TV erişilebilirliğini artırır. Switch Kontrolü eşsiz Apple teknolojisi olup, ekran öğeleri aracılığıyla navigasyon etkinleştirir ve üçüncü taraf Bluetooth özellikli anahtar donanım kullanma, seçme, dokunma, sürükleme, yazma gibi belirli eylemleri gerçekleştirir
+
+
+Gelişmesi
+tvOS geliştiriciler için tüm yeni geliştirme araçları ile gelir. tvOS-a TV uygulamaları oluşturmak için geliştiriciler için iOS 9-dakı APİ ve Metal APİ gibi tamamen yeni bir SDK için destek eklendi. Ayrıca kullanıcılara uygulamaları geniş bir yelpazede, tarama, indirme ve yüklemeye izin veren bir App Store eklendi. Buna ek olarak, geliştiriciler artık Apple'ın arayüzünün yerine uygulama içinde kendi arabirimini kullanabilirler. tvOS-dan başlayarak, Xcode ile mevcut iOS uygulamaların Apple TV-ye girişi daha kolaydır. Apple, tüm kayıtlı Apple geliştiricilere ücretsiz Xcode sağlamaktadır. Yeni Apple TV geliştirmek için, uygulama simgesi için bir paralaks resim yapmak gereklidir. Bunu yapmak için, Apple geliştirme araçlarında Apple TV için bir Paralaks ihracatçısı ve önizleyicisi sağlar.
+
+
+Versiyonları
+  Eski
+  Durdurulan
+  Geçerli
+  Beta
+
+
+tvOS 9.x
+
+
+tvOS 10.x
+
+
+Kaynakça
+
+
+Dış bağlantılar
+tvOS Resmi websitesi
+Apple TV türkçe Resmi websitesi
+Apple TV Resmi websitesi
+
+
+Ayrıca bakınız
+Android TV
+Microsoft TV

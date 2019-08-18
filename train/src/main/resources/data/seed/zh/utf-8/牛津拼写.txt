@@ -1,0 +1,21 @@
+牛津拼寫（英语：Oxford spelling），也称为牛津英語詞典拼寫（Oxford English Dictionary spelling）、牛津式（Oxford style）或牛津英語拼寫（Oxford English spelling），是英語的一種拼寫方式，是牛津大學出版社（OUP）用於其在英國國內的出版物的標準拼寫方式，包括《牛津英語詞典》（Oxford English Dictionary）以及權威英式寫作指南「Hart's Rules」，根據梅里亚姆-韦伯斯特，一些「注重詞源」的出版社也會使用牛津拼寫。牛津拼寫中最廣為人知的就是推薦使用「-ize」後綴，例如「organize」和「recognize」，儘管當代英式英語中「-ise」更常用。該拼寫涉及約200個動詞，推薦「-ize」是因為它更符合多數「-ize」動詞的希臘語詞根「-izo (-ιζω)」。除了牛津大學出版社的牛津詞典以外，使用「-ize」拼寫的英語詞典出版社還包括卡塞尔、柯林斯、朗文。牛津拼寫常用於英國的科研期刊（例如《自然》）及一些國際組織（例如聯合國及其下屬機構）。它常用於學術、公文、科技的寫作，面向國際的讀者群。在電子文檔中，牛津拼寫使用IETF語言標籤en-GB-oxendict（舊作en-GB-oed）來聲明。
+
+
+典型特徵
+牛津拼寫最典型的特徵就是使用後綴「-ize」，例如使用「organization」、「privatize」和「recognizable」，而不用「organisation」「privatise」和「recognisable」。這一拼寫涉及約200個動詞，之所以推薦該拼寫是因為其詞源基礎，對於多數「-ize」結尾的動詞，「-ize」更符合其希臘語詞源「-izo」。「-ize」後綴早在15世紀就已於英國使用了，並且現在也是美式英語的拼法，將「-ize」視為美國英語的專利是不正確的。《牛津英語詞典》將使用「-ise」拼寫的單詞作為「一種-IZE的常見拼寫……」（a frequent spelling of -IZE…）單獨列出：
+
+該習慣可能源於法語。該後綴在現代法語中變成了-iser，例如來自希臘語的詞語baptiser, évangéliser, organiser，以及按此構詞自拉丁語的civiliser, cicatriser, humaniser。
+This practice probably began first in French; in modern French the suffix has become -iser, alike in words from Greek, as baptiser, évangéliser, organiser, and those formed after them from Latin, as civiliser, cicatriser, humaniser.
+此後，有人開始模仿法語，在英語中對所有此類單詞使用-ise，也有人傾向於在法語或英語中構詞取自拉丁元素的詞彙中使用-ise，而在構詞取自希臘元素的詞語中保留-ize。
+Hence, some have used the spelling -ise in English, as in French, for all these words, and some prefer -ise in words formed in French or English from Latin elements, retaining -ize for those formed from Greek elements.
+但是，該後綴本身，無論添加了何種元素，都是取自希臘語的-ιζειν、拉丁語的-izāre；並且，由於其發音也是帶z的，因此沒有理由在英語中刻意跟隨法語的拼寫，而不使用符合詞源和發音的拼寫。本詞典中該結尾一律寫作-ize。（希臘語中-ιζ-的i發音短促，在拉丁語中原本亦然，但是雙輔音z（= dz, ts）令該音節變長；當z為簡單輔音時，/-idz/變為īz，由此英語為/-aɪz/。）
+However, the suffix itself, whatever the element to which it is added, is in its origin the Greek -ιζειν, Latin -izāre; and, as the pronunciation is also with z, there is no reason why in English the special French spelling should be followed, in opposition to that which is at once etymological and phonetic. In this Dictionary the termination is uniformly written -ize. (In the Greek -ιζ-, the i was short, so originally in Latin, but the double consonant z (= dz, ts) made the syllable long; when the z became a simple consonant,  /-idz/  became īz, whence English  /-aɪz/.)
+
+使用「-ize」代替「-ise」並不影響那些不是來自希臘語「-izo」的單詞。其中一例就是以「-yse」（實際上是「-lyse」）結尾的單詞，例如「analyse」、「paralyse」和「catalyse」，取自希臘語動詞「λύω (lyo)」，其完成式（不定過去式）的詞幹為「-lys-」， 因此此處「-yse」更符合詞源。其他的還包括「arise」、「chastise」、「disguise」、「prise」(in the sense of open)和「televise」。
+
+
+語言標籤對比
+下表列出了4種常用英文拼寫習慣的對比。en-GB表示一般的英式英語，並未規定應當使用「-ize」還是「-ise」，而en-GB-oxendict語言標籤則規定要使用「-ize」和「-ization」。
+
+
+參考文獻

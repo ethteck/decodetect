@@ -1,0 +1,1022 @@
+离散对数 Pollard Rho 算法 是 John Pollard 在1978年发明的解决 离散对数 问题的算法, 区别于解决 整数分解 问题的同名算法。
+算法的目标是求 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   使得 
+  
+    
+      
+        
+          α
+          
+            γ
+          
+        
+        =
+        β
+      
+    
+    {\displaystyle \alpha ^{\gamma }=\beta }
+  ，其中 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   属于一个由 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+   生成的 循环群 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  。该算法寻找 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  , 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  ,  
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  , 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+   使得 
+  
+    
+      
+        
+          α
+          
+            a
+          
+        
+        
+          β
+          
+            b
+          
+        
+        =
+        
+          α
+          
+            A
+          
+        
+        
+          β
+          
+            B
+          
+        
+      
+    
+    {\displaystyle \alpha ^{a}\beta ^{b}=\alpha ^{A}\beta ^{B}}
+  。若他们基于的群是一个 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   阶的循环群，则 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   是方程 
+  
+    
+      
+        (
+        B
+        −
+        b
+        )
+        γ
+        =
+        (
+        a
+        −
+        A
+        )
+        
+          
+          (
+          mod
+          
+          n
+          )
+        
+      
+    
+    {\displaystyle (B-b)\gamma =(a-A){\pmod {n}}}
+   的其中一个解。
+为求得 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+  , 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+  ,  
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  , 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  ， 该算法使用 Floyd判圈算法 在数列 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        =
+        
+          α
+          
+            
+              a
+              
+                i
+              
+            
+          
+        
+        
+          β
+          
+            
+              b
+              
+                i
+              
+            
+          
+        
+      
+    
+    {\displaystyle x_{i}=\alpha ^{a_{i}}\beta ^{b_{i}}}
+   中寻找一个环。 假设映射 
+  
+    
+      
+        f
+        :
+        
+          x
+          
+            i
+          
+        
+        ↦
+        
+          x
+          
+            i
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle f:x_{i}\mapsto x_{i+1}}
+   是近似于随机的，则有可能在约 
+  
+    
+      
+        
+          
+            
+              
+                π
+                n
+              
+              2
+            
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\frac {\pi n}{2}}}}
+   步后发现一个环。可使用一下规则来生成一个此类映射：将 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+   分割为三个不相交的子集 
+  
+    
+      
+        
+          S
+          
+            0
+          
+        
+      
+    
+    {\displaystyle S_{0}}
+  ，
+  
+    
+      
+        
+          S
+          
+            1
+          
+        
+      
+    
+    {\displaystyle S_{1}}
+  
+，
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{2}}
+   ，且其所含元素数量大致相等，如果 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        ∈
+        
+          S
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{i}\in S_{0}}
+   则将 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   和 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+   加倍； 如果 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        ∈
+        
+          S
+          
+            1
+          
+        
+      
+    
+    {\displaystyle x_{i}\in S_{1}}
+   则将 
+  
+    
+      
+        a
+      
+    
+    {\displaystyle a}
+   自增； 如果 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        ∈
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle x_{i}\in S_{2}}
+   则将 
+  
+    
+      
+        b
+      
+    
+    {\displaystyle b}
+   自增。
+
+
+算法
+使 G 是一个 p 阶的 循环群, 且有 
+  
+    
+      
+        α
+        ,
+        β
+        ∈
+        G
+      
+    
+    {\displaystyle \alpha ,\beta \in G}
+  , 以及一个分割 
+  
+    
+      
+        G
+        =
+        
+          S
+          
+            0
+          
+        
+        ∪
+        
+          S
+          
+            1
+          
+        
+        ∪
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle G=S_{0}\cup S_{1}\cup S_{2}}
+  , 定义映射 
+  
+    
+      
+        f
+        :
+        G
+        →
+        G
+      
+    
+    {\displaystyle f:G\to G}
+   
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  β
+                  x
+                
+                
+                  x
+                  ∈
+                  
+                    S
+                    
+                      0
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                
+                
+                  x
+                  ∈
+                  
+                    S
+                    
+                      1
+                    
+                  
+                
+              
+              
+                
+                  α
+                  x
+                
+                
+                  x
+                  ∈
+                  
+                    S
+                    
+                      2
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle f(x)={\begin{cases}\beta x&x\in S_{0}\\x^{2}&x\in S_{1}\\\alpha x&x\in S_{2}\end{cases}}}
+  并据以下方式定义映射 
+  
+    
+      
+        g
+        :
+        G
+        ×
+        
+          Z
+        
+        →
+        
+          Z
+        
+      
+    
+    {\displaystyle g:G\times \mathbb {Z} \to \mathbb {Z} }
+   和 
+  
+    
+      
+        h
+        :
+        G
+        ×
+        
+          Z
+        
+        →
+        
+          Z
+        
+      
+    
+    {\displaystyle h:G\times \mathbb {Z} \to \mathbb {Z} }
+   
+
+  
+    
+      
+        
+          
+            
+              
+                g
+                (
+                x
+                ,
+                n
+                )
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          n
+                        
+                        
+                          x
+                          ∈
+                          
+                            S
+                            
+                              0
+                            
+                          
+                        
+                      
+                      
+                        
+                          2
+                          n
+                          
+                            
+                            (
+                            mod
+                            
+                            p
+                            )
+                          
+                        
+                        
+                          x
+                          ∈
+                          
+                            S
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          n
+                          +
+                          1
+                          
+                            
+                            (
+                            mod
+                            
+                            p
+                            )
+                          
+                        
+                        
+                          x
+                          ∈
+                          
+                            S
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+            
+              
+                h
+                (
+                x
+                ,
+                n
+                )
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          n
+                          +
+                          1
+                          
+                            
+                            (
+                            mod
+                            
+                            p
+                            )
+                          
+                        
+                        
+                          x
+                          ∈
+                          
+                            S
+                            
+                              0
+                            
+                          
+                        
+                      
+                      
+                        
+                          2
+                          n
+                          
+                            
+                            (
+                            mod
+                            
+                            p
+                            )
+                          
+                        
+                        
+                          x
+                          ∈
+                          
+                            S
+                            
+                              1
+                            
+                          
+                        
+                      
+                      
+                        
+                          n
+                        
+                        
+                          x
+                          ∈
+                          
+                            S
+                            
+                              2
+                            
+                          
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}g(x,n)&={\begin{cases}n&x\in S_{0}\\2n{\pmod {p}}&x\in S_{1}\\n+1{\pmod {p}}&x\in S_{2}\end{cases}}\\h(x,n)&={\begin{cases}n+1{\pmod {p}}&x\in S_{0}\\2n{\pmod {p}}&x\in S_{1}\\n&x\in S_{2}\end{cases}}\end{aligned}}}
+   输入 a: a 是 G 的生成元, b: G 的一个元素
+ 输出 整数 x 使得 ax = b, 或者失败
+
+ 初始化 a0 ← 0, b0 ← 0, x0 ← 1 ∈ G, 
+
+ i ← 1
+ loop
+     xi ← f(xi-1), 
+     ai ← g(xi-1, ai-1), 
+     bi ← h(xi-1, bi-1)
+
+     x2i ← f(f(x2i-2)), 
+     a2i ← g(f(x2i-2), g(x2i-2, a2i-2)), 
+     b2i ← h(f(x2i-2), h(x2i-2, b2i-2))
+
+     if xi = x2i then
+         r ← bi - b2i
+         if r = 0 return failure
+         x ← r−1(a2i - ai) mod p
+         return x
+     else # xi ≠ x2i
+         i ← i+1, 
+         break loop
+     end if
+  end loop
+
+
+举例
+考虑，举例来说，一个由 2 模 
+  
+    
+      
+        N
+        =
+        1019
+      
+    
+    {\displaystyle N=1019}
+   生成的群(群的阶是
+  
+    
+      
+        n
+        =
+        1018
+      
+    
+    {\displaystyle n=1018}
+  ，2是生成元，生成群的元素模1019同余)。这个算法可由以下 C++ 程序实现。
+
+结果如下 (已截断):
+
+ i     x   a   b     X   A   B
+------------------------------
+ 1     2   1   0    10   1   1
+ 2    10   1   1   100   2   2
+ 3    20   2   1  1000   3   3
+ 4   100   2   2   425   8   6
+ 5   200   3   2   436  16  14
+ 6  1000   3   3   284  17  15
+ 7   981   4   3   986  17  17
+ 8   425   8   6   194  17  19
+..............................
+48   224 680 376    86 299 412
+49   101 680 377   860 300 413
+50   505 680 378   101 300 415
+51  1010 681 378  1010 301 416
+
+可见 
+  
+    
+      
+        
+          2
+          
+            681
+          
+        
+        
+          5
+          
+            378
+          
+        
+        =
+        1010
+        =
+        
+          2
+          
+            301
+          
+        
+        
+          5
+          
+            416
+          
+        
+        
+          
+          (
+          mod
+          
+          1019
+          )
+        
+      
+    
+    {\displaystyle 2^{681}5^{378}=1010=2^{301}5^{416}{\pmod {1019}}}
+   以及 
+  
+    
+      
+        (
+        416
+        −
+        378
+        )
+        γ
+        =
+        681
+        −
+        301
+        
+          
+          (
+          mod
+          
+          1018
+          )
+        
+      
+    
+    {\displaystyle (416-378)\gamma =681-301{\pmod {1018}}}
+  。
+正如预期，其中 
+  
+    
+      
+        
+          γ
+          
+            1
+          
+        
+        =
+        10
+      
+    
+    {\displaystyle \gamma _{1}=10}
+   是一个解。由于 
+  
+    
+      
+        n
+        =
+        1018
+      
+    
+    {\displaystyle n=1018}
+   不是素数，因此存在另一个解 
+  
+    
+      
+        
+          γ
+          
+            2
+          
+        
+        =
+        519
+      
+    
+    {\displaystyle \gamma _{2}=519}
+  ，使得 
+  
+    
+      
+        
+          2
+          
+            519
+          
+        
+        =
+        1014
+        =
+        −
+        5
+        
+          
+          (
+          mod
+          
+          1019
+          )
+        
+      
+    
+    {\displaystyle 2^{519}=1014=-5{\pmod {1019}}}
+   成立。
+
+
+复杂度
+时间复杂度近似于 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        
+          
+            n
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}({\sqrt {n}})}
+  。如果配合使用算法 Pohlig-Hellman algorithm，则整体时间复杂度近似于 
+  
+    
+      
+        
+          
+            O
+          
+        
+        (
+        
+          
+            p
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathcal {O}}({\sqrt {p}})}
+  ， 其中 
+  
+    
+      
+        p
+      
+    
+    {\displaystyle p}
+   是 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   的最大质因数。
+
+
+参考文献
+Pollard, J. M. Monte Carlo methods for index computation (mod p). Mathematics of Computation. 1978, 32 (143): 918–924. doi:10.2307/2006496. 
+Menezes, Alfred J.; van Oorschot, Paul C.; Vanstone, Scott A. Chapter 3 (PDF). Handbook of Applied Cryptography. 2001. Template:Number-theoretic algorithms

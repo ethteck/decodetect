@@ -1,0 +1,106 @@
+A Kárpát-medencei rovás Európában egyedülálló írásrendszer, elsősorban a mássalhangzós rövidítési módja miatt. Az egyik legfontosabb jelenleg ismert rovásos régészeti leleten, a Nagyszentmiklósi kincsen is megtalálható a Kárpát-medencei rovás, amely Vékony Gábor régész szerint a székely-magyar rovásírás közvetlen elődje . A Kárpát-medencei rovás magyar írások közé, másrészt a rovás íráscsaládba tartozik.
+
+
+Jelentősége
+A Kárpát-medencei rovással kapcsolatban számos – gyakran igen eltérő – vélemény létezik (lásd a cikk egészét). Azonban a Nagyszentmiklósi kincs felfedezése óta kétségbevonhatatlan tény magának az írásnak a létezése. Az ezzel az írással készült emlékek a székely–magyar rovásírásos emlékek túlnyomó többségénél korábbiak és a Kárpát-medence VII-XI. századi történetére vonatkozóan forrásértékűek. Ezért a Kárpát-medencei rovás ismerete a régészet, a történettudomány, a nyelvtörténet és a nyelvészet szempontjából is fontos értékkel bír.
+Ugyanakkor az a tény, hogy – legalábbis Vékony Gábor régész-történész kutató elmélete alapján – a legkorábbi magyar szövegemlékek Kárpát-medencei rovással készültek, a magyar művelődéstörténet szempontjából is kiemelt jelentőségűvé teszi ezt az írást.
+A Kárpát-medencei rovással kapcsolatban még nagyon sok nyitott kérdés van, amelyek valószínűleg csak akkor jutnak el a mindenki számára elfogadható megoldásig, ha újabb régészeti leletek előkerülnek. De amit eddig tudunk erről az írásról, az is méltóvá teszi arra, hogy megismerjük és megbecsüljük.
+A székely–magyar rovásírás valószínűleg a Kárpát-medencei rovásból alakult ki a VIII. sz. fordulóján a Nyugat-Dunántúlon, de onnantól kezdve önállóan fejlődött. Így kétségtelen tény, hogy a Kárpát-medencei rovás és a székely-magyar rovás két önálló írás, amelyek egyik közös tulajdonsága, hogy feljegyeztek velük magyar szövegeket, így mindkettő magyar írás is.
+
+
+Története
+A szarvasi késő avar kori hasáb alakú csont tűtartó és a nagyszentmiklósi aranykincs leletről szóló könyvtárnyi irodalom a kincset a 8. századi avarokhoz, a 9. századi bolgárokhoz, vagy a honfoglaló magyarokhoz köti. A fejedelmi étkészlet koráról 200 éve folyik a vita. A Kárpát-medencén kívül még nem találtak olyan régészeti leletet, amely Kárpát-medencei rovással készült volna. Ezt a rovást a régészeti leletek alapján (kivétel: Aethicus Ister ábécéje, amely nem régészeti lelet) tehát kizárólag a Kárpát-medencében használhatták a 7-től a 11. századig.Ha Vékony Gábor régész és nyelvész, egyetemi docens, a történettudományok kandidátusa, az ELTE Régészeti Tanszékének tanárának megfejtési kísérletéből indulunk ki, akkor a megtalált emlékeken lévő feliratok nagy része magyarul van (pontosabban ősmagyarul), de kisebb részben ogur nyelvű, valamint két szláv és egy ász vagy alán nyelvű felirat is előbukkant. Azonban más olvasati kísérletek is léteznek.
+A környei avar sírok feltárásakor került elő egy 7. századból származó íj fogórészét borító szarulemez, melyen a hosszúkás jelek a lemez alakjához igazodnak és a 15 rovás jelből álló írás vegyes jelrendszere megnehezítette a megfejtését. Vékony Gábor szerint a türk nyelvű olvasata a következő: „Te íjat lődd nyíllal ellen”.
+Vékony Gábor elmélete alapján a Kárpát-medencei rovással rokon a kazáriai rovás (steppei rovás), illetve a Kárpát-medencei rovás leszármazottjának tekinthető a székely-magyar rovás. Bár nem mindenki fogadja el ezt az elméletet, általában a magyar kutatók a steppei rovást, a kárpát-medencei rovást és a székely-magyar rovást egymással szoros rokonságban álló írásnak tekintik.
+
+
+Történelmi emlékekben szereplő karakterek
+
+
+Legfontosabb emlékek
+
+
+Vitatott emlékek
+
+
+Kísérlet a Kárpát-medencei rovás jelenkori használatára
+2009-ben egy kísérlet történt a Kárpát-medencei rovás újraélesztésére. Ennek célja az, hogy ezt az írást közelebb hozza a rovásírás iránt érdeklődőkhöz nem titkolva azt a tényt, hogy itt egy 1000 évvel ezelőtt kihalt írásról van szó, így ennek íráshagyományai a XI. sz.-ban megszakadtak. Ez a kísérlet egyrészt Vékony Gábor által adott hangértékeken alapul, másrészt a XI. és XXI. sz. között eltelt nyelvi fejlődést igyekszik figyelembe venni egyes Kárpát-medencei rovásjelek már nem használt eredeti hangértékének újra való cseréjével. Ennek során a Kárpát-medencei rovás fennmaradt emlékek alapján felismerhető hagyományait, valamint a magyar nyelvtörténet által felismert törvényszerűségeket messzemenőkig figyelembe veszi. Ugyanakkor tény, hogy a mai napig csak szórványos próbálkozások történtek a kárpát-medencei rovás jelenkori használatára.A Kárpát-medencei rovás alapjelei, amelyek a mai feliratokban használatosak az alábbi képen láthatók. A Kárpát-medencei rovásírás jelenleg még nem része az Unicode-nak, 2011 óta létezik egy előterjesztés, amely szerint helyet fog kapni benne. Számítógépes alkalmazása mégsem teljesen megoldatlan: a megfelelő betűtípusok beszerzésével lehetséges a rovásírás használata különböző dokumentumokban. A régebbiek a latin ábécé karaktereinek helyén jelenítik meg jeleit (legelterjedtebben a 8 bites kódolású Rovás Kárpát-medencei betűtípus).
+
+
+Számítástechnikai megjelenítése
+
+
+Betűkészlet
+Ingyenesen letölthető a Kárpát-medencei rovás helyről. A hozzá tartozó kódtáblázat a Kárpát-medencei rovás kódtáblázat helyről érhető el.
+
+
+Unicode előterjesztések
+Legutóbbi:
+
+Demeczky Jenő, Giczi György, Dr. Hosszú Gábor, Kliha Gergely, Dr. Obrusánszky Borbála, Rumi Tamás, Sípos László, Dr. Zelliger Erzsébet javaslata - Kiegészítő információk a Rovás írásnévről (angolul): Additional information about the name of the Rovas script. Individual Contribution for consideration by UTC and ISO/IEC JTC1/SC2/WG2 and ISO 15924/MA-JAC, 2012. október 21.
+Demeczky Jenő, Dr. Hosszú Gábor, Rumi Tamás, Sípos László, Dr. Zelliger Erzsébet: Revised proposal for encoding the Rovas in the UCS. Individual Contribution for consideration by UTC and ISO/IEC JTC1/SC2/WG2, 2012. október 17.
+Kód kérése a Rovás számára az ISO 15924 szabványba, 2012. október 21. (angolul)
+Jenő Demeczky, György Giczi, Gábor Hosszú, Gergely Kliha, Borbála Obrusánszky, Tamás Rumi, László Sípos, Erzsébet Zelliger: About the consensus of the Rovas encoding - Response to N4373. Individual Contribution for consideration by UTC and ISO/IEC JTC1/SC2/WG2. Registered by UTC (L2/12-337), 2012-10-24 (angolul)Korábbi:
+
+Dr. Hosszú Gábor (Magyar Szabványügyi Testület) javaslata (angolul): Revised proposal for encoding the Carpathian Basin Rovas script in the SMP of the UCS, 2011. október 12.
+
+
+Forrásművek
+Bihari Anna – Pócs Éva: Képes magyar néprajz, Corvina, 1985.
+Csallány Dezső: A székely-magyar rovásírás emlékei, 1963.
+Csallány Dezső: A székely-magyar rovásírás történetéhez, 1966.
+Csallány Dezső: Székely rovásírásos szövegek megfejtése, 1970.
+Erdélyi István (Эрдели, Ишван, 2005): Разгадана ли тайна золотого клада? [Az aranykincs titka megoldódott?] Almaty: Shygys, 2005, No. 1, 180-184.
+Erdélyi István (2008): Scythia Hungarica – A honfoglalás előtti magyarság régészeti emlékei. Ser.: Régészeti tanulmányok. Budapest: Mundus Magyar Egyetemi Kiadó, ISBN 9789638033437
+Élő Előd: Egy kis bogarászás a bogárjelek világában, Turán , 1999.
+Fehérné Walter Anna: Az ékírástól a rovásírásig, Buenos Aires, 1975.
+Fischer Károly Antal: A hun magyar írás és annak fennmaradt emlékei, Budapest, 1889.
+Forrai Sándor: Az ősi magyar rovásírás az ókortól napjainkig, Antológia Kiadó, 1994.
+Für Zoltán: A magyar rovásírás ábécés könyve, Püski, 1999.
+Gábor Hosszú (2011): Heritage of Scribes. The Relation of Rovas Scripts to Eurasian Writing Systems. First edition. Budapest: Rovas Foundation, ISBN 978-963-88437-4-6, available in Google Books at https://books.google.hu/books?id=TyK8azCqC34C&pg=PA1
+Kéki Béla: Az írás története, Gondolat, 1971.
+Libisch Győző: Tanuljunk róni, ÓMT, 1998-
+Németh Gyula: A magyar rovásírás, Budapest, 1934.
+Róna-Tas András (1996): A honfoglaló magyar nép. Bevezetés a korai magyar történelem ismeretébe. Budapest: Balassi Kiadó, ISBN 963-506-106-4
+Róna-Tas, András (1999): Hungarians and Europe in the Early Middle Ages – An Introduction to Early Hungarian History, Budapest: CEU Press, ISBN 979-963-9116-48-0
+Sebestyén Gyula: A magyar rovásírás hiteles emlékei, Budapest, 1915.
+Sebestyén Gyula: Rovás és rovásírás, Budapest, Püski, 1999.
+Telegdi János: Rudimenta, Kísérlet a hunok régi nyelvének elemeiről... ,1598.
+Varga Csaba: Jel Jel Jel, Frig Kiadó, 2001.
+Varga, Csaba (2012): A számjelek és a számírás története [History of the numeral symbols and the numeral scripting]. Budapest: Fríg Kiadó. ISBN 978-963-9836-23-5
+Varga Géza: Bronzkori magyar írásbeliség, Írástörténeti Kutatóintézet, 1993.
+Vásáry István: A magyar rovásírás kutatás, Keletkutatás, 1974.
+Vékony Gábor (1985): Késő népvándorláskori rovásfeliratok. In: Életünk Vol. XXII. No. 1, 71-84.
+Vékony Gábor (1987): Későnépvándorláskori rovásfeliratok a Kárpát-medencében. Szombathely-Budapest: Életünk szerkesztősége. ISBN 978-963-025-132-7
+Vékony, Gábor (1987): Spätvölkerwanderungszeitliche Kerbinschriften im Karpatenbecken. In: Acta Acheologica Hungarica. Vol. 39, 211-256.
+Vékony Gábor (2004): A székely írás emlékei, kapcsolatai, története. Budapest: Nap Kiadó. ISBN 963-9402-45-1
+
+
+Külső hivatkozások
+Letölthető rovás betűkészletek legteljesebb gyűjteménye
+Kárpát-medencei rovás a RovásPédián (angolul)
+Dr. Hosszú Gábor: A számítógépes paleográfia haszna. Interjú a Magyar Rádió Határok nélkül c. műsorában. 2012. július 10, az első 1:30 perc. (magyarul)
+Rovásos helységnévtáblák és ezekkel kapcsolatos információk a Google Maps térképén
+Sípos Lászlóval készül interjú a Rovás Híradóban (magyarul)
+Hagyaték - Rovásírás - Újraéledő jelek (Duna Televízió, 2012. május 26.)
+Az Index cikke a rovásírásról  (magyarul)
+Issues of encoding the Rovas scripts (angolul)
+Comments on encoding the Rovas scripts (angolul)
+A kárpát-medencei rovás ismertetése (magyarul)
+A kárpát-medencei rovás alapjelei
+A kárpát-medencei rovás betűkészletének letöltése (magyarul)
+Rovás Infó (Rovás Alapítvány) (magyarul)
+Kanadai Magyar Cserkészek – Rovásírás a Cserkészetben
+Friedrich Klára – Szakács Gábor: Kárpát-medencei birtoklevelünk, a rovásírás
+Rudimenta, Priscae hunnorum linguage – Breuibus quaestionibus acresponsionibus comprehensa opera et studio Ioannis Thelegdi
+Dr. Kontur László: Nostratic language (magyarul, angolul, németül)
+Hunn-Székely írás – Avagy kitől származunk? Finnugor vagy szkhíta eredet? 
+Csallány Dezső: A nagyszentmiklósi kincs rovásfeliratainak és a battonyai pecsétgyűrű rovás­feliratának kapcsolata
+
+
+Kárpát-medencei rovásírásra átíró szövegszerkesztők
+Latin-kárpát-medencei rovásra átíró program
+Kliha Gergely által készített Firefox bővítmény, amely kárpát-medencei és székely-magyar rovásra is át tud alakítani
+
+
+Megjegyzések

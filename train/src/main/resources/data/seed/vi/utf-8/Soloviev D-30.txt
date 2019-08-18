@@ -1,0 +1,21 @@
+D-30 là loại động cơ máy bay tuốc bin phản lực cánh quạt được phát triển bởi cục Thiết kế Soloviev vào năm 1963 cho các máy bay chở khác Tu-134. Việc chế tạo hàng loạt đã được thực hiện tại nhà máy sản xuất ô tô Permskii và NPO Saturn vào năm 1972. Ban đầu nó nổi tiếng với việc khá ồn nhất là khi cất cánh. Nhưng sau đó động cơ liên tục tinh chế và sửa đổi. Phiên bản siêu âm mẫu D-30F6 có khả năng đốt sau được trang bị cho các máy bay tiêm kích đánh chặn MiG-31 trong khi các mẫu không có khả năng này dùng cho dân sự được trang bị trên Ilyushin Il-62M và Tupolev Tu-154M và Ilyushin Il-76MD cùng những máy bay vận tải hạng nặng khác.
+
+
+Các phiên bản
+D-30: Mẫu cơ bản lắp trên Tu-134.
+D-30B: Mẫu dạng đồng trục thử nghiệm gắn trên trực thăng thử nghiệm Mil V-12.
+D-30KP: Mẫu được cải tiến lực đẩy trang bị cho các máy bay Il-76 và các phiên bản của nó là A-50 và IL-78 với D-30KP-2 và D-30KP-A.
+WS-18: Mẫu sao chép D-30KP-2 của Trung Quốc lắp trên máy bay ném bom H-6K.
+D-30KP-3 Burlak: Mẫu nâng cấp mạnh tay phát triển trong những năm 2000 do NPO Saturn thực hiện. Tăng công suất thêm 1 tấn khi bay bình thường và 1,5 lần khi đốt sau giảm mức tiêu thụ nhiên liệu đi 11% cũng như đáp ứng tiêu chuẩn ICAO về tiếng ồn và khí thải.
+D-30KPV: Mẫu dùng cho thủy phi cơ Beriev A-40.
+D-30KU: Mẫu có công suất đẩy 11.500 kg dùng cho Tu-154 và Il-62.
+D-30KU-154: Tối ưu hóa hoạt động giảm công xuất đẩy xuống còn 11.000 kg nhưng giúp giảm tiếng ồn và tiết kiệm thêm nhiên liệu.
+D-30F-6: Loại động cơ rất mạnh không thích hợp với các khung máy bay bình thường. Chỉ sử dụng cho các máy bay MiG-31 và Sukhoi Su-47.
+
+
+Liên kết ngoài
+ Phương tiện liên quan tới Soloviev D-30 tại Wikimedia Commons
+NPO Saturn
+Propulsionplant.ru
+http://lenta.ru/news/2011/05/12/h6k/
+http://vpk.name/news/56492_nelegkie_na_podem.html

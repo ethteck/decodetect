@@ -1,0 +1,20 @@
+A ViharVadász.hu egy magyar webkamera portál.
+
+
+Alapötlet
+A ViharVadász a Magyarországon üzemelő amatőr időjárási webkamerák összegyűjtésére és rendezésére kialakított honlap. A rendszerhez bármely látogató csatlakozhat saját eszközével.
+
+
+A tervtől a megvalósításig
+A Nagy Gergely által összeállított Viharjelzés tervezet 2004. február 24-én került ki a Viharjelzés.hu domainre, mely többek közt tartalmazta az ország pillanatnyi időjárásának szöveges és képi adatainak összegyűjtését és megjelenítését. A napjainkban üzemelő www.időkép.hu és ViharVadász oldalpár számos ötletet merített az írásból. A ViharVadász 2005. december 30-án indult, az első nap mindössze 4 településről volt kamera csatlakoztatva, napjainkban több, mint négyszáz csatorna üzemel, ebből egy adott pillanatban általában száz sugároz élő adást. A pillanatnyi képen túl a tulajdonosok kommentet írhatnak a képre, a nézők pedig megtekinthetik az egész nap az utolsó egy-másfél órából folyamatosan készülő gyorsított felvételeket az egyes csatornákra külön lebontva.
+
+
+Nagyfelbontású képek
+A ViharVadász kameráinak harmada átlagos minőségű webkamerák helyett távvezértelt digitális fényképezőgépekkel dolgozik. A technológia lehetővé teszi, hogy hosszú expozícióval akár éjszaka is színes képet láthassunk az ország számos pontjáról. Nagy hangsúlyt fektettek a készítők a panorámaképek kifejlesztésére, ilyenkor gyakorlatilag több, egymás széleit érintő csatornák képei vannak egy közös képre összeillesztve.
+
+
+ViharVadász Klip
+Nagy sikernek örvend a gyorsított felvételekből és aláfestő zenékből évente készülő ViharVadász Klip. A 2006-os év képeiből készült 8 perces videó egy fixen telepített 7 kamerás körpanorámarendszer képeiből lett összeválogatva, amellyel elsősorban az időjárás és a természet szépségére próbálja meg felhívni nézői figyelmét. A 2007-es VVKlip előzetese itt tekinthető meg.
+
+
+Hivatkozások, források
