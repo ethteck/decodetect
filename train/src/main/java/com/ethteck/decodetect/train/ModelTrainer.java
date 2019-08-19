@@ -15,31 +15,30 @@ import com.ethteck.decodetect.core.NGramCounter;
 import com.ethteck.decodetect.core.Util;
 
 public class ModelTrainer {
-    private ModelTrainer(String dataPath, String outputPath) throws IOException {
-        long start = System.currentTimeMillis();
+    private ModelTrainer(String dataPath, String outputPath) throws IOException, DecodetectTrainingException {
+        System.out.println("Training new Decodetect model with data at '" + dataPath + "'");
+        System.out.print("Loading data files...");
         ArrayList<DataFile> trainingFiles = Util.loadData(dataPath);
-        long dataLoad = System.currentTimeMillis();
+        System.out.println("done!");
         Models models = trainModels(trainingFiles);
-        long trained = System.currentTimeMillis();
-        try {
-            models.writeToFile(outputPath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        long saved = System.currentTimeMillis();
-
-        System.out.println("data: " + (dataLoad - start));
-        System.out.println("trained: " + (trained - dataLoad));
-        System.out.println("written: " + (saved - trained));
+        System.out.print("Writing models to disk...");
+        models.writeToFile(outputPath);
+        System.out.println("done!");
+        System.out.println("Models were successfully trained and saved at '" + outputPath + "'");
     }
 
-    private static Models trainModels(ArrayList<DataFile> dataFiles) throws IOException {
+    private static Models trainModels(ArrayList<DataFile> dataFiles) throws IOException, DecodetectTrainingException {
         HashMap<String, NGramCounter.Builder> counters = new HashMap<>();
+        int fileCount = 0;
         for (DataFile dataFile : dataFiles) {
+            fileCount++;
+            double percent = fileCount / (double) dataFiles.size() * 100;
+            System.out.print(String.format("Training on data files... (%d/%d) %.1f", fileCount, dataFiles.size(), percent) + "%\r");
             List<Charset> applicableEncodings = Encodings.getCharsetsForLang(dataFile.getLang());
             for (Charset transcoding : applicableEncodings) {
                 if (!transcoding.canEncode()) {
-                    continue;
+                    throw new DecodetectTrainingException("Attempting to train on Charset " + transcoding.name() +
+                            ", but this charset does not support encoding!");
                 }
 
                 String transcodingName = transcoding.name();
@@ -50,7 +49,7 @@ public class ModelTrainer {
                 }
                 if (!counters.containsKey(langKey)) {
                     counters.put(langKey, new NGramCounter.Builder());
-            }
+                }
                 NGramCounter.Builder langSpecificCounter = counters.get(langKey);
                 NGramCounter.Builder generalEncodingCounter = counters.get(encodingKey);
 
@@ -62,15 +61,19 @@ public class ModelTrainer {
                 generalEncodingCounter.addData(transcodedBytes);
             }
         }
+        System.out.println(String.format(
+                "Training on data files...done! (%d/%d) %.1f", fileCount, dataFiles.size(), 100.0) + "%");
 
         ArrayList<Model> models = new ArrayList<>();
 
+        System.out.print("Building models...\r");
         for (Map.Entry<String, NGramCounter.Builder> entry : counters.entrySet()) {
             String[] keySplit = entry.getKey().split(",");
             String encoding = keySplit[0];
             String lang = keySplit.length == 2 ? keySplit[1] : "";
             models.add(new Model(encoding, lang, entry.getValue().build()));
         }
+        System.out.println("Building models...done!");
 
         return new Models(models);
     }
@@ -83,8 +86,14 @@ public class ModelTrainer {
         String outputPath = args[1];
         try {
             ModelTrainer modelTrainer = new ModelTrainer(dataPath, outputPath);
-        } catch (IOException e) {
+        } catch (IOException | DecodetectTrainingException e) {
             e.printStackTrace();
+        }
+    }
+
+    private static class DecodetectTrainingException extends Exception {
+        DecodetectTrainingException(String s) {
+            super(s);
         }
     }
 }

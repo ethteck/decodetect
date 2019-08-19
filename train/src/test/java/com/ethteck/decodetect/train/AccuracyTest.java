@@ -22,7 +22,7 @@ class AccuracyTest {
         long start = System.currentTimeMillis();
         Decodetect decodetect = new Decodetect();
         long modelLoad = System.currentTimeMillis();
-        ArrayList<DataFile> testFiles = Util.loadData("train/src/test/resources/data/test");
+        ArrayList<DataFile> testFiles = Util.loadData("src/test/resources/data/test");
         long dataLoad = System.currentTimeMillis();
         runTests(decodetect, testFiles);
         long tests = System.currentTimeMillis();

@@ -24,14 +24,9 @@ public class Util {
     public static ArrayList<DataFile> loadData(String dir) throws IOException {
         ArrayList<DataFile> ret = new ArrayList<>();
 
-        try {
-            Files.walk(Paths.get(dir))
-                    .filter(Files::isRegularFile)
-                    .forEach(path -> ret.add(new DataFile(path)));
-        } catch (IOException e) {
-            throw new IOException("Error loading data", e);
-        }
-
+        Files.walk(Paths.get(dir))
+                .filter(Files::isRegularFile)
+                .forEach(path -> ret.add(new DataFile(path)));
         return ret;
     }
 }
