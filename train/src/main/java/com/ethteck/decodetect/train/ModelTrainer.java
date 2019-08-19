@@ -14,7 +14,7 @@ import com.ethteck.decodetect.core.Models;
 import com.ethteck.decodetect.core.NGramCounter;
 import com.ethteck.decodetect.core.Util;
 
-public class ModelTrainer {
+class ModelTrainer {
     private ModelTrainer(String dataPath, String outputPath) throws IOException, DecodetectTrainingException {
         System.out.println("Training new Decodetect model with data at '" + dataPath + "'");
         System.out.print("Loading data files...");
@@ -33,14 +33,15 @@ public class ModelTrainer {
         for (DataFile dataFile : dataFiles) {
             fileCount++;
             double percent = fileCount / (double) dataFiles.size() * 100;
-            System.out.print(String.format("Training on data files... (%d/%d) %.1f", fileCount, dataFiles.size(), percent) + "%\r");
+            if (fileCount % 50 == 0) {
+                System.out.print(String.format("Training on data files... (%d/%d) %.1f", fileCount, dataFiles.size(), percent) + "%\r");
+            }
             List<Charset> applicableEncodings = Encodings.getCharsetsForLang(dataFile.getLang());
             for (Charset transcoding : applicableEncodings) {
                 if (!transcoding.canEncode()) {
                     throw new DecodetectTrainingException("Attempting to train on Charset " + transcoding.name() +
                             ", but this charset does not support encoding!");
                 }
-
                 String transcodingName = transcoding.name();
                 String encodingKey = transcodingName + ",";
                 String langKey = encodingKey + dataFile.getLang();

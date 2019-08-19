@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Models implements Serializable {
-    private ArrayList<Model> models;
+    private final ArrayList<Model> models;
 
     public Models(ArrayList<Model> models) {
         this.models = models;

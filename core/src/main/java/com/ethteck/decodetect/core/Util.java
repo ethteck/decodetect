@@ -7,10 +7,6 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class Util {
-    private static int NGRAM_N = 2;
-    //todo make this a member of Decodetect, not static
-    static int MODEL_SIZE = (int) Math.pow(256, NGRAM_N);
-
     public static byte[] getBytesFromFile(Path filePath) throws IOException {
         byte[] fileBytes;
         try {

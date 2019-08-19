@@ -34,7 +34,7 @@ public class NGramCounter implements Serializable {
     }
 
     public static class Builder {
-        static int n = 2; //todo change possibly?
+        static final int n = 2; //todo change possibly?
         final HashMap<Integer, Double> counter;
 
         double totalNGrams = 0;

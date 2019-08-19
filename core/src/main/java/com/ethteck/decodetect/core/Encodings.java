@@ -13,7 +13,7 @@ import com.beetstra.jutf7.CharsetProvider;
 public final class Encodings {
 	private static final CharsetProvider UTF7CharsetProvider = new CharsetProvider();
 
-	static final Charset UTF_7 = UTF7CharsetProvider.charsetForName("UTF-7");
+	public static final Charset UTF_7 = UTF7CharsetProvider.charsetForName("UTF-7");
 
 	private static final Charset[] COMMON = new Charset[] {
 			UTF_7,
