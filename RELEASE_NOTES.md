@@ -6,5 +6,8 @@
 
 
 ## 0.2
+
 * Unit tests added
 * Many bugs fixed
+
+# 0.3

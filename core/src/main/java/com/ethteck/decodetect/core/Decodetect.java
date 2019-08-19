@@ -29,6 +29,10 @@ public final class Decodetect {
         }
     }
 
+    Decodetect(Models models) {
+        this.models = models;
+    }
+
     /**
      * Returns a list of {@link DecodetectResult} representing the most likely encodings for the given bytes
      * @param bytes bytes for which the Charset will be detected
@@ -51,7 +55,7 @@ public final class Decodetect {
                 .collect(Collectors.toList());
     }
 
-    static class DecodetectInitializationException extends Exception {
+    public static class DecodetectInitializationException extends Exception {
         DecodetectInitializationException(String m, Exception e) {
             super(m, e);
         }

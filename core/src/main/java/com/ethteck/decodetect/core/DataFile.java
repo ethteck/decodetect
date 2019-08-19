@@ -28,7 +28,7 @@ public class DataFile {
         return encoding;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 }

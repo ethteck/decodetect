@@ -33,7 +33,7 @@ public class Model implements Serializable {
 
         for (Map.Entry<Integer, Double> entry : smallerModel.entrySet()) {
             double thisVal = counter.getValAt(entry.getKey());
-            double otherVal = counter.getValAt(entry.getKey());
+            double otherVal = otherCounter.getValAt(entry.getKey());
 
             double score = thisVal * otherVal / (thisDot * otherDot);
             totalScore += score;

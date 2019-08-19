@@ -2,24 +2,20 @@ package com.ethteck.decodetect.core;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class TestDecodetect {
-    private static Decodetect DECODETECT;
-
-    @BeforeAll
-    static void setup() throws Exception{
-        DECODETECT = new Decodetect();
-    }
-
-    @Test
+    // todo move these
+    /*@Test
     void testGetResults() {
         String shigeru = "京都府船井郡園部町（現・南丹市）に生まれる[1]。";
         byte[] stringBytes = shigeru.getBytes(Encodings.UTF_7);
@@ -43,15 +39,29 @@ class TestDecodetect {
             DecodetectResult topResult = results.get(0);
             assertEquals(charset, topResult.getEncoding());
         }
-    }
+    }*/
 
     @Test
     void testCustomModel(@TempDir File tempDir) throws IOException, Decodetect.DecodetectInitializationException {
-        Models models = TestModels.getTestModels();
+        String engutfStr = "This will become UTF-7";
+        String otherutfStr = "I am also that same encoding!";
+
+        NGramCounter counter = new NGramCounter.Builder().addData(engutfStr.getBytes(Encodings.UTF_7)).build();
+
+        Model model = new Model("UTF-7", "en", counter);
+        ArrayList<Model> modelList = new ArrayList<>();
+        modelList.add(model);
+
+        Models models = new Models(modelList);
         models.writeToFile(tempDir + "/model.mdl");
 
         Decodetect custom = new Decodetect(tempDir + "/model.mdl");
-        custom.getResults(new byte[]{1, 2, 3});
+        List<DecodetectResult> results = custom.getResults(otherutfStr.getBytes(Encodings.UTF_7));
+
+        DecodetectResult bestResult = results.get(0);
+        assertEquals("en", bestResult.getLang());
+        assertEquals(Encodings.UTF_7, bestResult.getEncoding());
+        assertTrue(bestResult.getConfidence() > 0 && bestResult.getConfidence() <= 1);
     }
 
     @Test
@@ -61,7 +71,8 @@ class TestDecodetect {
 
     @Test
     void testEmptyBytes() {
-        List<DecodetectResult> results = DECODETECT.getResults(new byte[]{});
+        Decodetect decodetect = new Decodetect(TestModels.getTestModels());
+        List<DecodetectResult> results = decodetect.getResults(new byte[]{});
         assertTrue(results.isEmpty());
     }
 }
