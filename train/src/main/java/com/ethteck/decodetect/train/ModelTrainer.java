@@ -12,13 +12,12 @@ import com.ethteck.decodetect.core.Encodings;
 import com.ethteck.decodetect.core.Model;
 import com.ethteck.decodetect.core.Models;
 import com.ethteck.decodetect.core.NGramCounter;
-import com.ethteck.decodetect.core.Util;
 
 class ModelTrainer {
     private ModelTrainer(String dataPath, String outputPath) throws IOException, DecodetectTrainingException {
         System.out.println("Training new Decodetect model with data at '" + dataPath + "'");
         System.out.print("Loading data files...");
-        ArrayList<DataFile> trainingFiles = Util.loadData(dataPath);
+        ArrayList<DataFile> trainingFiles = DataFile.loadDataFiles(dataPath);
         System.out.println("done!");
         Models models = trainModels(trainingFiles);
         System.out.print("Writing models to disk...");
@@ -54,7 +53,7 @@ class ModelTrainer {
                 NGramCounter.Builder langSpecificCounter = counters.get(langKey);
                 NGramCounter.Builder generalEncodingCounter = counters.get(encodingKey);
 
-                byte[] fileBytes = Util.getBytesFromFile(dataFile.getPath());
+                byte[] fileBytes = dataFile.loadBytes();
                 String fileText = new String(fileBytes, dataFile.getEncoding());
                 byte[] transcodedBytes = fileText.getBytes(transcoding);
 

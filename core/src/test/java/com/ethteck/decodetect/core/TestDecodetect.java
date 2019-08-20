@@ -2,6 +2,7 @@ package com.ethteck.decodetect.core;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,5 +45,14 @@ class TestDecodetect {
         Decodetect decodetect = new Decodetect(TestModels.getTestModels());
         List<DecodetectResult> results = decodetect.getResults(new byte[]{});
         assertTrue(results.isEmpty());
+    }
+
+    @Test
+    void testLoadBundledModel() throws Decodetect.DecodetectInitializationException {
+        Decodetect decodetect = new Decodetect();
+        List<DecodetectResult> results = decodetect.getResults("Hey this is some sample text!".getBytes());
+        assertFalse(results.isEmpty());
+        assertEquals(StandardCharsets.UTF_8, results.get(0).getEncoding());
+        assertEquals("en", results.get(0).getLang());
     }
 }

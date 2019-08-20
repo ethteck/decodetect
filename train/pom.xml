@@ -39,7 +39,7 @@
                 <configuration>
                     <mainClass>com.ethteck.decodetect.train.ModelTrainer</mainClass>
                     <arguments>
-                        <argument>${project.basedir}/src/main/resources/data/seed</argument>
+                        <argument>${project.basedir}/src/main/resources/data/train</argument>
                         <argument>${project.build.directory}/model.mdl</argument>
                     </arguments>
                 </configuration>

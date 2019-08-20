@@ -3,75 +3,57 @@ package com.ethteck.decodetect.train;
 import com.ethteck.decodetect.core.DataFile;
 import com.ethteck.decodetect.core.Decodetect;
 import com.ethteck.decodetect.core.DecodetectResult;
-import com.ethteck.decodetect.core.Util;
+import com.ethteck.decodetect.core.Encodings;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
-import java.nio.charset.CharsetDecoder;
 import java.util.ArrayList;
 import java.util.List;
 
 class AccuracyTest {
+    private int successes = 0;
+    private int fails = 0;
 
     @Test
     void run() throws Decodetect.DecodetectInitializationException, IOException {
-        long start = System.currentTimeMillis();
         Decodetect decodetect = new Decodetect();
-        long modelLoad = System.currentTimeMillis();
-        ArrayList<DataFile> testFiles = Util.loadData("src/test/resources/data/test");
-        long dataLoad = System.currentTimeMillis();
+        ArrayList<DataFile> testFiles = DataFile.loadDataFiles("src/test/resources/data/test");
+        long start = System.currentTimeMillis();
         runTests(decodetect, testFiles);
         long tests = System.currentTimeMillis();
 
-        System.out.println("model load: " + (modelLoad - start));
-        System.out.println("data load: " + (dataLoad - modelLoad));
-        long testTime = tests - modelLoad;
-        System.out.println("tests: " + testFiles.size() + " tests in " + testTime);
-        System.out.println(testTime / (float) testFiles.size() + " ms/test");
+        int totalTests = successes + fails;
+        long testTime = tests - start;
+        float avgTestTime = testTime / (float) testFiles.size();
+        System.out.println("Ran " + totalTests + " tests in " + testTime + " ms (" + avgTestTime + " ms/test)");
+        System.out.println(successes + " pass");
+        System.out.println(fails + " fail");
     }
 
     private void runTests(Decodetect decodetect, ArrayList<DataFile> testFiles) throws IOException {
         for (DataFile testFile : testFiles) {
-            byte[] fileBytes = Util.getBytesFromFile(testFile.getPath());
+            byte[] fileBytes = testFile.loadBytes();
+            String fileText = new String(fileBytes, testFile.getEncoding());
+            List<Charset> applicableEncodings = Encodings.getCharsetsForLang(testFile.getLang());
 
-            runTest(decodetect, testFile, fileBytes);
+            for (Charset testEncoding : applicableEncodings) {
+                byte[] transcodedBytes = fileText.getBytes(testEncoding);
+
+                runTest(decodetect, testFile, transcodedBytes, testEncoding);
+            }
         }
     }
 
-    private void runTest(Decodetect decodetect, DataFile file, byte[] fileBytes) {
+    private void runTest(Decodetect decodetect, DataFile file, byte[] bytes, Charset encoding) {
+        List<DecodetectResult> modelResults = decodetect.getResults(bytes);
 
+        Charset guessedEncoding = modelResults.get(0).getEncoding();
 
-        List<DecodetectResult> modelResults = decodetect.getResults(fileBytes);
-        Charset correctEncoding = file.getEncoding();
-
-        for (DecodetectResult result : modelResults) {
-            Charset guessedEncoding = result.getEncoding();
-
-            if (!guessedEncoding.equals(correctEncoding)) {
-                CharsetDecoder guessedDecoder = guessedEncoding.newDecoder();
-                CharsetDecoder correctDecoder = correctEncoding.newDecoder();
-                CharBuffer guessedDecodeResult;
-                CharBuffer correctDecodeResult;
-                String msg = file.getName() + ": " + correctEncoding + ", guessed " + guessedEncoding;
-                try {
-                    guessedDecodeResult = guessedDecoder.decode(ByteBuffer.wrap(fileBytes));
-                    correctDecodeResult = correctDecoder.decode(ByteBuffer.wrap(fileBytes));
-                    if (guessedDecodeResult.equals(correctDecodeResult)) {
-                        System.out.println("O   " + msg);
-                    } else {
-                        System.out.println("    " + msg);
-                    }
-                } catch (CharacterCodingException e) {
-                    System.out.println("    " + msg);
-                }
-            } else {
-                System.out.println("Y   " + file.getName() + ": " + correctEncoding);
-            }
-            return;
+        if (!guessedEncoding.equals(encoding)) {
+            fails++;
+        } else {
+            successes++;
         }
     }
 }

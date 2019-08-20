@@ -46,11 +46,12 @@ public final class Decodetect {
         ArrayList<DecodetectResult> results = new ArrayList<>();
         for (Model model : models.getModels()) {
             double score = model.getSimilarity(nGramCounter);
-            results.add(new DecodetectResult(model.getEncoding(), model.getLang(), score));
+            if (score > MIN_SCORE_THRESHOLD) {
+                results.add(new DecodetectResult(model.getEncoding(), model.getLang(), score));
+            }
         }
 
         return results.stream()
-                .filter(result -> result.getConfidence() > MIN_SCORE_THRESHOLD)
                 .sorted(Collections.reverseOrder())
                 .collect(Collectors.toList());
     }

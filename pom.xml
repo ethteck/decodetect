@@ -44,6 +44,7 @@
     <modules>
         <module>core</module>
         <module>train</module>
+        <module>bundle</module>
     </modules>
 
     <distributionManagement>

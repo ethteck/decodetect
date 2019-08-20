@@ -24,17 +24,18 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 class WikiDownload {
-    private static final String SEED_DIR = "src/main/resources/data/seed/";
+    private static final String TRAIN_DIR = "train/src/main/resources/data/train/";
+    private static final String TEST_DIR = "train/src/test/resources/data/test/";
 
     private WikiDownload() {
     }
 
-    private void dlData() {
+    private void dlData(String dir, int num) throws IOException {
         for (String lang : Encodings.getLangs()) {
-            int numToDownload = 100;
+            int numToDownload = num;
             HashMap<String, String> articles = new HashMap<>();
 
-            int numAlreadyDownloaded = getNumAlreadyDownloaded(lang);
+            int numAlreadyDownloaded = getNumAlreadyDownloaded(lang, dir);
             if (numAlreadyDownloaded > 0) {
                 System.out.println(numAlreadyDownloaded + " files for " + lang + " were already downloaded");
             }
@@ -57,12 +58,12 @@ class WikiDownload {
                     System.out.print(numLeft + " were not large enough to be used. ");
                 }
             }
-            saveArticles(lang, articles);
+            saveArticles(lang, articles, dir);
         }
     }
 
-    private int getNumAlreadyDownloaded(String lang) {
-        String langDir = SEED_DIR + lang + "/utf-8/";
+    private int getNumAlreadyDownloaded(String lang, String dir) {
+        String langDir = dir + lang + "/utf-8/";
         long count;
         try (Stream<Path> files = Files.list(Paths.get(langDir))) {
             count = files.count();
@@ -72,13 +73,9 @@ class WikiDownload {
         return (int) count;
     }
 
-    private void saveArticles(String lang, HashMap<String, String> articles) {
-        String langDir = SEED_DIR + lang + "/utf-8/";
-        try {
-            Files.createDirectories(Paths.get(langDir));
-        } catch (IOException e) {
-            throw new RuntimeException(e); //todo convert
-        }
+    private void saveArticles(String lang, HashMap<String, String> articles, String dir) throws IOException {
+        String langDir = dir + lang + "/utf-8/";
+        Files.createDirectories(Paths.get(langDir));
 
         for (Map.Entry<String, String> article : articles.entrySet()) {
             String articleName = article.getKey();
@@ -86,13 +83,11 @@ class WikiDownload {
             File file = new File(langDir + articleName + ".txt");
             try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
                 out.write(article.getValue());
-            } catch (IOException e) {
-                throw new RuntimeException(e); //todo convert
             }
         }
     }
 
-    private HashMap<String, String> getPages(String lang, int numLeft) {
+    private HashMap<String, String> getPages(String lang, int numLeft) throws IOException {
         String queryURL = "https://" + lang + ".wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0" +
                 "&format=json&rnlimit=" + numLeft;
         JsonObject root = getJsonObjectFromURL(queryURL);
@@ -108,7 +103,7 @@ class WikiDownload {
         return getPagesText(lang, titles);
     }
 
-    private static HashMap<String, String> getPagesText (String lang, Collection<String> titles) {
+    private static HashMap<String, String> getPagesText (String lang, Collection<String> titles) throws IOException {
         HashMap<String, String> ret = new HashMap<>();
         String base = "https://" + lang + ".wikipedia.org/w/api.php?" +
                 "action=query&prop=extracts&explaintext=y&exsectionformat=plain&exlimit=1&format=json&titles=";
@@ -128,22 +123,24 @@ class WikiDownload {
         return ret;
     }
 
-    private static JsonObject getJsonObjectFromURL(String webURL) {
+    private static JsonObject getJsonObjectFromURL(String webURL) throws IOException {
         JsonElement root;
-        try {
-            URL url = new URL(webURL);
-            URLConnection request = url.openConnection();
-            request.connect();
-            JsonParser jp = new JsonParser();
-            root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
-        } catch (IOException e) {
-            throw new RuntimeException(e); //todo convert
-        }
+        URL url = new URL(webURL);
+        URLConnection request = url.openConnection();
+        request.connect();
+        JsonParser jp = new JsonParser();
+        root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
         return root.getAsJsonObject();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         WikiDownload wikiDownload = new WikiDownload();
-        wikiDownload.dlData();
+        int numTrain = 100;
+        int numTest = 10;
+
+        System.out.println("Downloading " + numTrain + " training files for each language");
+        wikiDownload.dlData(TRAIN_DIR, numTrain);
+        System.out.println("Downloading " + numTest + " test files for each language");
+        wikiDownload.dlData(TEST_DIR, numTest);
     }
 }

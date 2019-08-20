@@ -1,7 +1,11 @@
 package com.ethteck.decodetect.core;
 
+import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
 
 public class DataFile {
     private final Path path;
@@ -30,5 +34,20 @@ public class DataFile {
 
     public String getName() {
         return name;
+    }
+
+    public byte[] loadBytes() throws IOException {
+        byte[] fileBytes;
+        fileBytes = Files.readAllBytes(path);
+        return fileBytes;
+    }
+
+    public static ArrayList<DataFile> loadDataFiles(String dir) throws IOException {
+        ArrayList<DataFile> ret = new ArrayList<>();
+
+        Files.walk(Paths.get(dir))
+                .filter(Files::isRegularFile)
+                .forEach(path -> ret.add(new DataFile(path)));
+        return ret;
     }
 }

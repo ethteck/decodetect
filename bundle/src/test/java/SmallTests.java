@@ -1,8 +1,7 @@
-package com.ethteck.decodetect.train;
-
 import com.ethteck.decodetect.core.Decodetect;
 import com.ethteck.decodetect.core.DecodetectResult;
 import com.ethteck.decodetect.core.Encodings;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -28,8 +27,8 @@ class SmallTests {
         assertFalse(results.isEmpty());
 
         DecodetectResult bestResult = results.get(0);
-        assertEquals("ja", bestResult.getLang());
-        assertEquals(Encodings.UTF_7, bestResult.getEncoding());
+        Assertions.assertEquals("ja", bestResult.getLang());
+        Assertions.assertEquals(Encodings.UTF_7, bestResult.getEncoding());
         assertTrue(bestResult.getConfidence() > 0 && bestResult.getConfidence() <= 1);
     }
 
@@ -42,7 +41,7 @@ class SmallTests {
             byte[] testBytes = china.getBytes(charset);
             List<DecodetectResult> results = DECODETECT.getResults(testBytes);
             DecodetectResult topResult = results.get(0);
-            assertEquals(charset, topResult.getEncoding());
+            Assertions.assertEquals(charset, topResult.getEncoding());
         }
     }
 }
