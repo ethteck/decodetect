@@ -1,9 +1,0 @@
-Unit test, også kaldet modultest, er en testmetode i computer programmering, der verificerer, at de individuelle enheder i kildekoden virker efter hensigten. En unit (enhed) er den mindste testbare enhed i en applikation. I procedural programmering kan den mindste enhed være et individuelt program, en funktion eller en procedure. I objektorienteret programmering er den mindste enhed en metode, der hører til i en super-/base-, abstrakt- eller afledt klasse.
-Ideelt er alle unit tests uafhængige af hinanden og kan afvikles selvstændigt. Stubbe, Mock/falske objekter og en test harness kan benyttes til at teste moduler i et isoleret miljø. Unit test benyttes på en af to måder, enten benyttes de til at drive udviklingen af kildekode, eller som validering af udviklet kode. At benytte unit tests som drivkraft i udvikling, er en af hjørnestenene i udviklingsmetoden Extreme Programming (XP). Skal man skrive kode der passer til specifikationerne angivet i form af unit tests eller skrive test der verificerer at koden opfylder specifikationerne.
-
-
-Fordele
-Formålet med en unit test er, at isolere hver del af et program og vise at de individuelle dele fungerer korrekt. En unit test er en konsekvent, nedskrevet kontrakt, som en kodeenhed skal opfylde. Ved tidsmæssigt at placere unit test tæt på kodeudvikling, opdages fejl tidligt i udviklingsprocessen.Unit tests tillader, at en programmør kan foretage ændringer til koden på et senere tidspunkt, ved at sikre at modulet stadig virker korrekt. En forudsætning for dette er, at et sæt unit test er fyldestgørende. Et testsæt er fyldestgørende, når alle tilstande i en funktion eller metode bliver aktiveret. Tilstande kan eksempelvis være betingelser i en if eller case erklæring. For at sikre at denne forudsætning er opfyldt, udføres en "Code Coverage" analyse som test af testene.
-
-
-Referencer

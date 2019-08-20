@@ -1,9 +1,0 @@
-Antizyme RNA frameshifting stimulation element is a structural element which is found in antizyme mRNA and is known to promote frameshifting. Antizyme genes have two partially overlapping open reading frames, the second, which encodes the functional (antizyme) protein requires +1 translational frameshifting. This frameshift is stimulated by a pseudoknot present 3' of the frameshift site in the antizyme mRNA. The frameshifting efficiency is dependent on the concentration of polyamines in the cell, when the polyamine concentration is high frameshifting is more likely to occur which leads to an increase in the quantity of functional antizyme produced. The functional antizyme acts to reduce ornithine decarboxylase (ODC) activity which leads to a drop in polyamines present in the cell. Therefore, this family can be thought of as a biosensor for intracellular free polyamines that functions via a negative feedback loop.
-
-
-References
-
-
-External links
-
-Page for Antizyme RNA frameshifting stimulation element at Rfam
