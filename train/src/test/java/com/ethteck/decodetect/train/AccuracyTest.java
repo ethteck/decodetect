@@ -18,7 +18,7 @@ class AccuracyTest {
     @Test
     void run() throws Decodetect.DecodetectInitializationException, IOException {
         Decodetect decodetect = new Decodetect();
-        ArrayList<DataFile> testFiles = DataFile.loadDataFiles("src/test/resources/data/test");
+        ArrayList<DataFile> testFiles = DataFile.loadDataFiles("train/src/test/resources/data/test");
         long start = System.currentTimeMillis();
         runTests(decodetect, testFiles);
         long tests = System.currentTimeMillis();
