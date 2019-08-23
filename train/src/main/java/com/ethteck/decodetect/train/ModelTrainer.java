@@ -13,7 +13,7 @@ import com.ethteck.decodetect.core.Model;
 import com.ethteck.decodetect.core.Models;
 import com.ethteck.decodetect.core.NGramCounter;
 
-class ModelTrainer {
+public class ModelTrainer {
     private ModelTrainer(String dataPath, String outputPath) throws IOException, DecodetectTrainingException {
         System.out.println("Training new Decodetect model with data at '" + dataPath + "'");
         System.out.print("Loading data files...");
