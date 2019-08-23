@@ -16,8 +16,6 @@ class AccuracyTest {
     private int successes = 0;
     private int fails = 0;
 
-    @Ignore
-    @Test
     void run() throws Decodetect.DecodetectInitializationException, IOException {
         Decodetect decodetect = new Decodetect();
         ArrayList<DataFile> testFiles = DataFile.loadDataFiles("train/src/test/resources/data/test");
