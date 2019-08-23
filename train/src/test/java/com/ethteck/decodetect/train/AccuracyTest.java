@@ -4,6 +4,7 @@ import com.ethteck.decodetect.core.DataFile;
 import com.ethteck.decodetect.core.Decodetect;
 import com.ethteck.decodetect.core.DecodetectResult;
 import com.ethteck.decodetect.core.Encodings;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -15,6 +16,7 @@ class AccuracyTest {
     private int successes = 0;
     private int fails = 0;
 
+    @Ignore
     @Test
     void run() throws Decodetect.DecodetectInitializationException, IOException {
         Decodetect decodetect = new Decodetect();
