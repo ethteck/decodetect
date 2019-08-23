@@ -7,11 +7,19 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public final class Decodetect {
-    private static final String BUNDLED_MODEL_LOCATION = "/data/model.mdl";
+    public static Decodetect DECODETECT;
 
+    private static final String BUNDLED_MODEL_LOCATION = "/model.mdl";
     private static final double MIN_SCORE_THRESHOLD = 0.001;
-
     private final Models models;
+
+    static {
+        try {
+            DECODETECT = new Decodetect();
+        } catch (DecodetectInitializationException | NullPointerException e) {
+            e.printStackTrace();
+        }
+    }
 
     public Decodetect() throws DecodetectInitializationException {
         try {
